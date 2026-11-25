@@ -1,0 +1,4 @@
+beta=0.007297  K=   37557.2  L/N=   274.08  2/beta=   274.07  phase around transition = 2.00008 cycles
+beta=0.010000  K=   19999.5  L/N=   200.01  2/beta=   200.00  phase around transition = 2.00015 cycles
+beta=0.050000  K=     799.5  L/N=    40.03  2/beta=    40.00  phase around transition = 2.00376 cycles
+beta=0.200000  K=      49.5  L/N=    10.10  2/beta=    10.00  phase around transition = 2.06229 cycles

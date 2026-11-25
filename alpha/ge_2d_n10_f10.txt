@@ -1,0 +1,4 @@
+== dim 2, n 10, seed 1: edges 20, mean degree 4.00, O degree 4, T 20
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 3 (cap reached)  [114s]
+== dim 2, n 10, seed 2: edges 22, mean degree 4.40, O degree 6, T 20
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 3 (cap reached)  [416s]

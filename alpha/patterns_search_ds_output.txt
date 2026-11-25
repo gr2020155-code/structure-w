@@ -1,0 +1,38 @@
+D_s - tau = 374.7 m_e (held out); pi+ - mu = 66.36 m_e
+tol 3.2 %: 1 terms fit pi+ - mu; predictions of (tau+pt)-tau: 11664.2
+   share within 1 % of D_s - tau: 0.000; for a random target in [D/2, 2D]: 0.000
+   share within 3 % of D_s - tau: 0.000; for a random target in [D/2, 2D]: 0.000
+   share within 10 % of D_s - tau: 0.000; for a random target in [D/2, 2D]: 0.000
+     (1/4)*[Natt*JPpas]: pi+ - mu 64.25, n - p 6.25, pi0 - mu 0.00, (tau+pt)-tau 11664.2
+tol 5.0 %: 41 terms fit pi+ - mu; predictions of (tau+pt)-tau: 68.5, 102.8, 114.2, 137.0, 205.6, 308.3, 324.0, 342.6, 513.9, 616.7, 1164.8, 1747.2, 4385.2, 6577.7, 11664.0, 11664.2
+   share within 1 % of D_s - tau: 0.000; for a random target in [D/2, 2D]: 0.005
+   share within 3 % of D_s - tau: 0.000; for a random target in [D/2, 2D]: 0.017
+   share within 10 % of D_s - tau: 0.024; for a random target in [D/2, 2D]: 0.051
+     (1/2)/a*[Natt]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 68.5
+     (1/2)/a*[Natt^2]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 68.5
+     (1/2)/a*[Natt^3]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 68.5
+     (1/2)/a*[Natt^4]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 68.5
+     (1/4)/a*[AttD]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 102.8
+     (4)*[AttD^4]: pi+ - mu 64.00, n - p 64.00, pi0 - mu 0.00, (tau+pt)-tau 324.0
+     (1/4)/a*[AttHostD]: pi+ - mu 68.52, n - p 34.26, pi0 - mu 0.00, (tau+pt)-tau 102.8
+     (4)*[AttHostD^4]: pi+ - mu 64.00, n - p 4.00, pi0 - mu 0.00, (tau+pt)-tau 324.0
+     (1/6)/a*[Npts*Natt]: pi+ - mu 68.52, n - p 114.20, pi0 - mu 0.00, (tau+pt)-tau 114.2
+     (1/4)/a*[Nloops*Natt]: pi+ - mu 68.52, n - p 102.78, pi0 - mu 0.00, (tau+pt)-tau 137.0
+     (1/2)/a*[Neights*Natt]: pi+ - mu 68.52, n - p 137.04, pi0 - mu 0.00, (tau+pt)-tau 137.0
+     (1/4)/a*[Neights*AttD]: pi+ - mu 68.52, n - p 137.04, pi0 - mu 0.00, (tau+pt)-tau 205.6
+tol 10.0 %: 109 terms fit pi+ - mu; predictions of (tau+pt)-tau: 68.5, 70.2, 102.8, 105.4, 114.2, 117.1, 137.0, 140.5, 148.0, 158.0, 173.3, 175.6, 187.3, 205.6, 210.7, 222.0, 237.1, 259.9, 308.3, 316.1, 324.0, 342.6, 351.2, 513.9, 526.8, 616.7, 632.1, 842.8, 948.2, 1164.8, 1194.0, 1747.2, 1791.1, 4385.2, 4495.2, 6577.7, 6742.8, 11664.0, 11664.2
+   share within 1 % of D_s - tau: 0.000; for a random target in [D/2, 2D]: 0.005
+   share within 3 % of D_s - tau: 0.000; for a random target in [D/2, 2D]: 0.018
+   share within 10 % of D_s - tau: 0.018; for a random target in [D/2, 2D]: 0.058
+     (1/2)/a*[Natt]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 68.5
+     (6)/sqrt(a)*[Natt]: pi+ - mu 70.24, n - p 70.24, pi0 - mu 0.00, (tau+pt)-tau 70.2
+     (1/2)/a*[Natt^2]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 68.5
+     (6)/sqrt(a)*[Natt^2]: pi+ - mu 70.24, n - p 70.24, pi0 - mu 0.00, (tau+pt)-tau 70.2
+     (1/2)/a*[Natt^3]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 68.5
+     (6)/sqrt(a)*[Natt^3]: pi+ - mu 70.24, n - p 70.24, pi0 - mu 0.00, (tau+pt)-tau 70.2
+     (1/2)/a*[Natt^4]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 68.5
+     (6)/sqrt(a)*[Natt^4]: pi+ - mu 70.24, n - p 70.24, pi0 - mu 0.00, (tau+pt)-tau 70.2
+     (1/4)/a*[AttD]: pi+ - mu 68.52, n - p 68.52, pi0 - mu 0.00, (tau+pt)-tau 102.8
+     (3)/sqrt(a)*[AttD]: pi+ - mu 70.24, n - p 70.24, pi0 - mu 0.00, (tau+pt)-tau 105.4
+     (4/3)/sqrt(a)*[AttD^2]: pi+ - mu 62.43, n - p 62.43, pi0 - mu 0.00, (tau+pt)-tau 140.5
+     (3/2)/sqrt(a)*[AttD^2]: pi+ - mu 70.24, n - p 70.24, pi0 - mu 0.00, (tau+pt)-tau 158.0

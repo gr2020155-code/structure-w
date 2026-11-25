@@ -1,0 +1,192 @@
+== 0. Targets c = delta(m/m_e) * alpha ==
+  mu   (rel. e  ) delta =   205.7683 m_e   c = 1.50156   c/1.5 = 1.00104
+  tau  (rel. mu ) delta =  3270.4617 m_e   c = 23.86571   c/1.5 = 15.91047
+  p    (rel. e  ) delta =  1835.1527 m_e   c = 13.39176   c/1.5 = 8.92784
+  pi+  (rel. mu ) delta =    66.3638 m_e   c = 0.48428   c/1.5 = 0.32285
+  pi0  (rel. mu ) delta =    57.3742 m_e   c = 0.41868   c/1.5 = 0.27912
+  Ds   (rel. tau) delta =   374.7349 m_e   c = 2.73457   c/1.5 = 1.82305
+
+== 1. Encoding and k values ==
+  definition                                  mu   tau     p   pi+   pi0    Ds
+  D0  k = 1 (dimension only)                   1     1     1     1     1     1
+  D1  k = eH (host eights through E)           1     2     1     2     2     3
+  D2  k = lH (host loops through E)            2     4     2     4     4     6
+  D3  k = eP (eights through E after)          2     3     2     2     2     3
+  D4  k = lP (loops through E after)           4     6     3     5     4     7
+  D5  k = aX (loops of added part)             2     2     2     1     1     1
+  D6  k = aNet (new loops)                     2     2     1     1     0     1
+  D7  k = d - 1 (index of new plane)           1     2     0     1     1     2
+  D8  k = d (planes involved)                  2     3     1     2     2     3
+  D9  k = eH * aX/2 (point = half eight)       1     2     1     1     1   1.5
+  D10 k = lH * aX/2                            2     4     2     2     2     3
+  D11 k = eH - opp (direction)                 1     2     1     2     1     3
+
+== 2. Predictions: 12 definitions x 2 laws x 2 constant modes = 48 variants ==
+  predicted c (error %); for fit_mu the muon is the fit point
+  D0   A fit_mu C=  1.5016 | mu    1.502(  fit ) tau    1.502(  -93.7) p    1.502(  -88.8) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds    1.502(  -45.1) | hits1/3/10 [0, 0, 0] max 258.6%
+  D0   A C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau    1.500(  -93.7) p    1.500(  -88.8) pi+    1.500( +209.7) pi0    1.500( +258.3) Ds    1.500(  -45.1) | hits1/3/10 [1, 1, 1] max 258.3%
+  D0   B fit_mu C=  1.5016 | mu    1.502(  fit ) tau    1.502(  -93.7) p    1.502(  -88.8) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds    1.502(  -45.1) | hits1/3/10 [0, 0, 0] max 258.6%
+  D0   B C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau    1.500(  -93.7) p    1.500(  -88.8) pi+    1.500( +209.7) pi0    1.500( +258.3) Ds    1.500(  -45.1) | hits1/3/10 [1, 1, 1] max 258.3%
+  D1   A fit_mu C=  1.5016 | mu    1.502(  fit ) tau   24.025(   +0.7) p    1.502(  -88.8) pi+   24.025(+4861.0) pi0   24.025(+5638.3) Ds  121.627(+4347.7) | hits1/3/10 [1, 1, 1] max 5638.3%
+  D1   A C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau   24.000(   +0.6) p    1.500(  -88.8) pi+   24.000(+4855.8) pi0   24.000(+5632.3) Ds  121.500(+4343.1) | hits1/3/10 [2, 2, 2] max 5632.3%
+  D1   B fit_mu C=  1.5016 | mu    1.502(  fit ) tau   96.100( +302.7) p    1.502(  -88.8) pi+   24.025(+4861.0) pi0   24.025(+5638.3) Ds 1094.640(+39929.7) | hits1/3/10 [0, 0, 0] max 39929.7%
+  D1   B C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau   96.000( +302.3) p    1.500(  -88.8) pi+   24.000(+4855.8) pi0   24.000(+5632.3) Ds 1093.500(+39888.0) | hits1/3/10 [1, 1, 1] max 39888.0%
+  D2   A fit_mu C=  0.0938 | mu    1.502(  fit ) tau   24.025(   +0.7) p    0.375(  -97.2) pi+   24.025(+4861.0) pi0   24.025(+5638.3) Ds  121.627(+4347.7) | hits1/3/10 [1, 1, 1] max 5638.3%
+  D2   A C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau  384.000(+1509.0) p    6.000(  -55.2) pi+  384.000(+79192.9) pi0  384.000(+91616.8) Ds 1944.000(+70989.7) | hits1/3/10 [0, 0, 0] max 91616.8%
+  D2   B fit_mu C=  0.0938 | mu    1.502(  fit ) tau  384.400(+1510.7) p    0.375(  -97.2) pi+   24.025(+4861.0) pi0   24.025(+5638.3) Ds 4378.560(+160018.6) | hits1/3/10 [0, 0, 0] max 160018.6%
+  D2   B C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau 6144.000(+25644.0) p    6.000(  -55.2) pi+  384.000(+79192.9) pi0  384.000(+91616.8) Ds 69984.000(+2559130.1) | hits1/3/10 [0, 0, 0] max 2559130.1%
+  D3   A fit_mu C=  0.0938 | mu    1.502(  fit ) tau    7.602(  -68.1) p    0.375(  -97.2) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds    7.602( +178.0) | hits1/3/10 [0, 0, 0] max 258.6%
+  D3   A C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau  121.500( +409.1) p    6.000(  -55.2) pi+   24.000(+4855.8) pi0   24.000(+5632.3) Ds  121.500(+4343.1) | hits1/3/10 [0, 0, 0] max 5632.3%
+  D3   B fit_mu C=  0.0938 | mu    1.502(  fit ) tau   68.415( +186.7) p    0.375(  -97.2) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds   68.415(+2401.9) | hits1/3/10 [0, 0, 0] max 2401.9%
+  D3   B C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau 1093.500(+4481.9) p    6.000(  -55.2) pi+   24.000(+4855.8) pi0   24.000(+5632.3) Ds 1093.500(+39888.0) | hits1/3/10 [0, 0, 0] max 39888.0%
+  D4   A fit_mu C=  0.0059 | mu    1.502(  fit ) tau    7.602(  -68.1) p    0.053(  -99.6) pi+    3.666( +657.0) pi0    1.502( +258.6) Ds   14.083( +415.0) | hits1/3/10 [0, 0, 0] max 657.0%
+  D4   A C=3/2  C=  1.5000 | mu  384.000(+25473.3) tau 1944.000(+8045.6) p   13.500(   +0.8) pi+  937.500(+193486.3) pi0  384.000(+91616.8) Ds 3601.500(+131602.5) | hits1/3/10 [1, 1, 1] max 193486.3%
+  D4   B fit_mu C=  0.0059 | mu    1.502(  fit ) tau  273.660(+1046.7) p    0.053(  -99.6) pi+    3.666( +657.0) pi0    1.502( +258.6) Ds  690.068(+25135.0) | hits1/3/10 [0, 0, 0] max 25135.0%
+  D4   B C=3/2  C=  1.5000 | mu  384.000(+25473.3) tau 69984.000(+293140.8) p   13.500(   +0.8) pi+  937.500(+193486.3) pi0  384.000(+91616.8) Ds 176473.500(+6453322.1) | hits1/3/10 [1, 1, 1] max 6453322.1%
+  D5   A fit_mu C=  0.0938 | mu    1.502(  fit ) tau    1.502(  -93.7) p    0.375(  -97.2) pi+    0.094(  -80.6) pi0    0.094(  -77.6) Ds    0.094(  -96.6) | hits1/3/10 [0, 0, 0] max 97.2%
+  D5   A C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau   24.000(   +0.6) p    6.000(  -55.2) pi+    1.500( +209.7) pi0    1.500( +258.3) Ds    1.500(  -45.1) | hits1/3/10 [1, 1, 1] max 1498.3%
+  D5   B fit_mu C=  0.0938 | mu    1.502(  fit ) tau    6.006(  -74.8) p    0.375(  -97.2) pi+    0.094(  -80.6) pi0    0.094(  -77.6) Ds    0.094(  -96.6) | hits1/3/10 [0, 0, 0] max 97.2%
+  D5   B C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau   96.000( +302.3) p    6.000(  -55.2) pi+    1.500( +209.7) pi0    1.500( +258.3) Ds    1.500(  -45.1) | hits1/3/10 [0, 0, 0] max 1498.3%
+  D6   A fit_mu C=  0.0938 | mu    1.502(  fit ) tau    1.502(  -93.7) p    0.094(  -99.3) pi+    0.094(  -80.6) pi0    0.000( -100.0) Ds    0.094(  -96.6) | hits1/3/10 [0, 0, 0] max 100.0%
+  D6   A C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau   24.000(   +0.6) p    1.500(  -88.8) pi+    1.500( +209.7) pi0    0.000( -100.0) Ds    1.500(  -45.1) | hits1/3/10 [1, 1, 1] max 1498.3%
+  D6   B fit_mu C=  0.0938 | mu    1.502(  fit ) tau    6.006(  -74.8) p    0.094(  -99.3) pi+    0.094(  -80.6) pi0    0.000( -100.0) Ds    0.094(  -96.6) | hits1/3/10 [0, 0, 0] max 100.0%
+  D6   B C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau   96.000( +302.3) p    1.500(  -88.8) pi+    1.500( +209.7) pi0    0.000( -100.0) Ds    1.500(  -45.1) | hits1/3/10 [0, 0, 0] max 1498.3%
+  D7   A fit_mu C=  1.5016 | mu    1.502(  fit ) tau   24.025(   +0.7) p    0.000( -100.0) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds   24.025( +778.6) | hits1/3/10 [1, 1, 1] max 778.6%
+  D7   A C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau   24.000(   +0.6) p    0.000( -100.0) pi+    1.500( +209.7) pi0    1.500( +258.3) Ds   24.000( +777.7) | hits1/3/10 [2, 2, 2] max 777.7%
+  D7   B fit_mu C=  1.5016 | mu    1.502(  fit ) tau   96.100( +302.7) p    0.000( -100.0) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds   96.100(+3414.3) | hits1/3/10 [0, 0, 0] max 3414.3%
+  D7   B C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau   96.000( +302.3) p    0.000( -100.0) pi+    1.500( +209.7) pi0    1.500( +258.3) Ds   96.000(+3410.6) | hits1/3/10 [1, 1, 1] max 3410.6%
+  D8   A fit_mu C=  0.0938 | mu    1.502(  fit ) tau    7.602(  -68.1) p    0.094(  -99.3) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds    7.602( +178.0) | hits1/3/10 [0, 0, 0] max 258.6%
+  D8   A C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau  121.500( +409.1) p    1.500(  -88.8) pi+   24.000(+4855.8) pi0   24.000(+5632.3) Ds  121.500(+4343.1) | hits1/3/10 [0, 0, 0] max 5632.3%
+  D8   B fit_mu C=  0.0938 | mu    1.502(  fit ) tau   68.415( +186.7) p    0.094(  -99.3) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds   68.415(+2401.9) | hits1/3/10 [0, 0, 0] max 2401.9%
+  D8   B C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau 1093.500(+4481.9) p    1.500(  -88.8) pi+   24.000(+4855.8) pi0   24.000(+5632.3) Ds 1093.500(+39888.0) | hits1/3/10 [0, 0, 0] max 39888.0%
+  D9   A fit_mu C=  1.5016 | mu    1.502(  fit ) tau   24.025(   +0.7) p    1.502(  -88.8) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds    7.602( +178.0) | hits1/3/10 [1, 1, 1] max 258.6%
+  D9   A C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau   24.000(   +0.6) p    1.500(  -88.8) pi+    1.500( +209.7) pi0    1.500( +258.3) Ds    7.594( +177.7) | hits1/3/10 [2, 2, 2] max 258.3%
+  D9   B fit_mu C=  1.5016 | mu    1.502(  fit ) tau   96.100( +302.7) p    1.502(  -88.8) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds   17.104( +525.5) | hits1/3/10 [0, 0, 0] max 525.5%
+  D9   B C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau   96.000( +302.3) p    1.500(  -88.8) pi+    1.500( +209.7) pi0    1.500( +258.3) Ds   17.086( +524.8) | hits1/3/10 [1, 1, 1] max 524.8%
+  D10  A fit_mu C=  0.0938 | mu    1.502(  fit ) tau   24.025(   +0.7) p    0.375(  -97.2) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds    7.602( +178.0) | hits1/3/10 [1, 1, 1] max 258.6%
+  D10  A C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau  384.000(+1509.0) p    6.000(  -55.2) pi+   24.000(+4855.8) pi0   24.000(+5632.3) Ds  121.500(+4343.1) | hits1/3/10 [0, 0, 0] max 5632.3%
+  D10  B fit_mu C=  0.0938 | mu    1.502(  fit ) tau  384.400(+1510.7) p    0.375(  -97.2) pi+    1.502( +210.1) pi0    1.502( +258.6) Ds   68.415(+2401.9) | hits1/3/10 [0, 0, 0] max 2401.9%
+  D10  B C=3/2  C=  1.5000 | mu   24.000(+1498.3) tau 6144.000(+25644.0) p    6.000(  -55.2) pi+   24.000(+4855.8) pi0   24.000(+5632.3) Ds 1093.500(+39888.0) | hits1/3/10 [0, 0, 0] max 39888.0%
+  D11  A fit_mu C=  1.5016 | mu    1.502(  fit ) tau   24.025(   +0.7) p    1.502(  -88.8) pi+   24.025(+4861.0) pi0    1.502( +258.6) Ds  121.627(+4347.7) | hits1/3/10 [1, 1, 1] max 4861.0%
+  D11  A C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau   24.000(   +0.6) p    1.500(  -88.8) pi+   24.000(+4855.8) pi0    1.500( +258.3) Ds  121.500(+4343.1) | hits1/3/10 [2, 2, 2] max 4855.8%
+  D11  B fit_mu C=  1.5016 | mu    1.502(  fit ) tau   96.100( +302.7) p    1.502(  -88.8) pi+   24.025(+4861.0) pi0    1.502( +258.6) Ds 1094.640(+39929.7) | hits1/3/10 [0, 0, 0] max 39929.7%
+  D11  B C=3/2  C=  1.5000 | mu    1.500(   -0.1) tau   96.000( +302.3) p    1.500(  -88.8) pi+   24.000(+4855.8) pi0    1.500( +258.3) Ds 1093.500(+39888.0) | hits1/3/10 [1, 1, 1] max 39888.0%
+
+  BEST over variants: hits within 1/3/10 % = [2, 2, 2]; minimal max-error = 97.2 %
+  variants achieving the best hit counts:
+    within 1 %: 2 hits by 4 variants: D1  A/C=3/2, D7  A/C=3/2, D9  A/C=3/2, D11 A/C=3/2
+    within 3 %: 2 hits by 4 variants: D1  A/C=3/2, D7  A/C=3/2, D9  A/C=3/2, D11 A/C=3/2
+    within 10 %: 2 hits by 4 variants: D1  A/C=3/2, D7  A/C=3/2, D9  A/C=3/2, D11 A/C=3/2
+  hits within 3 % by case:
+    D0   A C=3/2 : ['mu']
+    D0   B C=3/2 : ['mu']
+    D1   A fit_mu: ['tau']
+    D1   A C=3/2 : ['mu', 'tau']
+    D1   B C=3/2 : ['mu']
+    D2   A fit_mu: ['tau']
+    D4   A C=3/2 : ['p']
+    D4   B C=3/2 : ['p']
+    D5   A C=3/2 : ['tau']
+    D6   A C=3/2 : ['tau']
+    D7   A fit_mu: ['tau']
+    D7   A C=3/2 : ['mu', 'tau']
+    D7   B C=3/2 : ['mu']
+    D9   A fit_mu: ['tau']
+    D9   A C=3/2 : ['mu', 'tau']
+    D9   B C=3/2 : ['mu']
+    D10  A fit_mu: ['tau']
+    D11  A fit_mu: ['tau']
+    D11  A C=3/2 : ['mu', 'tau']
+    D11  B C=3/2 : ['mu']
+  beyond Barut: variants with tau within 1 % and their hits on (p, pi+, pi0, Ds) within 10 %:
+    D1   A fit_mu: 0 of 4; errors p -89 %, pi+ +4861 %, pi0 +5638 %, Ds +4348 %
+    D1   A C=3/2 : 0 of 4; errors p -89 %, pi+ +4856 %, pi0 +5632 %, Ds +4343 %
+    D2   A fit_mu: 0 of 4; errors p -97 %, pi+ +4861 %, pi0 +5638 %, Ds +4348 %
+    D5   A C=3/2 : 0 of 4; errors p -55 %, pi+ +210 %, pi0 +258 %, Ds -45 %
+    D6   A C=3/2 : 0 of 4; errors p -89 %, pi+ +210 %, pi0 -100 %, Ds -45 %
+    D7   A fit_mu: 0 of 4; errors p -100 %, pi+ +210 %, pi0 +259 %, Ds +779 %
+    D7   A C=3/2 : 0 of 4; errors p -100 %, pi+ +210 %, pi0 +258 %, Ds +778 %
+    D9   A fit_mu: 0 of 4; errors p -89 %, pi+ +210 %, pi0 +259 %, Ds +178 %
+    D9   A C=3/2 : 0 of 4; errors p -89 %, pi+ +210 %, pi0 +258 %, Ds +178 %
+    D10  A fit_mu: 0 of 4; errors p -97 %, pi+ +210 %, pi0 +259 %, Ds +178 %
+    D11  A fit_mu: 0 of 4; errors p -89 %, pi+ +4861 %, pi0 +259 %, Ds +4348 %
+    D11  A C=3/2 : 0 of 4; errors p -89 %, pi+ +4856 %, pi0 +258 %, Ds +4343 %
+
+== 3. Significance: identical procedure on null targets, 20000 replicates each ==
+  null x2  : P(best hits >= observed) at 1/3/10 %: 0.0006, 0.0075, 0.0706;  P(best max-error <= 97.2 %) = 0.4673
+        null distribution of best hits@1%: 0: 0.907, 1: 0.092, 2: 0.001, 3: 0.000
+  null 10% : P(best hits >= observed) at 1/3/10 %: 0.0099, 0.0891, 0.8909;  P(best max-error <= 97.2 %) = 0.4914
+        null distribution of best hits@1%: 0: 0.647, 1: 0.344, 2: 0.010, 3: 0.000
+  reference (one pre-chosen variant D1/A, tau only, err 0.67 %): null x2: P = 0.0097
+  reference (one pre-chosen variant D1/A, tau only, err 0.67 %): null 10%: P = 0.0677
+
+== 4. Secondary (declared in advance): points only, C_pt fitted on pi+, predict pi0 and Ds ==
+  observed ratios: pi0/pi+ = 0.8645, Ds/pi+ = 5.6467
+  D0   A: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 1.0000 (-82.3 %)
+  D0   B: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 1.0000 (-82.3 %)
+  D1   A: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 5.0625 (-10.3 %)
+  D1   B: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 45.5625 (+706.9 %)
+  D2   A: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 5.0625 (-10.3 %)
+  D2   B: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 182.2500 (+3127.6 %)
+  D3   A: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 5.0625 (-10.3 %)
+  D3   B: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 45.5625 (+706.9 %)
+  D4   A: predicted ratios pi0/pi+ = 0.4096 (-52.6 %), Ds/pi+ = 3.8416 (-32.0 %)
+  D4   B: predicted ratios pi0/pi+ = 0.4096 (-52.6 %), Ds/pi+ = 188.2384 (+3233.6 %)
+  D5   A: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 1.0000 (-82.3 %)
+  D5   B: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 1.0000 (-82.3 %)
+  D6   A: predicted ratios pi0/pi+ = 0.0000 (-100.0 %), Ds/pi+ = 1.0000 (-82.3 %)
+  D6   B: predicted ratios pi0/pi+ = 0.0000 (-100.0 %), Ds/pi+ = 1.0000 (-82.3 %)
+  D7   A: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 16.0000 (+183.4 %)
+  D7   B: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 64.0000 (+1033.4 %)
+  D8   A: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 5.0625 (-10.3 %)
+  D8   B: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 45.5625 (+706.9 %)
+  D9   A: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 5.0625 (-10.3 %)
+  D9   B: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 11.3906 (+101.7 %)
+  D10  A: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 5.0625 (-10.3 %)
+  D10  B: predicted ratios pi0/pi+ = 1.0000 (+15.7 %), Ds/pi+ = 45.5625 (+706.9 %)
+  D11  A: predicted ratios pi0/pi+ = 0.0625 (-92.8 %), Ds/pi+ = 5.0625 (-10.3 %)
+  D11  B: predicted ratios pi0/pi+ = 0.0625 (-92.8 %), Ds/pi+ = 45.5625 (+706.9 %)
+  BEST: hits within 1/3/10 % = [0, 0, 0]; minimal max-error 15.7 %  (24 variants)
+  null x2  : P(best hits >= observed) at 1/3/10 %: 1.0000, 1.0000, 1.0000;  P(best max-error <= 15.7 %) = 0.1027
+  null 10% : P(best hits >= observed) at 1/3/10 %: 1.0000, 1.0000, 1.0000;  P(best max-error <= 15.7 %) = 0.3125
+
+== 5. Eights only (mu, tau, p): is there one definition giving tau AND p? ==
+  best max(|err tau|, |err p|) over all variants: 55.2 %
+  required k (law A, fit on mu with k_mu = 1): tau k^4 = c_tau/c_mu = 15.894 -> k = 1.9967;  p k^2 = c_p/c_mu = 8.919 -> k = 2.9864
+  required k for points (law A, C from mu): pi+: k^4 = 0.3225 -> k = 0.7536, pi0: k^4 = 0.2788 -> k = 0.7267, Ds: k^4 = 1.8211 -> k = 1.1617
+
+== S. Sensitivity: alternative encodings ==
+  pi0: aNet=1, lP=5 (double point drawn as a new point with a loop): best hits 1/3/10 % = [2, 2, 2], minimal max-error 97.2 %
+  p: lH=1 (only the loop itself before): best hits 1/3/10 % = [2, 2, 2], minimal max-error 97.2 %
+  p: lP=4 (passages: common loop twice + two adjacent loops): best hits 1/3/10 % = [2, 2, 2], minimal max-error 97.2 %
+  p: opp=1 (loop orientations alternate +,-,+): best hits 1/3/10 % = [2, 2, 2], minimal max-error 97.2 %
+  pi+: d=3 (point adds an axis): best hits 1/3/10 % = [2, 2, 2], minimal max-error 97.2 %
+
+== 6. Formal predictions for forms not in the list (written before any lookup; NOT tests) ==
+  law A, C fitted on mu; value = predicted mass change in m_e and resulting mass in MeV
+  p + point at common loop (host p, 938.27 MeV):
+    D0  k = 1 (dimension only)               k=    1  delta =     205.8 m_e  -> m =    1043.4 MeV
+    D1  k = eH (host eights through E)       k=    2  delta =     823.1 m_e  -> m =    1358.9 MeV
+    D2  k = lH (host loops through E)        k=    3  delta =     115.7 m_e  -> m =     997.4 MeV
+    D3  k = eP (eights through E after)      k=    2  delta =      51.4 m_e  -> m =     964.6 MeV
+    D4  k = lP (loops through E after)       k=    4  delta =      12.9 m_e  -> m =     944.8 MeV
+    D5  k = aX (loops of added part)         k=    1  delta =      12.9 m_e  -> m =     944.8 MeV
+    D6  k = aNet (new loops)                 k=    1  delta =      12.9 m_e  -> m =     944.8 MeV
+    D7  k = d - 1 (index of new plane)       k=    0  delta =       0.0 m_e  -> m =     938.3 MeV
+    D8  k = d (planes involved)              k=    1  delta =      12.9 m_e  -> m =     944.8 MeV
+    D9  k = eH * aX/2 (point = half eight)   k=    1  delta =     205.8 m_e  -> m =    1043.4 MeV
+    D10 k = lH * aX/2                        k=  1.5  delta =      28.9 m_e  -> m =     953.1 MeV
+    D11 k = eH - opp (direction)             k=    2  delta =     823.1 m_e  -> m =    1358.9 MeV
+  mu + opposite third eight (host mu, 105.66 MeV):
+    D0  k = 1 (dimension only)               k=    1  delta =     205.8 m_e  -> m =     210.8 MeV
+    D1  k = eH (host eights through E)       k=    2  delta =    3292.3 m_e  -> m =    1788.0 MeV
+    D2  k = lH (host loops through E)        k=    4  delta =    3292.3 m_e  -> m =    1788.0 MeV
+    D3  k = eP (eights through E after)      k=    3  delta =    1041.7 m_e  -> m =     638.0 MeV
+    D4  k = lP (loops through E after)       k=    6  delta =    1041.7 m_e  -> m =     638.0 MeV
+    D5  k = aX (loops of added part)         k=    2  delta =     205.8 m_e  -> m =     210.8 MeV
+    D6  k = aNet (new loops)                 k=    2  delta =     205.8 m_e  -> m =     210.8 MeV
+    D7  k = d - 1 (index of new plane)       k=    2  delta =    3292.3 m_e  -> m =    1788.0 MeV
+    D8  k = d (planes involved)              k=    3  delta =    1041.7 m_e  -> m =     638.0 MeV
+    D9  k = eH * aX/2 (point = half eight)   k=    2  delta =    3292.3 m_e  -> m =    1788.0 MeV
+    D10 k = lH * aX/2                        k=    4  delta =    3292.3 m_e  -> m =    1788.0 MeV
+    D11 k = eH - opp (direction)             k=    0  delta =       0.0 m_e  -> m =     105.7 MeV

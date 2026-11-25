@@ -1,0 +1,6 @@
+G1 same circle: arrival-order violations 0; held + born at tact 1999 of 0..1999, first - born at tact 2000 (last X)
+   span S in steps: min 1.000, median 1.000, max 1.000; S/D max 1.57e-03;  tacts between births: min 1, max 1
+G2 figure eight: arrival-order violations 0; held + born at tact 1999 of 0..1999, first - born at tact 2000 (last X)
+   span S in steps: min 1.000, median 1.000, max 1.000; S/D max 1.57e-03;  tacts between births: min 1, max 1
+
+For comparison (data, R-61): half of spans below 0.15*D = 95 steps at this N.

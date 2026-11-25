@@ -1,0 +1,8 @@
+square torus 4x4: matchings 272; trajectories of 1 steps without repeated pairs: 272
+square torus 4x4: matchings 272; trajectories of 2 steps without repeated pairs: 11088
+square torus 4x4: matchings 272; trajectories of 3 steps without repeated pairs: 158256
+square torus 4x4: matchings 272; trajectories of 4 steps without repeated pairs: 700848
+cloud 3D, 16 points: matchings 25488; trajectories of 1 steps without repeated pairs: 25488
+cloud 3D, 16 points: matchings 25488; trajectories of 2 steps without repeated pairs: 10000000
+cloud 3D, 16 points: matchings 25488; trajectories of 3 steps without repeated pairs: 10000000
+cloud 3D, 16 points: matchings 25488; trajectories of 4 steps without repeated pairs: 10000000

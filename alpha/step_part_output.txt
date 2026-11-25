@@ -1,0 +1,4 @@
+D = 7.605e+21 steps; integral = 6.6614e-24; approx 1/(2 pi^2 D) = 6.6614e-24
+   T1 all configurations (2/3) D^2            Delta(1/alpha) = 5.137e+20  miss (need ~64, or ~107 with W)
+   T2 one form, whole circle pi*D             Delta(1/alpha) = 0.3183  miss (need ~64, or ~107 with W)
+   T3 one form, current "-" act, 2 points     Delta(1/alpha) = 2.665e-23  miss (need ~64, or ~107 with W)

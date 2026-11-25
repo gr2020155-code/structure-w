@@ -1,0 +1,15 @@
+== n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 1: edges 11, O degree 5
+   solutions (up to time shift and reversal): 1, search ended: INFEASIBLE  [0s]; paths per solution [(2, [3, 3], 1)]
+== n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 2: edges 11, O degree 5
+   solutions (up to time shift and reversal): 1, search ended: INFEASIBLE  [0s]; paths per solution [(2, [3, 3], 1)]
+== n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 3: edges 10, O degree 5
+   solutions (up to time shift and reversal): 1, search ended: INFEASIBLE  [0s]; paths per solution [(2, [3, 3], 1)]
+== n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 4: edges 11, O degree 3
+   solutions (up to time shift and reversal): 1, search ended: INFEASIBLE  [0s]; paths per solution [(2, [3, 3], 1)]
+== n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 5: edges 10, O degree 4
+   solutions (up to time shift and reversal): 0, search ended: INFEASIBLE  [0s]; paths per solution []
+== n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 6: edges 10, O degree 5
+   solutions (up to time shift and reversal): 1, search ended: INFEASIBLE  [0s]; paths per solution [(2, [3, 3], 1)]
+== n 10, places on the mirror line 2, mirror pairs 4, symmetric cloud 1: edges 21, O degree 3
+   solutions (up to time shift and reversal): 2, search ended: INFEASIBLE  [28s]; paths per solution [(2, [5, 5], 1), (2, [5, 5], 1)]
+== n 10, places on the mirror line 2, mirror pairs 4, symmetric cloud 2: edges 22, O degree 7

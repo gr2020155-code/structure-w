@@ -1,0 +1,7 @@
+all Poisson clouds (seeds 101-113): cores 337464  1/alpha(axis)=136.512 +- 0.201  1/alpha(cross)=125.598 +- 0.118  sigma from 137.036: 2.6
+T1 universality (same cores): 1/alpha with cross faces 125.60 +- 0.12 vs axis 136.51 +- 0.20 -> differ by 8 % (pass required 1 %): FAIL
+T2 precision (13 Poisson clouds x 120000, 337 464 cores): 1/alpha = 136.51 +- 0.20 vs 137.036 -> 2.6 sigma (pass required 2 sigma): FAIL
+   with R-47 (4 other clouds, 136.49 +- 0.36): about 136.51 +- 0.18, 2.9 sigma
+T3 arrangement (one cloud each, ~27 000 cores):
+   jittered cubic sigma=0.15: 138.96 +- 0.68 | sigma=0.30: 139.89 +- 0.68 | sigma=0.60: 138.11 +- 0.72 | hard-core Matern II: 142.84 +- 0.60
+   -> the number depends on the arrangement by 1-4 %: the near-match is a property of the Poisson cloud and of the axis choice

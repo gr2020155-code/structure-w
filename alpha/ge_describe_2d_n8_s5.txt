@@ -1,0 +1,7 @@
+search ended: INFEASIBLE
+solution 1: loop lengths per point [(4, 12), (4, 12), (4, 12), (4, 12), (7, 9), (7, 9), (7, 9), (7, 9)]; points at O by tick [1, 2, 5, 3, 6, 4, 0, 7, 6, 5, 2, 7, 1, 0, 4, 3]; acts with partners on loops of opposite orientation 40 of 64
+solution 2: loop lengths per point [(7, 9), (7, 9), (7, 9), (7, 9), (7, 9), (7, 9), (7, 9), (7, 9)]; points at O by tick [1, 2, 5, 7, 6, 0, 4, 1, 3, 5, 2, 6, 7, 4, 0, 3]; acts with partners on loops of opposite orientation 56 of 64
+solution 3: loop lengths per point [(4, 12), (4, 12), (4, 12), (4, 12), (7, 9), (7, 9), (7, 9), (7, 9)]; points at O by tick [1, 0, 3, 6, 4, 7, 3, 1, 5, 7, 2, 4, 6, 0, 2, 5]; acts with partners on loops of opposite orientation 40 of 64
+solution 4: loop lengths per point [(5, 11), (5, 11), (5, 11), (5, 11), (5, 11), (5, 11), (5, 11), (5, 11)]; points at O by tick [1, 0, 4, 5, 6, 1, 7, 4, 2, 6, 3, 7, 0, 2, 5, 3]; acts with partners on loops of opposite orientation 56 of 64
+solution 5: loop lengths per point [(7, 9), (7, 9), (7, 9), (7, 9), (7, 9), (7, 9), (7, 9), (7, 9)]; points at O by tick [1, 5, 7, 2, 6, 4, 3, 0, 5, 1, 2, 7, 4, 6, 0, 3]; acts with partners on loops of opposite orientation 56 of 64
+solution 6: loop lengths per point [(7, 9), (7, 9), (7, 9), (7, 9), (7, 9), (7, 9), (7, 9), (7, 9)]; points at O by tick [1, 3, 4, 7, 6, 0, 5, 2, 3, 1, 7, 4, 0, 6, 2, 5]; acts with partners on loops of opposite orientation 56 of 64

@@ -1,0 +1,5 @@
+per eight cycle: point-acts 12, inner 8 (0.667), outer 4 (0.333); outer by point {'A': 2, 'B': 2, 'O': 0}
+end point: outer share 0.500 of its ticks; centre O: 0.000
+self-link (out and back with the same partner) per outer act: E[1/d] = 0.06753 = 1/14.81 (Poisson, 337464 places)
+self-link per eight cycle (2 ends, 1 out-and-back pair each): 0.01126 of point-acts = 1/88.8
+alpha = 1/137.036 = 0.0072974 for comparison

@@ -1,0 +1,3 @@
+pairs 177000: alpha_W = mean (1 + n.n')/2 = 0.12336 +- 0.00027  ->  1/alpha_W = 8.11 +- 0.02   (data 137.036)
+distribution of the pair remainder: median 0.0912, 10% 0.0018, 90% 0.2994
+static remainder |mean n| over 60 ticks: mean 0.0461 (random walk of residuals would give ~0.0453)

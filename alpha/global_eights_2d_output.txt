@@ -1,0 +1,3 @@
+== dim 2, n 10, seed 1: edges 20, mean degree 4.00, O degree 4, hull 7, T 20
+   random perfect matchings: repeat (same partner next tick) per point-tick 0.290
+   F1-F8: orbits found 0 (stopped: UNKNOWN)  [240s]

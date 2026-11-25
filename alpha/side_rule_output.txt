@@ -1,0 +1,4 @@
+clouds 1: cores 25828  s = 0.07093 (1/s 14.098)  ring length mean 5.147 (min 3, max 14)  alpha_W = 0.006012 +- 0.000030  1/alpha_W = 166.35 +- 0.83
+clouds 2: cores 51979  s = 0.07091 (1/s 14.103)  ring length mean 5.147 (min 3, max 14)  alpha_W = 0.006007 +- 0.000021  1/alpha_W = 166.47 +- 0.58
+clouds 3: cores 77862  s = 0.07108 (1/s 14.069)  ring length mean 5.150 (min 3, max 14)  alpha_W = 0.006023 +- 0.000017  1/alpha_W = 166.03 +- 0.47
+ring length distribution: {3: np.float64(0.1364), 4: np.float64(0.2411), 5: np.float64(0.2494), 6: np.float64(0.1896), 7: np.float64(0.1097), 8: np.float64(0.049), 9: np.float64(0.0179), 10: np.float64(0.0052), 11: np.float64(0.0012), 12: np.float64(0.0003), 13: np.float64(0.0), 14: np.float64(0.0)}

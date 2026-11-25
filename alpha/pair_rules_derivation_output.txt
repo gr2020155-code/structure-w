@@ -1,0 +1,5 @@
+n = 2000 steps; data: ln(r_eff/D) = -2.1037, half at 0.1502 D, longest decay length D/4 = 0.25
+   pairs nA*nB (A-31)   x squares: ln(r_eff/D) = -2.1037  half at 0.1502 D  longest decay length 0.2500 D  HIT
+   pairs nA*nB (A-31)   x linear : ln(r_eff/D) = -1.9635  half at 0.1733 D  longest decay length 0.2500 D  miss
+   weight 1             x squares: ln(r_eff/D) = -2.2685  half at 0.1276 D  longest decay length 0.2500 D  miss
+   weight 1             x linear : ln(r_eff/D) = -1.9635  half at 0.1733 D  longest decay length 0.2500 D  miss

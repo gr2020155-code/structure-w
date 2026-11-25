@@ -1,0 +1,14 @@
+closed 60-point cloud, same rules:
+   steps 1-25: repeats 0.000
+   steps 26-50: repeats 0.057
+   steps 51-75: repeats 0.604
+   steps 76-100: repeats 0.979
+   steps 101-125: repeats 1.000
+   steps 126-150: repeats 1.000
+window of 60 places inside 1000 points:
+   step 25: repeats in window (last 25 steps) 0.000; distinct points that have been in the window 400
+   step 50: repeats in window (last 25 steps) 0.000; distinct points that have been in the window 582
+   step 75: repeats in window (last 25 steps) 0.000; distinct points that have been in the window 706
+   step 100: repeats in window (last 25 steps) 0.000; distinct points that have been in the window 814
+   step 125: repeats in window (last 25 steps) 0.000; distinct points that have been in the window 872
+   step 150: repeats in window (last 25 steps) 0.000; distinct points that have been in the window 913

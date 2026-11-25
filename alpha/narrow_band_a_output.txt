@@ -1,0 +1,6 @@
+r_Z = 2.1640e-18 m; W running a->r_Z without q0: 63.249; data 1/alpha at r_Z (position): 129.717 +- 0.05
+  poisson min    q0=0.12262: 1/alpha_W(r_Z) = 129.76  (data 129.72, diff +0.04);  far: 137.08
+  poisson mean   q0=0.12310: 1/alpha_W(r_Z) = 129.24  (data 129.72, diff -0.48);  far: 136.56
+  poisson max    q0=0.12336: 1/alpha_W(r_Z) = 128.96  (data 129.72, diff -0.75);  far: 136.28
+  lattice s=0.3  q0=0.12517: 1/alpha_W(r_Z) = 127.07  (data 129.72, diff -2.64);  far: 134.39
+q0 needed for exact data: 0.12266

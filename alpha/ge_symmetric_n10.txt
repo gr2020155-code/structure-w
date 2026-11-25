@@ -1,0 +1,12 @@
+== FS1+FS2, n 10, places on the mirror line 2, mirror pairs 4, symmetric cloud 1: edges 21, O degree 3
+   solutions (up to time shift and reversal): 2, search ended: INFEASIBLE  [27s]; paths per solution [(2, [5, 5], 1), (2, [5, 5], 1)]
+== FS1+FS2, n 10, places on the mirror line 2, mirror pairs 4, symmetric cloud 2: edges 22, O degree 7
+   solutions (up to time shift and reversal): 6, search ended: UNKNOWN  [513s]; paths per solution [(2, [5, 5], 1), (2, [5, 5], 1), (2, [5, 5], 1), (2, [5, 5], 1), (2, [5, 5], 1), (2, [5, 5], 1)]
+== FS1+FS2, n 10, places on the mirror line 2, mirror pairs 4, symmetric cloud 3: edges 21, O degree 5
+   solutions (up to time shift and reversal): 6, search ended: INFEASIBLE  [499s]; paths per solution [(2, [5, 5], 0), (10, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 5), (2, [5, 5], 1), (2, [5, 5], 1), (2, [5, 5], 1), (2, [5, 5], 1)]
+== FS1+FS2, n 10, places on the mirror line 2, mirror pairs 4, symmetric cloud 4: edges 22, O degree 4
+   solutions (up to time shift and reversal): 0, search ended: UNKNOWN  [300s]; paths per solution []
+== FS1+FS2, n 10, places on the mirror line 2, mirror pairs 4, symmetric cloud 5: edges 21, O degree 9
+   solutions (up to time shift and reversal): 1, search ended: INFEASIBLE  [12s]; paths per solution [(2, [5, 5], 1)]
+== FS1+FS2, n 10, places on the mirror line 2, mirror pairs 4, symmetric cloud 6: edges 21, O degree 5
+   solutions (up to time shift and reversal): 1, search ended: INFEASIBLE  [18s]; paths per solution [(2, [5, 5], 1)]

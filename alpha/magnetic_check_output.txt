@@ -1,0 +1,14 @@
+M0 (one circulation of the total charge):   mu_p = 1.000, mu_n = 0.000, ratio 0.000;  data 2.7928, -1.9130, ratio -0.68498
+M1 leptons: anomaly of order alpha only.  data a_e = 0.00115965, a_mu = 0.00116592, alpha/2pi = 0.00116141
+M1 proton: anomaly of order 1.             data kappa_p = 1.7928
+M1 neutron: mu_n = kappa_p = +1.7928 (sign +).  data -1.9130 (sign -)  ->  sign contradiction
+what the data need from the eight inside the neutron under M1: mu_8 = mu_n - kappa_p = -3.7059 mu_N
+isoscalar kappa_p + kappa_n = -0.1202, isovector kappa_p - kappa_n = +3.7059
+radius of a unit charge at speed c giving the moment (fm):
+   mu_N (Dirac circulation of the proton)               0.210
+   mu_p                                                 0.587
+   |mu_n|                                               0.402
+   kappa_p                                              0.377
+   kappa_p - kappa_n (eight inside the neutron, M1)     0.779
+measured sizes (fm): proton charge radius 0.841, magnetic radii p 0.851, n 0.864; W core (4 points) < 3e-5 fm
+deuteron: mu_p + mu_n = 0.8798 vs data 0.8574 (-2.5 %)

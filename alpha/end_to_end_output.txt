@@ -1,0 +1,22 @@
+[DATA] G, hbar, c (CODATA); M_Z = 91187.6 MeV, m_t = 172570.0 MeV (PDG); 1/alpha far = 137.035999177; 1/alpha(M_Z) = 128.9 (D-48)
+[1 step] c_g = 1 (A-80, V-271) -> a = 2*pi*l_P = 1.0155e-34 m
+[2 slope] <nA nB>/D^2 = 0.166750 at n = 2000 (finite size), limit 1/6 for D/a ~ 1e22; kappa = 2*2*(1/6)*(1/2pi)*2 = 0.212207  (2/(3pi) = 0.212207)
+[3 edge] ln(r_eff/D) = -2.1037  (real-distance target -(5/6+gamma+ln2) = -2.1037)
+[4 axes] k=0: variants 1, |Q| 0.000, Nc*Q^2 0.0000; k=1: variants 3, |Q| 0.333, Nc*Q^2 0.3333; k=2: variants 3, |Q| 0.667, Nc*Q^2 1.3333; k=3: variants 1, |Q| 1.000, Nc*Q^2 1.0000
+[4 axes] sum Nc*Q^2 of species active at the Z distance = 6.6667 (20/3 = 6.6667); top: 1.3333
+[5 q0] cloud 101: q0 = 0.12245
+[5 q0] cloud 102: q0 = 0.12310
+[5 q0] cloud 103: q0 = 0.12266
+[5 q0] cloud 104: q0 = 0.12302
+[5 q0] cloud 105: q0 = 0.12227
+[5 q0] cloud 106: q0 = 0.12271
+[5 q0] cloud 107: q0 = 0.12323
+[5 q0] cloud 108: q0 = 0.12316
+[5 q0] q0 = 0.12282 +- 0.00013 over 8 clouds  ->  1/alpha at the step = 1/q0^2 = 66.29
+[6 run] r_Z = 2.1640e-18 m; running step -> r_Z without q0 = 63.249; 1/alpha_W(r_Z) = 129.54 +- 0.14
+[7 data] 1/alpha(r_Z) from D-48 in real distance = 129.72 +- 0.05; measured drop r_Z -> far = 7.32
+
+RESULT: 1/alpha at the Z distance: W 129.54 +- 0.14  vs  data 129.72 +- 0.05  (diff -0.18)
+        1/alpha far away:          W 136.86 +- 0.14  vs  data 137.036  (-0.13 %)
+Derived from positions: a (c_g=1), kappa, edge E, Nc*Q^2, placement, q0.  From data: G, hbar, c, M_Z, m_t, 1/alpha(M_Z), 1/alpha far.
+Assumed, not checked: W boson does not screen (V-294, V-299); "pair remainder = q0" (V-295); energy -> distance conversion (gamma).

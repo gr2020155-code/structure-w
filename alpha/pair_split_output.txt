@@ -1,0 +1,12 @@
+1. Identity check: data profile (Uehling) vs mixture with weight 6x(1-x)
+   max difference over rho = 0.001..3: 2.6e-10
+
+2. Variants of the split x (target: ln(r_eff/D) = -2.1037, half at 0.150 D, tail length R/2)
+   S1 symmetric eight x = 1/2 (A-74): ln(r_eff/D) = -1.9635; half at 0.1733 D; tail e^(-2r/R), length R/2
+   S2 any split, weight 1: ln(r_eff/D) = -2.2703; half at 0.1275 D; tail length R/2 (from x near 1/2)
+   S3 weight x(1-x) (product rule): ln(r_eff/D) = -2.1037; half at 0.1502 D; tail length R/2 (from x near 1/2)
+   data: -2.1037
+
+3. In 1/alpha for three leptons the edge error is 3*kappa*(E - target):
+   S1: +0.089
+   S2: -0.106

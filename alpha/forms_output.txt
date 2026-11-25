@@ -1,0 +1,15 @@
+
+== cloud 24 points, 72 steps; pairs of points possible 276, realized 276
+   first repeat at step 16 (bound n-1 = 23); share of repeats: steps 0-12: 0.00, 12-24: 0.15, 24-48: 0.97, 48-72: 1.00
+   after the first repeat: point loops 138, eights 11; points that made an eight 9 of 24
+   longest run of the same pair on consecutive steps: 4
+
+== cloud 40 points, 120 steps; pairs of points possible 780, realized 780
+   first repeat at step 25 (bound n-1 = 39); share of repeats: steps 0-20: 0.00, 20-40: 0.16, 40-80: 0.94, 80-120: 1.00
+   after the first repeat: point loops 306, eights 27; points that made an eight 20 of 40
+   longest run of the same pair on consecutive steps: 4
+
+== cloud 80 points, 240 steps; pairs of points possible 3160, realized 3160
+   first repeat at step 45 (bound n-1 = 79); share of repeats: steps 0-40: 0.00, 40-80: 0.16, 80-160: 0.93, 160-240: 1.00
+   after the first repeat: point loops 1106, eights 87; points that made an eight 51 of 80
+   longest run of the same pair on consecutive steps: 5

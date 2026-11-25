@@ -1,0 +1,6 @@
+clouds 1: cores 25763; ring length L: mean 4.691 (min 3, max 10); pi = L/2 mean 2.3454; s mean 0.07129; alpha_W = 0.012911 ± 0.000070, 1/alpha_W = 77.45 ± 0.42
+clouds 2: cores 51553; ring length L: mean 4.694 (min 3, max 10); pi = L/2 mean 2.3468; s mean 0.07104; alpha_W = 0.012845 ± 0.000049, 1/alpha_W = 77.85 ± 0.30
+clouds 3: cores 77323; ring length L: mean 4.693 (min 3, max 10); pi = L/2 mean 2.3465; s mean 0.07102; alpha_W = 0.012849 ± 0.000040, 1/alpha_W = 77.83 ± 0.24
+clouds 4: cores 103290; ring length L: mean 4.694 (min 3, max 10); pi = L/2 mean 2.3468; s mean 0.07098; alpha_W = 0.012842 ± 0.000035, 1/alpha_W = 77.87 ± 0.21
+distribution of L: {3: 0.0662, 4: 0.3634, 5: 0.4065, 6: 0.1407, 7: 0.0214, 8: 0.0017, 9: 0.0001, 10: 0.0}
+data: 1/alpha = 137.036

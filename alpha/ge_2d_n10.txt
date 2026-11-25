@@ -1,0 +1,2 @@
+== dim 2, n 10, seed 1: edges 20, mean degree 4.00, O degree 4, T 20
+   F1-F8: distinct solutions (up to time shift and reversal) 0, search ended: UNKNOWN  [900s]

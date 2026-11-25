@@ -1,0 +1,212 @@
+== 1. ENCODING (states of points) ==
+  e               loops 2, eights 1: end(n1,d1), clo(n2,d1,opp), end(n1,d1)
+  mu              loops 4, eights 2: end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), clo(n4,d2,same)
+  tau             loops 6, eights 3: end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), clo(n6,d3,same)
+  p               loops 3, eights 2: end(n1,d1), sha(n3,d1,opp), sha(n3,d1,opp), end(n1,d1)
+  n               loops 5, eights 3: end(n1,d1), sha(n3,d1,opp), sha(n3,d1,opp), end(n1,d1), att(n2,d2,carries1), end(n1,d1), clo(n2,d1,opp), end(n1,d1)
+  pi+             loops 4, eights 2: end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), clo(n4,d2,same), att(n1,d2)
+  pi0             loops 4, eights 2: end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), dou(n2,d2,opp), dou(n2,d2,opp)
+  tau+pt (D_s?)   loops 6, eights 3: end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), clo(n6,d3,same), att(n1,d3)
+  e+pt            loops 2, eights 1: end(n1,d1), clo(n2,d1,opp), end(n1,d1), att(n1,d1)
+  p+pt            loops 3, eights 2: end(n1,d1), sha(n3,d1,opp), sha(n3,d1,opp), end(n1,d1), att(n1,d1)
+  pi0+pt          loops 4, eights 2: end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), dou(n2,d2,opp), dou(n2,d2,opp), att(n1,d2)
+  e+8 (via pt)    loops 4, eights 2: end(n1,d1), clo(n2,d1,opp), end(n1,d1), att(n2,d2,carries1), end(n1,d1), clo(n2,d1,opp), end(n1,d1)
+  mu+8 (via pt)   loops 6, eights 3: end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), clo(n4,d2,same), att(n2,d3,carries1), end(n1,d1), clo(n2,d1,opp), end(n1,d1)
+  tau+8 (via pt)  loops 8, eights 4: end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), end(n1,d1), clo(n6,d3,same), att(n2,d3,carries1), end(n1,d1), clo(n2,d1,opp), end(n1,d1)
+
+  base features (excess over e):
+      form     Npts   Nloops  Neights        D       Jc   Barut4   Barut2       Js      Ksh     Natt     AttD AttHostD AttCarry     Ndbl     Nopp     Pmax    SumN2   SumN2D   Planes  JPloops JPeights    JPpas    AuthA    AuthB
+         e        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0
+        mu        2        2        1        1        1        1        1        0        0        0        0        0        0        0        0        2       14      254        1      256        1      256        1        1
+       tau        4        4        2        2        2       17        5        0        0        0        0        0        0        0        0        4       36    46656        3    46656       64    46656       17       17
+         p        1        1        1        0        0        0        0        1        3        0        0        0        0        0        0        1       14       14        0        9        1        9        9        9
+         n        5        3        2        1        0        0        0        1        3        1        2        1        1        0        0        1       24       36        0       10        1       25        9       10
+       pi+        3        2        1        1        1        1        1        0        0        1        2        2        0        0        0        2       15      255        1      256        1      257        1        2
+       pi0        3        2        1        1        1        1        1        0        0        0        0        0        0        2        1        0        6       30        1      256        1       16        1        1
+  tau+pt (        5        4        2        2        2       17        5        0        0        1        3        3        0        0        0        4       37    46657        3    46656       64    46657       17       18
+      e+pt        1        0        0        0        0        0        0        0        0        1        1        1        0        0        0        0        1        1        0        0        0        1        0        1
+      p+pt        2        1        1        0        0        0        0        1        3        1        1        1        0        0        0        1       15       15        0        9        1       10        9       10
+    pi0+pt        4        2        1        1        1        1        1        0        0        1        2        2        0        2        1        0        7       31        1      256        1       17        1        2
+  e+8 (via        4        2        1        1        0        0        0        0        0        1        2        1        1        0        0        0       10       22        0        1        0       16        0        1
+  mu+8 (vi        6        4        2        2        1        1        1        0        0        1        3        2        1        0        0        2       24      324        1      257        1      320        1        2
+  tau+8 (v        8        6        3        2        2       17        5        0        0        1        3        3        1        0        0        4       46    46726        3    46657       64    46720       17       18
+
+== 2. TARGETS: X = (m/m_e - 1) * alpha * 2/3 ==
+  mu   m/m_e = 206.768283   X = 1.00104
+  tau  m/m_e = 3477.230000   X = 16.91152
+  p    m/m_e = 1836.152673   X = 8.92784
+  n    m/m_e = 1838.683662   X = 8.94015
+  pi+  m/m_e = 273.132110   X = 1.32390
+  pi0  m/m_e = 264.142510   X = 1.28016
+
+== 3a. Author ladder m = 1 + (3/2)(1/a) X, X = 1, 17, 9 ==
+  mu   X= 1  m = 206.554  data 206.768  err -0.104 %
+  tau  X=17  m = 3495.418  data 3477.230  err +0.523 %
+  p    X= 9  m = 1850.986  data 1836.153  err +0.808 %
+  F1 "author freedom": C in 23 rationals, X_mu in [1.0, 16.0, 81.0], X_tau in 28 values [1, 2, 3, 16, 17, 18, 32, 33, 48, 64, 81, 82]..., X_p in [1.0, 4.0, 9.0, 16.0, 25.0]
+  formulas: 9660; best on data: max err 0.808 % with C=3/2, X=[1, 17, 9]
+  null x2   : replicates 20000, P(best <= 0.81 %) = 0.0003; median best 17.10 %
+  null 10%  : replicates 20000, P(best <= 0.81 %) = 0.0015; median best 6.56 %
+  null perm : replicates 5, P(best <= 0.81 %) = 0.0000; median best 17.85 %
+  F1-loose (each form X from the union, 31 values): data 0.808 %; null x2: P = 0.0036
+  C = 3/2 given, tau & p: observed 0.808 %; null x2: P = 0.0013
+  C = 3/2 given, tau & p: observed 0.808 %; null 10%: P = 0.0208
+  C = 3/2 given, p only (X_p in k^2): observed 0.808 %; null x2: P = 0.0234
+  C = 3/2 given, p only (X_p in k^2): observed 0.808 %; null 10%: P = 0.0829
+
+== 3b. F2 feature grammar: 24 base features -> 346 non-zero features; 23 rationals x 3 powers of 1/a x 2 signs -> 47748 terms ==
+  one term, targets mu,tau,p: best max err 0.808 %; terms within 1 %: 2
+     0.808 %  m = 1 + (3/2)/a*[AuthA]
+     0.808 %  m = 1 + (3/2)/a*[AuthB]
+    11.149 %  m = 1 + (4/3)/a*[AuthB]
+    11.149 %  m = 1 + (4/3)/a*[AuthA]
+    12.003 %  m = 1 + (5/3)/a*[AuthA]
+    12.003 %  m = 1 + (5/3)/a*[AuthB]
+  null 10%: P(best <= 0.808 %) = 0.0003
+  null x2: P(best <= 0.808 %) = 0.0000
+  same without the features AuthA/AuthB: best 81.29 %
+  one term, all six targets: best max err 16.01 %  ((5/3)/a*[AuthA])
+
+  F2j junction-level rule, one k for all junctions: 8 k-definitions x 10 h x 23 C = 1840 formulas
+     80.04 %  k=eights, h=k^2, C=2/3: X(mu,tau,p) = [4.0, 9.0, 4.0]
+     80.04 %  k=eights, h=k^4, C=1/6: X(mu,tau,p) = [16.0, 81.0, 16.0]
+     81.29 %  k=eights-1, h=k^2, C=5/2: X(mu,tau,p) = [1.0, 4.0, 1.0]
+     81.29 %  k=eights-1, h=k^4, C=5/2: X(mu,tau,p) = [1.0, 16.0, 1.0]
+     81.29 %  k=eights-1, h=k^(d+1), C=5/2: X(mu,tau,p) = [1.0, 16.0, 1.0]
+
+== 3c. F3 two free terms on all six targets; nominal formulas: additive 1140007374, multiplicative 1140007374 ==
+  additive m = 1 + T1 + T2:
+    max  8.955 %  [mu +8.95 tau +2.68 p +1.06 n +7.04 pi+ -8.95 pi0 -5.85]  n-p 112.38 (2.53), pi+-mu 23.4 (66.4), pi0-mu 23.4 (57.4)   m = 1 + L + (2/5)/sqrt(a)*[Npts^2] + (3/2)/a*[AuthA]
+    max  9.569 %  [mu +9.57 tau +2.82 p +1.08 n +7.47 pi+ -7.90 pi0 -4.77]  n-p 120.00 (2.53), pi+-mu 25.0 (66.4), pi0-mu 25.0 (57.4)   m = 1 + L + (3/2)/a*[AuthA] + (5)*[Npts^2]
+    max  9.856 %  [mu +7.72 tau -6.15 p -9.86 n +2.75 pi+ -0.59 pi0 +2.79]  n-p 234.12 (2.53), pi+-mu 48.8 (66.4), pi0-mu 48.8 (57.4)   m = 1 + L + (5/6)/sqrt(a)*[Npts^2] + (4/3)/a*[AuthA]
+    max  9.877 %  [mu +6.97 tau -6.33 p -9.88 n +2.22 pi+ -1.88 pi0 +1.46]  n-p 224.76 (2.53), pi+-mu 46.8 (66.4), pi0-mu 46.8 (57.4)   m = 1 + L + (4/3)/a*[AuthA] + (4/5)/sqrt(a)*[Npts^2]
+    max  9.909 %  [mu +5.84 tau -6.60 p -9.91 n +1.43 pi+ -3.81 pi0 -0.53]  n-p 210.71 (2.53), pi+-mu 43.9 (66.4), pi0-mu 43.9 (57.4)   m = 1 + L + (4/3)/a*[AuthA] + (3/4)/sqrt(a)*[Npts^2]
+    max  9.962 %  [mu +3.95 tau -7.05 p -9.96 n +0.10 pi+ -7.02 pi0 -3.86]  n-p 187.30 (2.53), pi+-mu 39.0 (66.4), pi0-mu 39.0 (57.4)   m = 1 + L + (2/3)/sqrt(a)*[Npts^2] + (4/3)/a*[AuthA]
+  multiplicative m = (1 + T1)(1 + T2):
+    max 13.155 %  [mu +10.94 tau +11.69 p +12.00 n +3.56 pi+ +11.74 pi0 -13.16]  n-p -152.43 (2.53), pi+-mu 75.8 (66.4), pi0-mu 0.0 (57.4)   m = (1 + (-1/6)*[AttHostD]) * (1 + (5/3)/a*[AuthB])
+    max 13.155 %  [mu +10.94 tau +11.69 p +12.00 n -0.58 pi+ +0.56 pi0 -13.16]  n-p -228.59 (2.53), pi+-mu 45.3 (66.4), pi0-mu 0.0 (57.4)   m = (1 + (-1/5)*[AttHostD]) * (1 + (5/3)/a*[AuthB])
+    max 13.155 %  [mu +10.94 tau +11.69 p +12.00 n +11.85 pi+ -2.02 pi0 -13.16]  n-p 0.00 (2.53), pi+-mu 38.2 (66.4), pi0-mu 0.0 (57.4)   m = (1 + (5/3)/a*[AuthA]) * (1 + (1/6)*[Jc*Natt])
+    max 13.155 %  [mu +10.94 tau +11.69 p +12.00 n +11.85 pi+ -2.02 pi0 -13.16]  n-p 0.00 (2.53), pi+-mu 38.2 (66.4), pi0-mu 0.0 (57.4)   m = (1 + (5/3)/a*[AuthA]) * (1 + (1/6)*[Barut4*Natt])
+    max 13.155 %  [mu +10.94 tau +11.69 p +12.00 n +11.85 pi+ +0.78 pi0 -13.16]  n-p 0.00 (2.53), pi+-mu 45.9 (66.4), pi0-mu 0.0 (57.4)   m = (1 + (5/3)/a*[AuthA]) * (1 + (1/5)*[Barut4*Natt])
+    max 13.155 %  [mu +10.94 tau +11.69 p +12.00 n +11.85 pi+ -2.02 pi0 -13.16]  n-p 0.00 (2.53), pi+-mu 38.2 (66.4), pi0-mu 0.0 (57.4)   m = (1 + (5/3)/a*[AuthA]) * (1 + (1/6)*[Barut2*Natt])
+
+== 3d. F4: author ladder L = (3/2)(1/a)*AuthA, extension terms vanishing on e, mu, tau, p ==
+  ladder alone: mu -0.10 % tau +0.52 % p +0.81 % n +0.67 % pi+ -24.38 % pi0 -21.80 %
+  extension terms (vanish on e, mu, tau, p): 18078; targets n-p 2.531, pi+-mu 66.364, pi0-mu 57.374 m_e
+  formulas: 163434159; best max relative error on the three DIFFERENCES: 3.56 %
+    max   3.56 %  n-p   2.500  pi+-mu   64.00  pi0-mu   58.53   ext = (5/2)/sqrt(a)*[Ndbl] + (1/4)*[Natt*JPloops]
+    max   3.56 %  n-p   2.500  pi+-mu   64.00  pi0-mu   56.19   ext = (6/5)/sqrt(a)*[Ndbl^2] + (1/4)*[Natt*JPloops]
+    max   3.56 %  n-p   2.500  pi+-mu   64.00  pi0-mu   58.53   ext = (5/4)/sqrt(a)*[Ndbl^2] + (1/4)*[Natt*JPloops]
+    max   3.56 %  n-p   2.500  pi+-mu   64.00  pi0-mu   56.19   ext = (3/5)/sqrt(a)*[Ndbl^3] + (1/4)*[Natt*JPloops]
+    max   3.56 %  n-p   2.500  pi+-mu   64.00  pi0-mu   58.53   ext = (5)/sqrt(a)*[Nopp] + (1/4)*[Natt*JPloops]
+    max   3.56 %  n-p   2.500  pi+-mu   64.00  pi0-mu   58.53   ext = (5)/sqrt(a)*[Nopp^2] + (1/4)*[Natt*JPloops]
+    max   3.56 %  n-p   2.500  pi+-mu   64.00  pi0-mu   58.53   ext = (5)/sqrt(a)*[Nopp^3] + (1/4)*[Natt*JPloops]
+    max   3.56 %  n-p   2.500  pi+-mu   64.00  pi0-mu   58.53   ext = (5)/sqrt(a)*[Nopp^4] + (1/4)*[Natt*JPloops]
+  ONE extension term: best 100.00 %  ((1/6)*[Natt])
+  pions only (pi+-mu, pi0-mu), up to two terms: best 3.185 %
+
+== 3e. F5 per-point state rule: 240 structures (k: ['n', 'n-1', 'n-2', 'n/2', 'd-1'], q: ['2d', '2', '4', 'd', 'd+1', '2(d-1)'], ('pow', 'sum'), ('all', 'nonend'), ('add', 'mul')) x 138 coefficients; one tier 33120, two tiers 4603680 formulas ==
+  one tier: best 77.632 %
+    max 77.632 %  [mu +70.33 tau -73.04 p -77.63 n -64.93 pi+ +39.66 pi0 -55.30]  struct k=n q=2 pow nonend add; C=(5/2)a^-0.5
+    max 78.178 %  [mu +66.17 tau -73.70 p -78.18 n -65.79 pi+ +36.25 pi0 -56.39]  struct k=n/2 q=2 pow nonend add; C=(5/6)a^-1.0
+    max 79.049 %  [mu +59.54 tau -74.75 p -79.05 n -67.15 pi+ +30.81 pi0 -58.12]  struct k=n/2 q=2 pow nonend add; C=(4/5)a^-1.0
+    max 79.049 %  [mu +59.54 tau -74.75 p -79.05 n -67.15 pi+ +30.81 pi0 -58.12]  struct k=n q=2 pow nonend add; C=(1/5)a^-1.0
+    max 80.355 %  [mu +74.46 tau -73.37 p -80.35 n -66.41 pi+ +41.48 pi0 -41.26]  struct k=n/2 q=2 pow all add; C=(3/4)a^-1.0
+    max 80.355 %  [mu +49.60 tau -76.33 p -80.35 n -69.20 pi+ +22.66 pi0 -60.71]  struct k=n/2 q=2 pow nonend add; C=(3/4)a^-1.0
+  two tiers: best 77.632 %
+    max 77.632 %  [mu +70.33 tau -73.04 p -77.63 n -71.40 pi+ +28.76 pi0 -55.30]  struct k=n q=2 pow nonend add; C=(5/2)a^-0.5, attached: (-1/2)a^-0.0
+    max 77.632 %  [mu +70.33 tau -73.04 p -77.63 n -71.19 pi+ +29.13 pi0 -55.30]  struct k=n q=2 pow nonend add; C=(5/2)a^-0.5, attached: (1/2)a^-0.0
+    max 77.632 %  [mu +70.33 tau -73.04 p -77.63 n -59.37 pi+ +49.01 pi0 -55.30]  struct k=n q=2 pow nonend add; C=(5/2)a^-0.5, attached: (2/5)a^-1.0
+    max 77.632 %  [mu +70.33 tau -73.04 p -77.63 n -72.31 pi+ +27.23 pi0 -55.30]  struct k=n q=2 pow nonend add; C=(5/2)a^-0.5, attached: (-2/5)a^-0.5
+    max 77.632 %  [mu +70.33 tau -73.04 p -77.63 n -70.28 pi+ +30.66 pi0 -55.30]  struct k=n q=2 pow nonend add; C=(5/2)a^-0.5, attached: (2/5)a^-0.5
+    max 77.632 %  [mu +70.33 tau -73.04 p -77.63 n -70.93 pi+ +29.55 pi0 -55.30]  struct k=n q=2 pow nonend add; C=(5/2)a^-0.5, attached: (5/3)a^-0.0
+  per-point one-tier rules giving mu, tau, p each within 1 %: 0 of 33120; best 18.67 %
+    best of those on mu,tau,p: struct ('n-2', 'd', 'pow', 'all', 'mul'), C=(1/3)a^-1.0, m = [183.7, 2924.4, 2178.9, 2178.9, 183.7, 1.0] (data [206.8, 3477.2, 1836.2, 1838.7, 273.1, 264.1])
+
+== 4. Significance: identical searches on null targets (200 replicates per null) ==
+  nulls: "10%" = each target x exp(U(-0.1, 0.1)); "x2" = x exp(U(-ln2, ln2)); "perm" = masses shuffled among forms;
+         "diff" = mu, tau, p kept, the differences n-p, pi+-mu, pi0-mu each x exp(U(-ln2, ln2))
+  null 10%  [422 s]:
+      F3add: P=0.435 (obs 8.95 %, null median 9.59 %)
+      F3mul: P=0.110 (obs 13.16 %, null median 17.85 %)
+      F4: P=0.100 (obs 3.56 %, null median 6.76 %)
+      F4pi: P=0.995 (obs 3.19 %, null median 1.27 %)
+      F5one: P=0.415 (obs 77.63 %, null median 78.11 %)
+      F5two: P=0.415 (obs 77.63 %, null median 78.11 %)
+  null x2   [435 s]:
+      F3add: P=0.055 (obs 8.95 %, null median 19.37 %)
+      F3mul: P=0.085 (obs 13.16 %, null median 27.48 %)
+      F4: P=0.025 (obs 3.56 %, null median 12.80 %)
+      F4pi: P=0.985 (obs 3.19 %, null median 1.06 %)
+      F5one: P=0.280 (obs 77.63 %, null median 82.53 %)
+      F5two: P=0.385 (obs 77.63 %, null median 79.44 %)
+  null perm [432 s]:
+      F3add: P=0.005 (obs 8.95 %, null median 68.09 %)
+      F3mul: P=0.005 (obs 13.16 %, null median 168.02 %)
+      F5one: P=0.030 (obs 77.63 %, null median 93.66 %)
+      F5two: P=0.160 (obs 77.63 %, null median 89.51 %)
+  null diff [416 s]:
+      F3add: P=0.325 (obs 8.95 %, null median 9.86 %)
+      F3mul: P=0.640 (obs 13.16 %, null median 12.00 %)
+      F4: P=0.070 (obs 3.56 %, null median 12.36 %)
+      F4pi: P=0.990 (obs 3.19 %, null median 1.03 %)
+      F5one: P=1.000 (obs 77.63 %, null median 77.63 %)
+      F5two: P=1.000 (obs 77.63 %, null median 77.63 %)
+
+  nominal numbers of formulas tried:
+    F1 author freedom                     9,660
+    F2 one term (mu,tau,p)               47,748
+    F2j junction rule                     1,840
+    F3 two terms add              1,140,007,374
+    F3 two terms mul              1,140,007,374
+    F4 ladder + two ext. terms      163,434,159
+    F5 per-point one tier                33,120
+    F5 per-point two tiers            4,603,680
+    total                         2,448,144,955
+
+== 5. Blind predictions for forms NOT used in fitting (m in MeV) ==
+  form                F3 best additive  F4 ladder+ext best     F4 ladder alone
+  tau+pt (D_s?)                 1846.0              7746.4              1786.2
+  e+pt                             2.9                 0.5                 0.5
+  p+pt                           955.4               947.0               945.9
+  pi0+pt                         143.8               168.2               105.5
+  e+8 (via pt)                    38.8                 0.6                 0.5
+  mu+8 (via pt)                  191.7               138.4               105.5
+  tau+8 (via pt)                1939.3              7746.6              1786.2
+
+  spread of the EXTENSION part (added to the ladder value) among F4 formulas with error <= 1.5 x best (65 formulas), in m_e:
+    tau+pt (D_s?)    10th pct   11664.0  median   11664.0  90th pct   11664.0
+    e+pt             10th pct       0.0  median       0.0  90th pct       0.0
+    p+pt             10th pct       2.2  median       2.2  90th pct       2.2
+    pi0+pt           10th pct     118.8  median     122.5  90th pct     137.0
+    e+8 (via pt)     10th pct       0.2  median       0.2  90th pct       0.2
+    mu+8 (via pt)    10th pct      64.2  median      64.2  90th pct      64.2
+    tau+8 (via pt)   10th pct   11664.2  median   11664.2  90th pct   11664.2
+  (comparison of the first row is in section 6)
+
+  single extension terms giving pi+ - mu within 3.2 %: 1; their prediction of (tau+pt) - tau, m_e:
+    10th pct 11664.2, median 11664.2, 90th pct 11664.2; share equal to 0: 0.000
+
+== 6. Comparison with known particles (after the predictions above) ==
+  F3 best additive   tau+pt (D_s?)       1846.0 MeV -> nearest D0 1864.84 MeV (+1.02 %); chance that a random value hits some listed particle within 1.02 %: 0.46
+  F3 best additive   p+pt                 955.4 MeV -> nearest eta'(958) 957.78 MeV (+0.25 %); chance that a random value hits some listed particle within 0.25 %: 0.14
+  F3 best additive   pi0+pt               143.8 MeV -> nearest pi+ 139.57039 MeV (-2.96 %); chance that a random value hits some listed particle within 2.96 %: 0.11
+  F3 best additive   mu+8 (via pt)        191.7 MeV -> nearest pi+ 139.57039 MeV (-27.19 %); chance that a random value hits some listed particle within 27.19 %: 0.41
+  F3 best additive   tau+8 (via pt)      1939.3 MeV -> nearest Ds+ 1968.35 MeV (+1.50 %); chance that a random value hits some listed particle within 1.50 %: 0.53
+  F4 ladder+ext best tau+pt (D_s?)       7746.4 MeV -> nearest psi(3770) 3773.7 MeV (-51.28 %); chance that a random value hits some listed particle within 51.28 %: 0.12
+  F4 ladder+ext best p+pt                 947.0 MeV -> nearest n 939.56542 MeV (-0.79 %); chance that a random value hits some listed particle within 0.79 %: 0.36
+  F4 ladder+ext best pi0+pt               168.2 MeV -> nearest pi+ 139.57039 MeV (-17.00 %); chance that a random value hits some listed particle within 17.00 %: 0.46
+  F4 ladder+ext best mu+8 (via pt)        138.4 MeV -> nearest pi+ 139.57039 MeV (+0.86 %); chance that a random value hits some listed particle within 0.86 %: 0.04
+  F4 ladder+ext best tau+8 (via pt)      7746.6 MeV -> nearest psi(3770) 3773.7 MeV (-51.29 %); chance that a random value hits some listed particle within 51.29 %: 0.12
+  F4 ladder alone    tau+pt (D_s?)       1786.2 MeV -> nearest tau 1776.86 MeV (-0.52 %); chance that a random value hits some listed particle within 0.52 %: 0.28
+  F4 ladder alone    p+pt                 945.9 MeV -> nearest n 939.56542 MeV (-0.66 %); chance that a random value hits some listed particle within 0.66 %: 0.31
+  F4 ladder alone    pi0+pt               105.5 MeV -> nearest pi0 134.9768 MeV (+27.88 %); chance that a random value hits some listed particle within 27.88 %: 0.60
+  F4 ladder alone    mu+8 (via pt)        105.5 MeV -> nearest pi0 134.9768 MeV (+27.88 %); chance that a random value hits some listed particle within 27.88 %: 0.60
+  F4 ladder alone    tau+8 (via pt)      1786.2 MeV -> nearest tau 1776.86 MeV (-0.52 %); chance that a random value hits some listed particle within 0.52 %: 0.28
+
+  D_s - tau (held out) = 374.7 m_e. F4 near-best formulas: extension for tau+pt within 10 % of it: 0.000, within 1 %: 0.000; with 0 for tau+pt: 0.000
+  pion-fitted terms: share predicting D_s - tau = 374.7 m_e within 1 %: 0.000 (same share for a random target in [D/2, 2D]: 0.000)
+  pion-fitted terms: share predicting D_s - tau = 374.7 m_e within 3 %: 0.000 (same share for a random target in [D/2, 2D]: 0.000)
+  pion-fitted terms: share predicting D_s - tau = 374.7 m_e within 10 %: 0.000 (same share for a random target in [D/2, 2D]: 0.000)
+
+  D_s (held out) 1968.35 MeV; tau + point predictions: F3 best additive: 1846.0 MeV (-6.2 %), F4 ladder+ext best: 7746.4 MeV (+293.6 %), F4 ladder alone: 1786.2 MeV (-9.3 %)

@@ -1,0 +1,12 @@
+== FS1 only (symmetric places, motion free), n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 1: edges 11, O degree 5
+   solutions (up to time shift and reversal): 7, search ended: INFEASIBLE  [7s]; paths per solution [(2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1)]
+== FS1 only (symmetric places, motion free), n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 2: edges 11, O degree 5
+   solutions (up to time shift and reversal): 7, search ended: INFEASIBLE  [7s]; paths per solution [(2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1)]
+== FS1 only (symmetric places, motion free), n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 3: edges 10, O degree 5
+   solutions (up to time shift and reversal): 5, search ended: INFEASIBLE  [2s]; paths per solution [(2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1)]
+== FS1 only (symmetric places, motion free), n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 4: edges 11, O degree 3
+   solutions (up to time shift and reversal): 7, search ended: INFEASIBLE  [7s]; paths per solution [(2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1)]
+== FS1 only (symmetric places, motion free), n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 5: edges 10, O degree 4
+   solutions (up to time shift and reversal): 2, search ended: INFEASIBLE  [1s]; paths per solution [(2, [3, 3], 1), (2, [3, 3], 1)]
+== FS1 only (symmetric places, motion free), n 6, places on the mirror line 2, mirror pairs 2, symmetric cloud 6: edges 10, O degree 5
+   solutions (up to time shift and reversal): 5, search ended: INFEASIBLE  [2s]; paths per solution [(2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1), (2, [3, 3], 1)]

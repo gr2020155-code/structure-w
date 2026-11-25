@@ -1,0 +1,6 @@
+== dim 3, n 8, seed 1: edges 22, mean degree 5.50, O degree 7, T 16
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 3 (cap reached)  [809s]
+== dim 3, n 8, seed 2: edges 25, mean degree 6.25, O degree 7, T 16
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 3 (cap reached)  [101s]
+== dim 3, n 8, seed 3: edges 23, mean degree 5.75, O degree 7, T 16
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 3 (cap reached)  [733s]

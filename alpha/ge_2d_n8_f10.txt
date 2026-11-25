@@ -1,0 +1,12 @@
+== dim 2, n 8, seed 1: edges 15, mean degree 3.75, O degree 4, T 16
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 0, search ended: INFEASIBLE  [0s]
+== dim 2, n 8, seed 2: edges 17, mean degree 4.25, O degree 5, T 16
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 11, search ended: INFEASIBLE  [117s]
+== dim 2, n 8, seed 3: edges 15, mean degree 3.75, O degree 5, T 16
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 0, search ended: INFEASIBLE  [1s]
+== dim 2, n 8, seed 4: edges 16, mean degree 4.00, O degree 5, T 16
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 10, search ended: INFEASIBLE  [61s]
+== dim 2, n 8, seed 5: edges 15, mean degree 3.75, O degree 5, T 16
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 0, search ended: INFEASIBLE  [1s]
+== dim 2, n 8, seed 6: edges 15, mean degree 3.75, O degree 4, T 16
+   F1-F8+F10: distinct solutions (up to time shift and reversal) 0, search ended: INFEASIBLE  [0s]

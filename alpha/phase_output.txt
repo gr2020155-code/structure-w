@@ -1,0 +1,4 @@
+N= 30000  share with phase 0.0735 ± 0.0011   1/share 13.6
+N= 60000  share with phase 0.0702 ± 0.0011   1/share 14.2
+N=120000  share with phase 0.0724 ± 0.0011   1/share 13.8
+points around a link: mean 5.68, min 3, max 12

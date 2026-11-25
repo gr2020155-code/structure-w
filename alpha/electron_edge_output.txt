@@ -1,0 +1,22 @@
+Data side (Uehling), check of the target number
+   rho = 1e-03: I + ln(rho) = -1.40819   (limit -(gamma+5/6) = -1.41055),  w = 0.99765
+   rho = 1e-04: I + ln(rho) = -1.41031   (limit -(gamma+5/6) = -1.41055),  w = 0.99976
+   rho = 1e-05: I + ln(rho) = -1.41053   (limit -(gamma+5/6) = -1.41055),  w = 0.99998
+   ln(r_eff/D) from Uehling = -2.1037;  target in rules -2.1037
+   (convention r = hbar/(Qc), as in V-276: -1.5265)
+   Uehling: w = 1/2 at r/D = 0.1502;  w at r = D: 0.0122
+
+Readings: E[ln(S/D)], edge r_eff/D, shape (x1/2, max|w - w_U|), lepton drop of 1/alpha to r_Z
+   target (real distance): E = -2.1037, r_eff/D = 0.1220, x1/2 = 0.1502, drop 3.94
+   Ch1 chord of circle                   E = -0.6905 (exact -0.6931)  r_eff/D = 0.5013  x1/2 = 0.7077  max|dw| = 0.575  drop 4.84 (+0.90)  miss
+   Ch2 segment A-O-B, projected          E = -1.0001 (exact -1.0000)  r_eff/D = 0.3678  x1/2 = 0.5005  max|dw| = 0.447  drop 4.64 (+0.70)  miss
+   Ch3 whole circle, extent along line   E = -0.3070 (exact -0.3069)  r_eff/D = 0.7357  x1/2 = 0.8658  max|dw| = 0.762  drop 5.08 (+1.14)  miss
+   Ch4 chord of circle, projected        E = -1.6950 (exact -1.6931)  r_eff/D = 0.1836  x1/2 = 0.2584  max|dw| = 0.194  drop 4.20 (+0.26)  miss
+   Ch5 chord of sphere                   E = -0.5002 (exact -0.5000)  r_eff/D = 0.6064  x1/2 = 0.7072  max|dw| = 0.677  drop 4.96 (+1.02)  miss
+   Ch6 chord of sphere, projected        E = -1.4985 (exact -1.5000)  r_eff/D = 0.2235  x1/2 = 0.2935  max|dw| = 0.245  drop 4.32 (+0.39)  miss
+   Ch7 two points in ball                E = -0.7494                  r_eff/D = 0.4726  x1/2 = 0.5171  max|dw| = 0.600  drop 4.80 (+0.86)  miss
+   Ch8 two points in ball, projected     E = -1.7516                  r_eff/D = 0.1735  x1/2 = 0.2236  max|dw| = 0.152  drop 4.16 (+0.22)  miss
+
+Result: hits within 0.05 of -2.1037: none
+Closest to real distance (-2.1037): Ch8 two points in ball, projected, E = -1.7516, difference +0.3520
+Closest to V-276 convention r = hbar/(Qc) (-1.5265): Ch6 chord of sphere, projected, E = -1.4985, difference +0.0280

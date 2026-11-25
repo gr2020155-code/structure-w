@@ -1,0 +1,5 @@
+K1 sharp sphere through charge: log inside D: yes (g(0.03)/g(0.003..0.01) = 0.96);  ln(r_eff/D) = +0.088 (target -2.1037);  half at x = 1.122 (data 0.150);  miss
+K2 competition for the held "-": g = g_K1 * 1/(1 + 2x^2): ln(r_eff/D) = -0.549 (exact, -ln3/2);  half at x = 0.707 (g = 1/2 at 2x^2 = 1)  miss
+K3 charge anywhere inside the ball: log inside D: NO (g(0.03)/g(0.003..0.01) = 3.36);  ln(r_eff/D) = +45.441 (target -2.1037);  half at x = 1.122 (data 0.150);  miss
+K4 rotation about one axis: log inside D: NO (g(0.03)/g(0.003..0.01) = 0.60);  ln(r_eff/D) = -2.307 (target -2.1037);  half at x = 0.112 (data 0.150);  miss
+K5 figure eight swept about O, charge on its outer sphere: log inside D: NO (g(0.03)/g(0.003..0.01) = 1.48);  ln(r_eff/D) = +22.682 (target -2.1037);  half at x = 2.239 (data 0.150);  miss

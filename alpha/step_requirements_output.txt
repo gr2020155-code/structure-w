@@ -1,0 +1,6 @@
+current quark masses                       no W boson            : fermions  71.71; 1/alpha at the step  65.32 -> q0 = 1/ 8.08; with q0 = 1 missing  64.32
+current quark masses                       W boson, standard sign: fermions  71.71; 1/alpha at the step 108.12 -> q0 = 1/10.40; with q0 = 1 missing 107.12
+light quarks as 300 MeV (hadron estimate)  no W boson            : fermions  69.94; 1/alpha at the step  67.09 -> q0 = 1/ 8.19; with q0 = 1 missing  66.09
+light quarks as 300 MeV (hadron estimate)  W boson, standard sign: fermions  69.94; 1/alpha at the step 109.89 -> q0 = 1/10.48; with q0 = 1 missing 108.89
+tower needed for 64.3: 0.53 unit-charge forms per e-fold of size below 5e-20 m (18 forms in all, mass ratio between neighbours 6.6)
+tower needed for 107.1: 0.88 unit-charge forms per e-fold of size below 5e-20 m (30 forms in all, mass ratio between neighbours 3.1)

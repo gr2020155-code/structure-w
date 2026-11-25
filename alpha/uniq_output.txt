@@ -1,0 +1,14 @@
+
+== square torus 4x4: 16 points, 32 links, automorphisms 384
+   A  M1 M1 M2 M2: trajectories 11088; classes not counted (too many)
+   B  no repetition, T=4: trajectories 2712; distinguishable (O12) 22
+
+== square torus 6x6: 36 points, 72 links, automorphisms 288
+   A  M1 M1 M2 M2: trajectories >=200000; classes not counted (too many)
+   B  no repetition, T=4: trajectories 29960; classes not counted (too many)
+
+== cubic torus 4x4x4: 64 points, 192 links, automorphisms 46080
+   A  M1 M1 M2 M2: trajectories >=200000; classes not counted (too many)
+   B  no repetition, T=4: trajectories >=200000; classes not counted (too many)
+
+== cloud 3D, 24 points, no lattice: 24 points, 110 links, automorphisms 1

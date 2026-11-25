@@ -1,0 +1,6 @@
+== cloud 3D, 24 points, no lattice 24 points 110 links, automorphisms 1
+   A trajectories >=2000 ; all distinguishable (automorphism group trivial)
+   B trajectories >=2000 ; all distinguishable (automorphism group trivial)
+== cloud 3D, 40 points, no lattice 40 points 225 links, automorphisms 1
+   A trajectories >=2000 ; all distinguishable (automorphism group trivial)
+   B trajectories >=2000 ; all distinguishable (automorphism group trivial)

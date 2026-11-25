@@ -1,0 +1,6 @@
+n=20 seed=1: edges 85, neighbouring pairs 2316, clauses 84489; zero-contradiction ticks found 0 (all); no solution  [1s]
+n=20 seed=2: edges 84, neighbouring pairs 2259, clauses 80748; zero-contradiction ticks found 0 (all); no solution  [0s]
+n=30 seed=1: edges 147, neighbouring pairs 6165, clauses 250361; zero-contradiction ticks found 0 (all); no solution  [3s]
+n=30 seed=2: edges 151, neighbouring pairs 6463, clauses 272205; zero-contradiction ticks found 0 (all); no solution  [3s]
+n=40 seed=1: edges 214, neighbouring pairs 11246, clauses 480372; zero-contradiction ticks found 0 (all); no solution  [7s]
+n=60 seed=1: edges 357, neighbouring pairs 25186, clauses 1158921; zero-contradiction ticks found 0 (all); no solution  [35s]

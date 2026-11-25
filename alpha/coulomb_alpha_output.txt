@@ -1,0 +1,4 @@
+N= 30000: mean area of an axis face 0.3896 a^2;  alpha_W = 0.000753 ± 0.000004  (1/alpha_W = 1328.6)
+N= 60000: mean area of an axis face 0.3846 a^2;  alpha_W = 0.000736 ± 0.000004  (1/alpha_W = 1357.8)
+N=120000: mean area of an axis face 0.3826 a^2;  alpha_W = 0.000722 ± 0.000004  (1/alpha_W = 1385.0)
+data: alpha = 0.0072973526 (1/137.036)

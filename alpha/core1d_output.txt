@@ -1,0 +1,4 @@
+N= 30000  cores=3000  neighbours 15.40  share(links) 0.1365±0.0006  share(directions) 0.1470±0.0023  angle A-O-B 9.5 deg off straight  min share(dir) 0.0000
+N= 60000  cores=3000  neighbours 15.69  share(links) 0.1336±0.0006  share(directions) 0.1404±0.0022  angle A-O-B 9.3 deg off straight  min share(dir) 0.0000
+N=120000  cores=3000  neighbours 15.52  share(links) 0.1353±0.0006  share(directions) 0.1448±0.0022  angle A-O-B 9.4 deg off straight  min share(dir) 0.0000
+1/share(directions) for comparison with 1/alpha: 6.91

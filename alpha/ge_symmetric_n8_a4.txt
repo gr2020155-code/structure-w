@@ -1,0 +1,12 @@
+== FS1+FS2, n 8, places on the mirror line 4, mirror pairs 2, symmetric cloud 1: edges 17, O degree 4
+   solutions (up to time shift and reversal): 0, search ended: INFEASIBLE  [2s]; paths per solution []
+== FS1+FS2, n 8, places on the mirror line 4, mirror pairs 2, symmetric cloud 2: edges 17, O degree 6
+   solutions (up to time shift and reversal): 4, search ended: INFEASIBLE  [9s]; paths per solution [(6, [1, 1, 1, 1, 2, 2], 3), (6, [1, 1, 1, 1, 2, 2], 3), (6, [1, 1, 1, 1, 2, 2], 3), (6, [1, 1, 1, 1, 2, 2], 3)]
+== FS1+FS2, n 8, places on the mirror line 4, mirror pairs 2, symmetric cloud 3: edges 16, O degree 5
+   solutions (up to time shift and reversal): 0, search ended: INFEASIBLE  [2s]; paths per solution []
+== FS1+FS2, n 8, places on the mirror line 4, mirror pairs 2, symmetric cloud 4: edges 17, O degree 4
+   solutions (up to time shift and reversal): 4, search ended: INFEASIBLE  [12s]; paths per solution [(6, [1, 1, 1, 1, 2, 2], 3), (6, [1, 1, 1, 1, 2, 2], 3), (6, [1, 1, 1, 1, 2, 2], 3), (6, [1, 1, 1, 1, 2, 2], 3)]
+== FS1+FS2, n 8, places on the mirror line 4, mirror pairs 2, symmetric cloud 5: edges 16, O degree 3
+   solutions (up to time shift and reversal): 0, search ended: INFEASIBLE  [0s]; paths per solution []
+== FS1+FS2, n 8, places on the mirror line 4, mirror pairs 2, symmetric cloud 6: edges 16, O degree 3
+   solutions (up to time shift and reversal): 4, search ended: INFEASIBLE  [10s]; paths per solution [(6, [1, 1, 1, 1, 2, 2], 3), (6, [1, 1, 1, 1, 2, 2], 3), (6, [1, 1, 1, 1, 2, 2], 3), (6, [1, 1, 1, 1, 2, 2], 3)]

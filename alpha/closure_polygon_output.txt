@@ -1,0 +1,4 @@
+clouds 1: cores 25769  1/s = 14.014  mean degree 15.517  alpha_W = 0.007360 +- 0.000039  1/alpha_W = 135.878 +- 0.721
+clouds 2: cores 51566  1/s = 14.063  mean degree 15.529  alpha_W = 0.007333 +- 0.000027  1/alpha_W = 136.368 +- 0.510
+clouds 3: cores 77345  1/s = 14.066  mean degree 15.529  alpha_W = 0.007331 +- 0.000022  1/alpha_W = 136.400 +- 0.417
+clouds 4: cores 103318  1/s = 14.074  mean degree 15.531  alpha_W = 0.007327 +- 0.000019  1/alpha_W = 136.487 +- 0.361

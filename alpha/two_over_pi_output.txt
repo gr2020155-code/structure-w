@@ -1,0 +1,9 @@
+geometry, e-fold from 0.003 D: measured 0.0828 (124 points), predicted H/(2 pi D^2) = 0.0796
+geometry, e-fold from 0.01 D: measured 0.0789 (1305 points), predicted H/(2 pi D^2) = 0.0796
+geometry, e-fold from 0.1 D: measured 0.0792 (127321 points), predicted H/(2 pi D^2) = 0.0796
+
+<nA*nB>/D^2 = 0.166750 (1/6 = 0.166667)
+   c = 1, p = 1: loss per e-fold / alpha = 0.026539  (data 1/(3 pi) = 0.106103)  ratio 0.2501  miss
+   c = 1, p = 2: loss per e-fold / alpha = 0.053078  (data 1/(3 pi) = 0.106103)  ratio 0.5002  miss
+   c = 2, p = 1: loss per e-fold / alpha = 0.053078  (data 1/(3 pi) = 0.106103)  ratio 0.5002  miss
+   c = 2, p = 2: loss per e-fold / alpha = 0.106156  (data 1/(3 pi) = 0.106103)  ratio 1.0005  HIT

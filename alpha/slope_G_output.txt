@@ -1,0 +1,6 @@
+L1 one circuit (pi*D), half of forms "-"      k = 1            k*H/D^2 = 2.4674  (need 0.6667)  ratio 3.701  miss
+L1 one circuit (pi*D), half of forms "-"      k = 1/3 <cos^2>  k*H/D^2 = 0.8225  (need 0.6667)  ratio 1.234  miss
+L1 one circuit (pi*D), half of forms "-"      k = 2/3 <sin^2>  k*H/D^2 = 1.6449  (need 0.6667)  ratio 2.467  miss
+L2 two circuits (2*pi*D), one of them "-"     k = 1            k*H/D^2 = 4.9348  (need 0.6667)  ratio 7.402  miss
+L2 two circuits (2*pi*D), one of them "-"     k = 1/3 <cos^2>  k*H/D^2 = 1.6449  (need 0.6667)  ratio 2.467  miss
+L2 two circuits (2*pi*D), one of them "-"     k = 2/3 <sin^2>  k*H/D^2 = 3.2899  (need 0.6667)  ratio 4.935  miss
