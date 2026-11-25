@@ -5,6 +5,10 @@ An attempt to derive the fine-structure constant α, its link to the gravitation
 **Author of the postulates:** Hrachya Danielyan
 **Calculations and checks:** done with Claude (Anthropic) under the author's rules.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24544483.svg)](https://doi.org/10.5281/zenodo.24544483)
+
+**Cite as:** Danielyan, H. *Structure W: the fine-structure constant α and its link to G from postulates about space.* Zenodo. https://doi.org/10.5281/zenodo.24544483 (all versions; v1.0: https://doi.org/10.5281/zenodo.24544484).
+
 *Русская версия: [README_ru.md](README_ru.md).*
 
 ## Main result

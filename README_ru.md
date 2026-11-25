@@ -5,6 +5,10 @@
 **Автор положений:** Hrachya Danielyan
 **Расчёты и проверки:** выполнены с помощью Claude (Anthropic) по правилам автора.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24544483.svg)](https://doi.org/10.5281/zenodo.24544483)
+
+**Ссылка для цитирования:** Danielyan, H. *Structure W: the fine-structure constant α and its link to G from postulates about space.* Zenodo. https://doi.org/10.5281/zenodo.24544483 (все версии; v1.0: https://doi.org/10.5281/zenodo.24544484).
+
 *English version: [README.md](README.md).*
 
 ## Главный результат
