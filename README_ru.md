@@ -58,6 +58,7 @@
 - [`system/check_matrix.py`](system/check_matrix.py) проверяет матрицу. Главное правило: `вывод` и `расчёт` не могут опираться на `кандидат`.
 - [`alpha/`](alpha) — расчёты. Правила счёта (`*_rules_*.md`) записываются **до** запуска программы, вывод программы хранится в `*_output.txt`.
 - [`docs/article_ru.md`](docs/article_ru.md) — обзорная статья, [`docs/predictions_ru.md`](docs/predictions_ru.md) — что можно проверить.
+- [`docs/alpha_chain.md`](docs/alpha_chain.md) — 51 запись матрицы, на которых держатся итог по α и связь α–G, в переводе на английский.
 
 ## Запуск
 
