@@ -1,0 +1,6 @@
+L = 0.728 fm;  data <r_n^2> = -0.1155 fm^2, ratio n/p = -0.163
+T (point on proton)      G (point of eight)     r_O^2/L^2 <r_n^2>/L^2     fm^2 sign     n/p
+T1 end point A           G1 centre O'                2.25      -0.917   -0.486    -  -0.688
+T1 end point A           G2 end point A'             3.25      -1.917   -1.016    -  -1.438
+T2 inner point P1        G1 centre O'                0.25       1.083    0.574    +  +0.813
+T2 inner point P1        G2 end point A'             1.25       0.083    0.044    +  +0.062
