@@ -1,0 +1,20 @@
+{
+  "title": "Structure W: the fine-structure constant α and its link to G from postulates about space",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Danielyan, Hrachya"
+    }
+  ],
+  "description": "<p>An attempt to derive the fine-structure constant α, its link to the gravitational constant G, and the pattern of particle charges from a small set of postulates about space (Structure W), using only those postulates and experimental data.</p><p>Result: 1/α far from the charge = 136.86 ± 0.14 against the measured 137.036 (−0.13 %); at the Z-boson distance 129.54 ± 0.14 against 129.72 ± 0.05. No fitted parameters; one program (alpha/end_to_end.py) goes from the postulates to the number. The same rules give quark charges 1/3 and 2/3, colour multiplicities 1, 3, 3, 1, the running slope 2/(3π), and α/G = 4π²q² in units of the structure, with the step of space a = 2π·l_P.</p><p>Status: candidate. All agreements were found with the answer already known; no new prediction has yet been confirmed by experiment. Measured particle masses are used as input. Three links are unverified, and two contradictions with data are recorded openly in the matrix.</p><p>Contents: the system matrix (postulates, data, calculations, statements, each with a status) and its checker; calculation rules written before each run, programs and their outputs; an overview article, a list of testable claims, and an English translation of the records behind the α result. Code is under the MIT license; texts, the matrix and outputs under CC BY 4.0.</p>",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "fine-structure constant",
+    "gravitational constant",
+    "running of alpha",
+    "Planck length",
+    "quark charges",
+    "Structure W"
+  ],
+  "language": "eng"
+}
