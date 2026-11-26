@@ -1,0 +1,12 @@
+1. Penning trap (D-01)
+   orbit L = hbar : mu/muB = 1.000000; w_s/w_c (A-04) = 1.000000; classical precession / w_c = 0.500
+   L = hbar/2     : mu/muB = 1.000000; w_s/w_c (A-04) = 1.000000; classical precession / w_c = 1.000
+   data g/2 = 1.00115965; residual 1.15965e-3; alpha/(2 pi) = 1.16141e-03 (noticed before rules, not an argument)
+   -> w_s/w_c does not contain L: the trap measures mu_z, not the mechanical moment
+2. Einstein - de Haas (D-05)
+   orbit reverses, dL = 2 hbar : g' = 1.000
+   dL = hbar                   : g' = 2.000
+   Fe 1959: g' = 1.919 +- 0.002; W orbit (1.000) off by 460 sigma; per flip data need dL = 1.042 hbar
+   Co 1956: g' = 1.85 +- 0.004; W orbit (1.000) off by 213 sigma; per flip data need dL = 1.081 hbar
+3. Can the medium carry hbar/2? (B-245 p.3: share alpha/2 of energy outside the orbit)
+   L_field <= E_out * r / c; for hbar/2 need r >= 137.0 R  (R = 3.862e-13 m)
