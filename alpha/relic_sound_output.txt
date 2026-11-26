@@ -1,0 +1,15 @@
+h = 0.7354 +- 0.0105; theta* data = 0.010411
+
+nu0 photons: BAO Om = 0.2973 +- 0.0086
+   b1 F = 1.00: z* = 1091.2, theta = 0.012084 +- 0.000071 (+16.07 %, +23.7 sigma) -> FAIL;  h for exact theta = 0.5203
+   b1 F = 1.14: z* = 1092.0, theta = 0.012078 +- 0.000071 (+16.02 %, +23.6 sigma) -> FAIL;  h for exact theta = 0.5209
+   b2 F = 1.00: z* = 1090.2, theta = 0.012056 +- 0.000072 (+15.80 %, +22.9 sigma) -> FAIL;  h for exact theta = 0.5230
+   b2 F = 1.14: z* = 1091.0, theta = 0.012051 +- 0.000072 (+15.75 %, +22.8 sigma) -> FAIL;  h for exact theta = 0.5235
+
+nu1 +neutrinos (bridge): BAO Om = 0.2972 +- 0.0086
+   b1 F = 1.00: z* = 1092.5, theta = 0.010780 +- 0.000081 (+3.54 %, +4.5 sigma) -> FAIL;  h for exact theta = 0.6832
+   b1 F = 1.14: z* = 1093.3, theta = 0.010774 +- 0.000081 (+3.49 %, +4.5 sigma) -> FAIL;  h for exact theta = 0.6840
+   b2 F = 1.00: z* = 1091.5, theta = 0.010755 +- 0.000082 (+3.30 %, +4.2 sigma) -> FAIL;  h for exact theta = 0.6866
+   b2 F = 1.14: z* = 1092.3, theta = 0.010749 +- 0.000082 (+3.25 %, +4.1 sigma) -> FAIL;  h for exact theta = 0.6873
+
+helium check (nu1 b2 F 1.14): Y = 0.235 -> 0.010752, Y = 0.255 -> 0.010746
