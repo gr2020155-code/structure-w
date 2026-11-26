@@ -1,0 +1,12 @@
+H0 from Pantheon+ (Cepheid calibrators + Hubble flow): 73.54 +- 1.05 km/s/Mpc, M = -19.247
+light: u_gamma = 4.1747e-14 J/m^3, Omega_gamma h^2 = 2.4729e-05
+
+nu0 photons only: Or = 4.572e-05, 1+z_eq = 6502; BAO refit Om = 0.2973, chi2 = 10.3 / 11 (prob 0.51)
+   relic theta = 0.00796 .. 0.01430 (data 0.010411) -> PASS
+   for comparison, baryon loading (Ob h^2 = 0.0224, bridge): theta at 1+z* = 1000, 1060, 1090, 1100, 1400: 0.01272, 0.01227, 0.01206, 0.01199, 0.01029
+   Or for exact theta at middle cs (c/2.060) and 1+z* = 1100: 6.692e-05 (this branch 4.572e-05, ratio 1.46)
+
+nu1 + neutrinos (official factor, bridge): Or = 7.735e-05, 1+z_eq = 3842; BAO refit Om = 0.2972, chi2 = 10.3 / 11 (prob 0.51)
+   relic theta = 0.00705 .. 0.01287 (data 0.010411) -> PASS
+   for comparison, baryon loading (Ob h^2 = 0.0224, bridge): theta at 1+z* = 1000, 1060, 1090, 1100, 1400: 0.01139, 0.01097, 0.01077, 0.01070, 0.00909
+   Or for exact theta at middle cs (c/2.060) and 1+z* = 1100: 6.691e-05 (this branch 7.735e-05, ratio 0.86)
