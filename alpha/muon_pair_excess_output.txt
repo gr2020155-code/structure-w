@@ -1,0 +1,4 @@
+W (K1, eps = alpha)  ratio to QED 1.0056; data 1.0040 +- 0.0111 -> +0.14 sigma
+QED (NLO)            ratio to QED 1.0000; data 1.0040 +- 0.0111 -> -0.36 sigma
+eps_W = 0.730 %, eps_QED = 0.174 %, W - QED = 0.556 %
+needed total precision to separate at 2 sigma: 0.28 %  (now 1.11 %, luminosity alone 0.94 %)
