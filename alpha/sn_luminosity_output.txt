@@ -1,0 +1,16 @@
+reference chi2 = 1403.3; branches threshold 11, free q threshold 10
+   q = 0.000 (no dependence    ): d chi2 =  +702.0 -> FAIL; mean residual z 0.6-1: +0.258, z > 1: +0.517
+   q = 0.333 (linear density   ): d chi2 =  +238.5 -> FAIL; mean residual z 0.6-1: +0.132, z > 1: +0.272
+   q = 0.667 (area density     ): d chi2 =   +25.5 -> FAIL; mean residual z 0.6-1: +0.006, z > 1: +0.027
+   q = 1.000 (k (A-36 reading) ): d chi2 =   +63.1 -> FAIL; mean residual z 0.6-1: -0.120, z > 1: -0.218
+   q = 2.000 (s^(2/3)          ): d chi2 = +1679.3 -> FAIL; mean residual z 0.6-1: -0.497, z > 1: -0.953
+   q = 3.000 (s                ): d chi2 = +5550.7 -> FAIL; mean residual z 0.6-1: -0.875, z > 1: -1.689
+free q (observation): q = 0.783 (1 sigma 0.754 .. 0.813), d chi2 = +10.2 -> FAIL
+   mean residual z 0.6-1: -0.038, z > 1: -0.058
+   z 0.01-0.05: N =  534, mean residual -0.001
+   z 0.05-0.15: N =  181, mean residual +0.017
+   z 0.15-0.3: N =  381, mean residual +0.019
+   z 0.3-0.5: N =  284, mean residual +0.035
+   z 0.5-0.7: N =  135, mean residual -0.018
+   z 0.7-1.0: N =   50, mean residual -0.064
+   z 1.0-2.3: N =   25, mean residual -0.058
