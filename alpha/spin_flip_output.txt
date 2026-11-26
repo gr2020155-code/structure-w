@@ -1,0 +1,8 @@
+a1 all inertia in the core                         f = 1    dL = 2   hbar  g' =  1.000  photon NO, EdH NO, positions ok  -> fail  [from positions]
+a2 core + one global eight, equal (A-60, B-212)    f = 1/2  dL = 1   hbar  g' =  2.000  photon ok, EdH ok, positions ok  -> PASS  [from positions; "equal" by A-31 is weak]
+a3 core + three global eights (A-73)               f = 1/4  dL = 1/2 hbar  g' =  4.000  photon NO, EdH ok, positions ok  -> fail  [from positions]
+a4 all inertia in the global eight                 f = 0    dL = 0   hbar  g' =    inf  photon NO, EdH ok, positions ok  -> fail  [from positions]
+b1 two eights = two systems, one flips (B-42)      f = 1/2  dL = 1   hbar  g' =  2.000  photon ok, EdH ok, positions NO  -> fail  [conflicts with B-198: the form moves as a whole]
+b2 orientation moment hbar*j, j = 1/2 (B-27)       f = 1/2  dL = 1   hbar  g' =  2.000  photon ok, EdH ok, positions ok  -> PASS  [premise outside the positions]
+
+pass: 2 -> a2 core + one global eight, equal (A-60, B-212); b2 orientation moment hbar*j, j = 1/2 (B-27)
