@@ -1,0 +1,23 @@
+SNe: 1590
+data-only yardstick: mu = M + 5 lg x + b1 x + ... + bK x^K, x = ln(1+z)
+  K = 1: chi2 = 1412.1
+  K = 2: chi2 = 1403.3
+  K = 3: chi2 = 1403.3
+  K = 4: chi2 = 1403.1
+  K = 5: chi2 = 1400.8
+  chosen K = 2, chi2 = 1403.3, dof 1587, p = 1.000;  pass threshold d chi2 <= 11
+
+branch             chi2   d chi2  p(abs)  pass
+k~T^1 D1         3169.0  +1765.7   0.000  no
+k~T^1 D2         1510.8   +107.4   0.919  no
+k~T^2 D1         2105.3   +702.0   0.000  no
+k~T^2 D2         1466.4    +63.1   0.987  no
+k~T^3 D1         1851.1   +447.8   0.000  no
+k~T^3 D2         1588.7   +185.4   0.498  no
+k~T^4 D1         1744.5   +341.1   0.004  no
+k~T^4 D2         1677.4   +274.0   0.060  no
+k~exp D1         1510.8   +107.4   0.919  no
+k~exp D2         2058.6   +655.3   0.000  no
+(W1 = T^1 D1, W2 = T^1 D2 = exp D1, W3 = exp D2)
+
+observation (fit): free p in D2 = 1.41 (1.36-1.46), d chi2 vs yardstick = +9.3 (threshold for a 1-parameter fit: 9 + 2 - 1 = 10)
