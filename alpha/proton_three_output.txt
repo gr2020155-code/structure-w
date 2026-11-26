@@ -1,0 +1,9 @@
+step 1: decomposition of the data
+  mu_p + mu_n: model 1 (any weights summing to 1, equal masses), data 0.8798 -> factor 0.880
+  mu_p - mu_n: model 5,                                          data 4.7059 -> factor 0.941
+
+reading             mu_p     err    mu_n     err     sum    diff  pass (+-2 %)
+K0 loops equal     3.000   +7.4%  -1.997   +4.4%   1.003   4.997  no
+K1 by points       2.815   +0.8%  -2.071   +8.3%   0.744   4.886  no
+K2 by eights       3.778  +35.3%  -2.219  +16.0%   1.559   5.997  no
+data               2.793          -1.913           0.880   4.706
