@@ -1,0 +1,16 @@
+needed delta = 0.001513 (all orders); kappa*alpha = 0.001549
+
+A1 alternation, reversed -> 0, M1       : delta = 0.339494  (+22338.5 %)  c2 = -73.0780  -> FAIL
+A2 alternation, reversed -> -1, M1      : delta = 0.678988  (+44777.0 %)  c2 = -146.1561  -> FAIL
+B1 screening, sharp D = 2R, M1          : delta = 0.000774  (   -48.8 %)  c2 = -0.1667  -> FAIL
+B1 screening, edge D*e^E, M1            : delta = 0.000000  (  -100.0 %)  c2 = -0.0000  -> FAIL
+B2 screening, sharp D = 2R, M1          : delta = 0.001549  (    +2.3 %)  c2 = -0.3333  -> PASS
+B2 screening, edge D*e^E, M1            : delta = 0.000000  (  -100.0 %)  c2 = -0.0000  -> FAIL
+A1 alternation, reversed -> 0, M2       : delta = 0.122961  ( +8027.0 %)  c2 = -26.4681  -> FAIL
+A2 alternation, reversed -> -1, M2      : delta = 0.245923  (+16154.0 %)  c2 = -52.9362  -> FAIL
+B1 screening, sharp D = 2R, M2          : delta = 0.000475  (   -68.6 %)  c2 = -0.1023  -> FAIL
+B1 screening, edge D*e^E, M2            : delta = 0.000000  (  -100.0 %)  c2 = -0.0000  -> FAIL
+B2 screening, sharp D = 2R, M2          : delta = 0.000950  (   -37.2 %)  c2 = -0.2046  -> FAIL
+B2 screening, edge D*e^E, M2            : delta = 0.000000  (  -100.0 %)  c2 = -0.0000  -> FAIL
+
+c2 = coefficient of (alpha/pi)^2 in a: c2 = -delta*pi/(2*alpha); official second order -0.3285; all orders from data -0.3257
