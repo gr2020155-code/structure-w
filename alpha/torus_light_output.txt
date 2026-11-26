@@ -1,0 +1,12 @@
+reference chi2 = 1403.3; relic theta* = 0.010411
+
+G0 flat       : SN d chi2 =  +702.0; relic theta = 0.01121 .. 0.01885 -> FAIL
+G+ rho = cT0  : SN d chi2 = +1424.0; relic theta = 0.1488 .. 0.2338 -> FAIL
+G+ rho = 2cT0 : SN d chi2 =  +851.8; relic theta = 0.01647 .. 0.02758 -> FAIL
+G- rho = cT0  : SN d chi2 =  +286.7; relic theta = 0.003542 .. 0.006015 -> FAIL
+G- rho = 2cT0 : SN d chi2 =  +571.3; relic theta = 0.008036 .. 0.01356 -> FAIL
+
+observation (one fitted number): G- with free rho fitted on SN, then relic predicted
+   best rho = 0.687 cT0 (1 sigma 0.672 .. 0.700); SN d chi2 = +134.6 (threshold 10)
+   relic theta at this rho = 0.001358 .. 0.002322 (data 0.010411) -> FAIL
+   rho range that the relic alone accepts: 1.46 .. 4.35 cT0
