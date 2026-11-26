@@ -1,0 +1,18 @@
+variant                           s, nats  per l_P^2  vs 1/4  S_W/S_BH
+K1 side per point, square          0.6931    0.01756   0.070     0.130
+K1 side per point, disk            0.6931    0.02236   0.089     0.165
+K1 side per pair, square           0.3466    0.00878   0.035     0.065
+K1 side per pair, disk             0.3466    0.01118   0.045     0.083
+K2 square matching + side          0.6381    0.01616   0.065     0.119
+K3 triangular matching + side      0.7752    0.02267   0.091     0.168
+K4 free, z=4, square               2.0794    0.05267   0.211     0.389
+K4 free, z=4, disk                 2.0794    0.06707   0.268     0.496
+K4 free, z=5, square               2.3026    0.05833   0.233     0.431
+K4 free, z=5, disk                 2.3026    0.07426   0.297     0.549
+K4 free, z=6, square               2.4849    0.06294   0.252     0.465
+K4 free, z=6, disk                 2.4849    0.08014   0.321     0.592
+K4 free, z=7, square               2.6391    0.06685   0.267     0.494
+K4 free, z=7, disk                 2.6391    0.08511   0.340     0.629
+
+range S_W/S_BH (same mass): 0.065 - 0.629;  per-area vs 1/4: 0.035 - 0.340
+needed s for 1/4: square 9.87, disk 7.75, triangular 8.55 nats
