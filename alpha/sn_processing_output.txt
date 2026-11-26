@@ -1,0 +1,21 @@
+decomposition check: max |m_b_corr - (mB + a x1 - b c - biasCor + const)| = 1.6e-04
+
+P0 authors: reference chi2 = 1403.3
+   k~T^(2/3): d chi2 = +701.9 (threshold 11) -> FAIL; mean residual z 0.6-1: +0.258, z > 1: +0.517 mag (data minus model, + = fainter)
+   k~T: d chi2 = +107.4;  free p (observation): p = 1.41 (1.36 .. 1.46), d chi2 = +9.3
+
+P1 no selection bias corr.: reference chi2 = 1603.7
+   k~T^(2/3): d chi2 = +781.4 (threshold 11) -> FAIL; mean residual z 0.6-1: +0.280, z > 1: +0.523 mag (data minus model, + = fainter)
+   k~T: d chi2 = +140.4;  free p (observation): p = 1.49 (1.44 .. 1.56), d chi2 = +12.3
+
+P2 alpha, beta free: reference chi2 = 1402.5
+   k~T^(2/3): d chi2 = +684.6 (threshold 11) -> FAIL; mean residual z 0.6-1: +0.253, z > 1: +0.518 mag (data minus model, + = fainter)
+   k~T: d chi2 = +104.5;  free p (observation): p = 1.41 (1.36 .. 1.46), d chi2 = +9.2
+
+P3 zCMB: reference chi2 = 1432.8
+   k~T^(2/3): d chi2 = +654.8 (threshold 11) -> FAIL; mean residual z 0.6-1: +0.249, z > 1: +0.509 mag (data minus model, + = fainter)
+   k~T: d chi2 = +87.3;  free p (observation): p = 1.36 (1.32 .. 1.41), d chi2 = +4.7
+
+P4 all three: reference chi2 = 1530.7
+   k~T^(2/3): d chi2 = +637.7 (threshold 11) -> FAIL; mean residual z 0.6-1: +0.254, z > 1: +0.516 mag (data minus model, + = fainter)
+   k~T: d chi2 = +83.8;  free p (observation): p = 1.36 (1.31 .. 1.41), d chi2 = +3.6
