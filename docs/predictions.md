@@ -1,17 +1,18 @@
 # Structure W: what can be tested
 
-25 November 2026 · Theory: Hrachya Danielyan
+26 November 2026 · Theory: Hrachya Danielyan
 
 Record IDs (V-, R-, D-, A-) refer to `system/matrix.json`, where they are written in Cyrillic: В, Р, Д, А.
 
 ## Differences from standard physics
 
-There is one difference in the measurable range: in the structure the W boson does not screen charge, so above ~160 GeV α grows faster than in the standard calculation (V-294). For now it is hidden in the uncertainty of the data.
+There are two differences in the measurable range. (1) In the structure the W boson does not screen charge: it is a pair of parts already counted (V-358), so above ~160 GeV α grows faster than in the standard calculation (V-294). (2) Charged-lepton pairs get the same production excess as quark parts: ε = α = 0.73 % for e⁺e⁻ → μ⁺μ⁻, against 0.17 % in QED (V-355, V-356). For now both are hidden in the uncertainty of the data.
 
 | What to measure | Structure W | Standard physics | Data today |
 | --- | --- | --- | --- |
 | Production of high-mass lepton pairs at the LHC | higher by 1.6 % (200 GeV), 3.2 % (500 GeV), 4.4 % (1 TeV), 5.7 % (2 TeV) | baseline | CMS 13 TeV: uncertainties 12–160 %, not decisive |
 | Ratio of neutral current (γ, Z) to charged current (W) at the same pair mass | grows with mass a few percent faster | baseline | not published in this form |
+| e⁺e⁻ → μ⁺μ⁻ relative to the point-like rate (normalised to Bhabha or γγ) | +0.73 % | +0.17 % | CMD-3 1.0017 ± 0.0063, BaBar 1.0040 ± 0.0111: not decisive; 0.28 % needed (V-356, V-357) |
 
 How to test: a precision of 1–2 % is needed at masses around 1 TeV. In the neutral-to-charged current ratio the uncertainty of the quark distributions in the proton almost cancels, so this is a clean test (V-299 item 9). Risk for the structure: the Standard Model with the W contribution already describes 17 precise electroweak observables (p = 0.68), and the structure must reproduce the same numbers without that contribution.
 
@@ -21,8 +22,8 @@ The structure reproduces measured numbers from its postulates. These are explana
 
 | What | Structure W | Data | Record |
 | --- | --- | --- | --- |
-| 1/α at large distances | 136.86 ± 0.14 | 137.036 | V-307 |
-| 1/α at the Z-boson distance | 129.54 ± 0.14 | 129.72 ± 0.05 | V-307 |
+| 1/α at large distances | 137.280 ± 0.130 | 137.036 (+1.9σ) | V-360 |
+| Growth of α between 1.81 and 6.07 GeV² | (306–400)·10⁻⁵ | (440 ± 78)·10⁻⁵ (OPAL) | V-330 |
 | Shape of the running of α near the electron size (the numbers 5/6 and γ) | identical | Uehling potential | V-286 |
 | Slope of the running of α | 2/(3π) | 2/(3π) | V-289 |
 | Charges within one generation | 0, 1/3, 2/3, 1 | neutrino, d, u, electron | V-304 |
@@ -42,7 +43,7 @@ These claims lie beyond current measurements, or coincide with standard physics 
 | --- | --- | --- | --- |
 | Step of space | a = 2π·l_P = 1.016·10⁻³⁴ m | measurements reach ~10⁻¹⁹ m | V-271 |
 | Bound on the step without conditions | a ≤ 74·l_P | same | V-252 |
-| Fraction of the charge source at the step itself | q₀ = 0.1228, 1/α at the step ≈ 66 | same | V-307 |
+| Fraction of the charge source at the step itself | q₀ = 0.12289, 1/α at the step ≈ 66.2 | same | V-359 |
 | New charged particles heavier than ~8 TeV | not needed for the running of α | absence cannot be proven, only not found | V-292, V-307 |
 | Gravity at short distances | G constant, α/G changes with distance | gravity is measured no closer than ~5·10⁻⁵ m; agrees with standard physics | V-272 |
 | Maximum particle mass | exactly the Planck mass | unreachable energies | V-246 |

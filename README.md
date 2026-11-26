@@ -15,13 +15,13 @@ An attempt to derive the fine-structure constant α, its link to the gravitation
 
 | Quantity | Structure W | Measured |
 |---|---|---|
-| 1/α far from the charge | **136.86 ± 0.14** | 137.036 (−0.13 %) |
-| 1/α at the Z-boson distance | 129.54 ± 0.14 | 129.72 ± 0.05 |
-| Slope of the running of α | 2/(3π) | 2/(3π) |
+| 1/α far from the charge | **137.280 ± 0.130** | 137.036 (+0.18 %, +1.9σ) |
+| Growth of α between 1.81 and 6.07 GeV² (OPAL) | (306–400)·10⁻⁵ | (440 ± 78)·10⁻⁵ |
+| Slope of the running of α | 2/(3π) | 2/(3π) is a QED calculation; the measured growth agrees to ~15 % |
 | Charges within one generation | 0, 1/3, 2/3, 1 | ν, d, u, e |
 | Number of "colours" | 1, 3, 3, 1 | leptons 1, quarks 3 |
 
-There are no fitted parameters. One program, [`alpha/end_to_end.py`](alpha/end_to_end.py), goes all the way from the postulates to the number.
+There are no fitted parameters. One choice, which of three readings of the coupling enters the excess of hadron production, was made by the data; the rest of that step follows from the postulates, so by the author's rule it is not a fit (V-355). Below 40 GeV the hadronic part is taken from measured e⁺e⁻ → hadrons data (V-337, V-338). Only measured data are used as a check; the earlier result 136.86 relied on the QED value 1/α(M_Z) = 128.9 and is superseded. The chain is translated record by record in [`docs/alpha_chain.md`](docs/alpha_chain.md).
 
 ## α and G: one coupling
 
@@ -48,13 +48,14 @@ This is how G enters the α calculation: G fixes the step a, the starting point 
 ## Honest status
 
 - **All agreements were found with the answer already known.** So they are **candidates**, not proofs. No new prediction has been confirmed by experiment yet.
-- The α calculation uses **measured** particle masses, including M_Z and m_t. In the structure, masses and the weak force are still calibration (postulate A-14), not derivation.
-- The result rests on three unverified links, listed in [`docs/predictions.md`](docs/predictions.md) and at the end of the program output:
-  1. the W boson does not screen charge (V-294);
-  2. "the pair remainder is q₀" (V-295);
-  3. the energy → distance conversion through γ.
-- The only testable difference from standard physics: above ~160 GeV α grows faster. Current data are not precise enough to test it.
-- Two unresolved contradictions with data are recorded openly in the matrix: X-01 (spin) and X-07 (hydrogen: the 21 cm line and the Darwin term).
+- The α calculation uses **measured** particle masses (leptons, m_t) and the measured rate of e⁺e⁻ → hadrons. In the structure, masses and the weak force are still calibration (postulate A-14), not derivation.
+- The result rests on unverified links (see [`docs/alpha_chain.md`](docs/alpha_chain.md)):
+  1. the W boson is not a separate species but a pair of parts already counted (V-358); how a W⁺W⁻ pair is produced in W is not derived;
+  2. the W as two parts (V-348) depends on the open contradiction X-01 (spin);
+  3. "the pair remainder is q₀" (V-295), a reading made when the target was known;
+  4. the excess of hadron production: the reading ε = g was chosen by the data among three (V-355).
+- Two testable differences from standard physics: above ~160 GeV α grows faster (V-294, V-358); e⁺e⁻ → μ⁺μ⁻ pairs are produced 0.73 % more often than the point-like rate, against 0.17 % in QED (V-355, V-356). Current data are not precise enough for either: the second needs 0.28 %, the best today (CMD-3) is 0.63 %.
+- One unresolved contradiction with data is recorded openly in the matrix: X-01 (spin). X-07 (hydrogen) was withdrawn under the data rule, and X-10 (a shortfall in 1/α) was lifted by the hadron data (`meta.resolved`).
 
 ## How it is organised
 
@@ -62,7 +63,7 @@ This is how G enters the α calculation: G fixes the step a, the starting point 
 - [`system/check_matrix.py`](system/check_matrix.py) checks the matrix. The main rule: derived and computed statements may never rest on a candidate.
 - [`alpha/`](alpha) — calculations. The rules of each calculation (`*_rules_*.md`) are written down **before** the program is run; the program output is kept in `*_output.txt`.
 - [`docs/article.md`](docs/article.md) — overview article; [`docs/predictions.md`](docs/predictions.md) — what can be tested.
-- [`docs/alpha_chain.md`](docs/alpha_chain.md) — the 51 matrix records behind the α result and the α–G link, translated into English.
+- [`docs/alpha_chain.md`](docs/alpha_chain.md) — the 76 matrix records behind the α result and the α–G link, translated into English.
 
 **Language.** The matrix, calculation rules and program comments are in Russian, the author's working language; the records of the α and G chain are translated in `docs/alpha_chain.md`. Record IDs use Cyrillic letters: А = A (postulate), Д = D (data), Р = R (calculation), В = V (statement), С = S (withdrawn), Х = X (contradiction). The English texts write them in Latin letters (A-31 = А-31). Russian originals of the documents are in `docs/*_ru.md`.
 
@@ -73,9 +74,13 @@ Requires Python 3.10+ with `numpy` and `scipy`.
 ```
 pip install -r requirements.txt
 python system/check_matrix.py
-python alpha/end_to_end.py          # fast: 2 clouds, precision ±0.35
-python alpha/end_to_end.py --full   # 8 clouds, ±0.14 (the result in the table)
+python alpha/end_to_end.py                 # step, slope, edge, charges; fast q0 (2 clouds)
+python alpha/q0_more_clouds.py             # q0 over 32 new clouds (R-113)
+python alpha/hadron_dispersion.py <file>   # hadronic part from R(s) data (R-97)
+python alpha/tail_gee.py <file>            # excess tail and narrow resonances (R-115)
 ```
+
+`<file>` is the PDG compilation of R(s) for e⁺e⁻ → hadrons, `rpp2022-hadronicrpp_page1001.dat` (https://pdg.lbl.gov/2024/hadronic-xsections/). The result in the table (137.280) is assembled from these programs, as described in [`docs/alpha_chain.md`](docs/alpha_chain.md).
 
 On Windows, add `-X utf8` if the output encoding is wrong.
 
