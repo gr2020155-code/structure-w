@@ -1,0 +1,5 @@
+C1: 137.036, pass if |dev| <= 0.28;  C2: OPAL 440 +- 78, pass if within 156 in one reading
+L1 f=1: edge E = -2.1037; 1/alpha_W(0) = 136.097 +- 0.14 (dev -0.939, -6.7 sigma) FAIL; OPAL M1 324, M2 383 PASS; both: no
+L2 f=sqrt3: edge E = -1.5544; 1/alpha_W(0) = 137.030 +- 0.14 (dev -0.006, -0.0 sigma) PASS; OPAL M1 390, M2 451 PASS; both: yes
+L3 f=sqrt(3/2): edge E = -1.9010; 1/alpha_W(0) = 136.441 +- 0.14 (dev -0.595, -4.2 sigma) FAIL; OPAL M1 348, M2 408 PASS; both: no
+L4 f=sqrt2: edge E = -1.7571; 1/alpha_W(0) = 136.686 +- 0.14 (dev -0.350, -2.5 sigma) FAIL; OPAL M1 365, M2 425 PASS; both: no
