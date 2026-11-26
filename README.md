@@ -51,11 +51,11 @@ This is how G enters the α calculation: G fixes the step a, the starting point 
 - The α calculation uses **measured** particle masses (leptons, m_t) and the measured rate of e⁺e⁻ → hadrons. In the structure, masses and the weak force are still calibration (postulate A-14), not derivation.
 - The result rests on unverified links (see [`docs/alpha_chain.md`](docs/alpha_chain.md)):
   1. the W boson is not a separate species but a pair of parts already counted (V-358); how a W⁺W⁻ pair is produced in W is not derived;
-  2. the W as two parts (V-348) depends on the open contradiction X-01 (spin);
+  2. the W as two parts (V-348) rests on the author's choice A-97 (half of the inertia sits with the global figure-eight), which resolved X-01 (spin);
   3. "the pair remainder is q₀" (V-295), a reading made when the target was known;
   4. the excess of hadron production: the reading ε = g was chosen by the data among three (V-355).
 - Two testable differences from standard physics: above ~160 GeV α grows faster (V-294, V-358); e⁺e⁻ → μ⁺μ⁻ pairs are produced 0.73 % more often than the point-like rate, against 0.17 % in QED (V-355, V-356). Current data are not precise enough for either: the second needs 0.28 %, the best today (CMD-3) is 0.63 %.
-- One unresolved contradiction with data is recorded openly in the matrix: X-01 (spin). X-07 (hydrogen) was withdrawn under the data rule, and X-10 (a shortfall in 1/α) was lifted by the hadron data (`meta.resolved`).
+- No contradiction with data is open in the matrix now. X-01 (spin: the orbit would carry ħ, the measured spin is ħ/2) was resolved on 26.11 by the author's choice A-97: the inertia is split equally between the two ends of the lag exchange, so the orbit carries ħ/2. X-07 (hydrogen) was withdrawn under the data rule, and X-10 (a shortfall in 1/α) was lifted by the hadron data. All are kept in `meta.resolved`. Still open: the electron's magnetic anomaly 1.16·10⁻³.
 
 ## How it is organised
 

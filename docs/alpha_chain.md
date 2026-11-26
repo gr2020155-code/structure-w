@@ -38,7 +38,7 @@ This file translates the matrix records on which the main result rests: 1/α = 1
 
 Superseded: steps 9–11 of the earlier version compared the chain with 1/α(M_Z) = 128.9 and gave 136.86 ± 0.14 (V-307, R-72, R-77). Under the data rule that number is a QED calculation, so those comparisons are not data checks. The current result is assembled from `end_to_end.py` (step, slope, edge, charges), `alpha_data_test.py` (R-91), `q0_more_clouds.py` (R-113), `hadron_dispersion.py` (R-97) and `tail_gee.py` (R-115).
 
-Open in this chain: X-01 (spin), on which V-348 and so V-358 depend; how a W⁺W⁻ pair is produced in W (V-358 item 3); the reading "the pair remainder is q₀" (V-295).
+Open in this chain (X-01, spin, was resolved on 26.11 by the author's choice A-97, on which V-348 and so V-358 rest): how a W⁺W⁻ pair is produced in W (V-358 item 3); the reading "the pair remainder is q₀" (V-295).
 
 ## Author's postulates
 
@@ -70,6 +70,7 @@ Open in this chain: X-01 (spin), on which V-348 and so V-358 depend; how a W⁺W
 | A-87 | Electron-type medium forms are induced by the charge itself; far from the charge (beyond the electron size) there are none. |
 | A-88 | The side is held by the exchange act as a whole: both partner points of one act hold its side. |
 | A-89 | Refinement of A-06: the size of a point is one step on average; individual places have different sizes, there are no gaps between points. |
+| A-97 | (author, 26.11) The inertia of a particle is split equally between the two ends of the lag exchange: at the core (moves along the orbit) and at the global figure-eight (does not move along the orbit); half of the inertia moves along the orbit. Choice of branch a2 (V-347, V-348); resolves X-01. |
 
 ## Data
 
