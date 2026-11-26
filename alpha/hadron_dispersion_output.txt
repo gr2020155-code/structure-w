@@ -1,0 +1,12 @@
+read: EXCLSUM 876 points 0.3-1.99 GeV; inclusive >= 2 GeV: 522 points
+narrow resonances: +0.1500 +- 0.0026 in 1/alpha (J/psi 0.1006, psi(2S) 0.0356, Y(1S) 0.0080, Y(2S) 0.0034, Y(3S) 0.0024)
+[MAIN] s_max = (40 GeV)^2: int R_data ds/s = 27.8293 (stat 0.3160, sys 1.0285); int R_parts ds/s = 22.8655; correction (data - parts)/(3pi) = +0.5267 +- 0.1142
+       1/alpha(0) = 136.097 + +0.5267 + 0.1500 = 136.774 +- 0.181  vs 137.036  (dev -0.262, -1.5 sigma) -> PASS
+[info] s_max = (30 GeV)^2: int R_data ds/s = 25.6106 (stat 0.3149, sys 0.9308); int R_parts ds/s = 20.7564; correction (data - parts)/(3pi) = +0.5150 +- 0.1043
+       1/alpha(0) = 136.762 +- 0.175
+[info] s_max = (20 GeV)^2: int R_data ds/s = 22.4102 (stat 0.2649, sys 0.8131); int R_parts ds/s = 17.7865; correction (data - parts)/(3pi) = +0.4906 +- 0.0907
+       1/alpha(0) = 136.738 +- 0.167
+
+link check: weighted mean R of inclusive points vs sum NcQ2 of active parts
+  5.0-9.3 GeV: 40 points, R = 3.512 +- 0.172 (stat 0.019, sys 0.171)  vs 3.333: +5.4 %, +1.0 sigma
+  12.0-40.0 GeV: 53 points, R = 3.962 +- 0.138 (stat 0.011, sys 0.137)  vs 3.667: +8.0 %, +2.1 sigma
