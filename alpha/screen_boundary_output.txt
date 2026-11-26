@@ -1,0 +1,21 @@
+P1 sharp 2R (excluded, V-283 p.5): int w dln(rho) from step to orbit = 49.6900; beyond orbit <...> M1 = 0.50018, M2 = 0.30685
+P2 soft V-286: int w dln(rho) from step to orbit = 48.2436; beyond orbit <...> M1 = 0.02790, M2 = 0.02022
+check: soft profile, int w dln(rho) from step to far - ln(D/a) = -2.1036 (edge E = -2.1037)
+step/R = 2.630e-22; ln(D/a) = 50.38
+
+P1 H1 from orbit, legs 1, M1          : delta = 0.000775  (    -48.8 %)  -> FAIL
+P1 H1 from orbit, legs 1, M2          : delta = 0.000475  (    -68.6 %)  -> FAIL
+P1 H1 from orbit, legs 2, M1          : delta = 0.001549  (     +2.4 %)  -> pass, but profile excluded
+P1 H1 from orbit, legs 2, M2          : delta = 0.000950  (    -37.2 %)  -> FAIL
+P1 H2 from step, legs 1, M1           : delta = 0.077722  (  +5036.9 %)  -> FAIL
+P1 H2 from step, legs 1, M2           : delta = 0.077422  (  +5017.1 %)  -> FAIL
+P1 H2 from step, legs 2, M1           : delta = 0.155444  ( +10173.9 %)  -> FAIL
+P1 H2 from step, legs 2, M2           : delta = 0.154845  ( +10134.3 %)  -> FAIL
+P2 H1 from orbit, legs 1, M1          : delta = 0.000043  (    -97.1 %)  -> FAIL
+P2 H1 from orbit, legs 1, M2          : delta = 0.000031  (    -97.9 %)  -> FAIL
+P2 H1 from orbit, legs 2, M1          : delta = 0.000086  (    -94.3 %)  -> FAIL
+P2 H1 from orbit, legs 2, M2          : delta = 0.000063  (    -95.9 %)  -> FAIL
+P2 H2 from step, legs 1, M1           : delta = 0.074751  (  +4840.6 %)  -> FAIL
+P2 H2 from step, legs 1, M2           : delta = 0.074739  (  +4839.8 %)  -> FAIL
+P2 H2 from step, legs 2, M1           : delta = 0.149501  (  +9781.1 %)  -> FAIL
+P2 H2 from step, legs 2, M2           : delta = 0.149478  (  +9779.6 %)  -> FAIL
