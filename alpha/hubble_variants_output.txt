@@ -1,0 +1,24 @@
+=== V0: mean tempo from the sound ruler (BAO + drag), no relic; nu1, F = 1.14
+   b1: h = 0.6835 +- 0.0102; z_drag = 1059.0, r_d = 148.57 Mpc, BAO b = 29.5220 +- 0.2139, Om = 0.2971; vs relic-needed 0.685: -0.1 sigma -> AGREES; vs local 0.7354: -3.5 sigma
+   b2: h = 0.6891 +- 0.0106; z_drag = 1060.7, r_d = 147.37 Mpc, BAO b = 29.5220 +- 0.2139, Om = 0.2972; vs relic-needed 0.685: +0.4 sigma -> AGREES; vs local 0.7354: -3.1 sigma
+
+=== SNe: 1657 (calibrators 77), Om = 0.2972
+C:\Users\uzer\Desktop\Новая папка\alpha\hubble_variants.py:103: RuntimeWarning: divide by zero encountered in log10
+  mu = 5 * np.log10((1 + z) * CKM / (100 * h) * np.interp(zt, zg, I)) + 25
+   base: h = 0.7379, chi2_0 = 1456.3
+=== V1: local share of redshift, 1+z_obs = (1+eps)(1+z)
+   free: h = 0.7435, eps = -0.00032, chi2 - chi2_0 = -5.0
+   h = 0.685: eps = -0.00012, chi2 - chi2_0 = +28.8 -> FAIL
+=== V2: local zone of other tempo, g = g_far (1 + A S(z)), S step at z_v
+   z_v = 0.03: free h_far = 0.7429, A = -0.0126, d chi2 = -3.2;  h_far = 0.685: A = -0.0021, d chi2 = +29.4 -> FAIL
+   z_v = 0.05: free h_far = 0.7436, A = -0.0121, d chi2 = -3.4;  h_far = 0.685: A = -0.0013, d chi2 = +29.5 -> FAIL
+   z_v = 0.1: free h_far = 0.7449, A = -0.0124, d chi2 = -3.0;  h_far = 0.685: A = +0.0025, d chi2 = +29.4 -> FAIL
+   z_v = 0.15: free h_far = 0.7454, A = -0.0120, d chi2 = -2.1;  h_far = 0.685: A = +0.0083, d chi2 = +28.3 -> FAIL
+   z_v = 0.3: free h_far = 0.7561, A = -0.0251, d chi2 = -3.5;  h_far = 0.685: A = +0.0231, d chi2 = +24.0 -> FAIL
+   z_v = 0.5: free h_far = 0.7645, A = -0.0352, d chi2 = -1.7;  h_far = 0.685: A = +0.0538, d chi2 = +11.6 -> FAIL
+
+=== V3: extra early share at h = 0.7354 (nu1, F = 1.14)
+   b1 (a) light-like u^-4, Or*(1+f): f = 0.1494; z* = 1093.8, z_drag = 1061.0, r_d = 138.16 Mpc; b model = 29.5053 vs BAO 29.5224 +- 0.2139 (+- 0.2035 from h): -0.1 sigma -> PASS
+   b1 (b) u^-6, q = ratio to light at 1+z = 1101: q = 0.0005; z* = 1093.3, z_drag = 1060.6, r_d = 138.28 Mpc; b model = 29.4798 vs BAO 29.5224 +- 0.2139 (+- 0.1879 from h): -0.1 sigma -> PASS
+   b2 (a) light-like u^-4, Or*(1+f): f = 0.1388; z* = 1092.8, z_drag = 1062.5, r_d = 137.94 Mpc; b model = 29.5527 vs BAO 29.5224 +- 0.2139 (+- 0.2035 from h): +0.1 sigma -> PASS
+   b2 (b) u^-6, q = ratio to light at 1+z = 1101: q = 0.0004; z* = 1092.3, z_drag = 1062.1, r_d = 138.05 Mpc; b model = 29.5295 vs BAO 29.5224 +- 0.2139 (+- 0.1888 from h): +0.0 sigma -> PASS
