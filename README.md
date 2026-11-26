@@ -79,6 +79,11 @@ python alpha/end_to_end.py --full   # 8 clouds, ±0.14 (the result in the table)
 
 On Windows, add `-X utf8` if the output encoding is wrong.
 
+## Related work
+
+- H. Danielyan. *The Electron in the W-Structure: Spin, Magnetic Moment, Charge and Motion.* Version 1.1. Zenodo, 2026. https://doi.org/10.5281/zenodo.24221214 — code: https://github.com/gr2020155-code/w-structure-spin-1.0. Several entries of the matrix come from it (R-09, R-25, V-74, X-01, X-07); its positions P1–P18 are axioms A-… here under other numbers.
+- H. Danielyan. *Black Holes in the W-Structure.* Zenodo, 2026. https://doi.org/10.5281/zenodo.24016340
+
 ## License
 
 Code (`*.py`) is under the MIT license ([`LICENSE`](LICENSE)). Texts, the matrix and program outputs are under CC BY 4.0 ([`LICENSE-TEXT.md`](LICENSE-TEXT.md)): they may be reused provided the author is credited.

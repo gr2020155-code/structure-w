@@ -77,6 +77,11 @@ python alpha/end_to_end.py --full   # 8 облаков, ±0,14 (результа
 
 В Windows при неверной кодировке добавьте `-X utf8`.
 
+## Связанные работы
+
+- H. Danielyan. *The Electron in the W-Structure: Spin, Magnetic Moment, Charge and Motion.* Версия 1.1. Zenodo, 2026. https://doi.org/10.5281/zenodo.24221214 — код: https://github.com/gr2020155-code/w-structure-spin-1.0. Из неё взята часть записей матрицы (Р-09, Р-25, В-74, Х-01, Х-07); её положения P1–P18 — это положения А-… здесь под другими номерами.
+- H. Danielyan. *Black Holes in the W-Structure.* Zenodo, 2026. https://doi.org/10.5281/zenodo.24016340
+
 ## Лицензия
 
 Код (`*.py`) распространяется по лицензии MIT ([`LICENSE`](LICENSE)). Тексты, матрица и выводы — по лицензии CC BY 4.0 ([`LICENSE-TEXT.md`](LICENSE-TEXT.md)): их можно использовать при условии, что указан автор.
