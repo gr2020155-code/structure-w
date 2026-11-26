@@ -1,0 +1,11 @@
+data A_FB: 183: 0.553, 189: 0.540, 198: 0.575, 206: 0.647
+
+n=1/2 (field linear)                       k=0: chi2 =   1592.7 / 36  A_FB 0.225, 0.247, 0.271, 0.287 -> FAIL
+n=1/2 (field linear)                       k=1: chi2 =    317.5 / 36  A_FB 0.650, 0.664, 0.679, 0.689 -> FAIL
+n=1/2 (field linear)                       k=2: chi2 =   1202.6 / 36  A_FB 0.835, 0.843, 0.852, 0.857 -> FAIL
+n=1 (field squared = potential linear)     k=0: chi2 =    171.5 / 36  A_FB 0.444, 0.486, 0.533, 0.563 -> FAIL
+n=1 (field squared = potential linear)     k=1: chi2 =   1168.1 / 36  A_FB 0.770, 0.792, 0.816, 0.831 -> FAIL
+n=1 (field squared = potential linear)     k=2: chi2 =   2365.5 / 36  A_FB 0.897, 0.908, 0.920, 0.927 -> FAIL
+n=2 (potential squared)                    k=0: chi2 =   3015.6 / 36  A_FB 0.775, 0.825, 0.872, 0.899 -> FAIL
+n=2 (potential squared)                    k=1: chi2 =   4054.1 / 36  A_FB 0.917, 0.937, 0.955, 0.965 -> FAIL
+n=2 (potential squared)                    k=2: chi2 =   4606.1 / 36  A_FB 0.965, 0.974, 0.982, 0.986 -> FAIL
