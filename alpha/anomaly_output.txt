@@ -1,0 +1,12 @@
+data: a_e = 0.00115965218062, a_mu = 0.00116592072, a_mu/a_e - 1 = 0.0054055
+
+1. electron: 2 pi a_e = 1/137.2437; alpha(0) = 1/137.0360; needed relative change -0.00151  (kappa*alpha = 0.00155, noticed before the rules, not an argument)
+
+2. a_mu/a_e - 1 = alpha_eff(mu)/alpha_eff(e) - 1 by branches of the scale
+   X1 distance r = R = hbar/(mc)   : 1/alpha_eff(e) = 137.0360, 1/alpha_eff(mu) = 136.2039, rho = 0.00611 (+13.0 % vs data) -> AGREES
+   X2 distance r = D = 2hbar/(mc)  : 1/alpha_eff(e) = 137.0360, 1/alpha_eff(mu) = 136.3510, rho = 0.00502 (-7.1 % vs data) -> AGREES
+   P1 energy Q = mc^2              : 1/alpha_eff(e) = 137.0168, 1/alpha_eff(mu) = 136.0484, rho = 0.00712 (+31.7 % vs data) -> NO
+   P2 energy Q = mc^2/2            : 1/alpha_eff(e) = 137.0308, 1/alpha_eff(mu) = 136.2198, rho = 0.00595 (+10.1 % vs data) -> AGREES
+
+agreeing branches: 3 of 4 -> data do not choose the branch
+electron in the same branches: alpha_eff(e)/alpha0 - 1 = X1 +0.00000, X2 +0.00000, P1 +0.00014, P2 +0.00004   (needed -0.00151)
