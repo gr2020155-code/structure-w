@@ -1,0 +1,10 @@
+area: W throat 92.85, GR horizon 50.27, ratio 1.8473 (= e^2/4)
+Bekenstein-Hawking per square step a^2: a^2/4 = 9.8696 (pi^2 = 9.8696)
+
+variant     S per l_P^2   vs 1/4  S_W/S_BH (same M)
+P1*S1           0.01756   0.0702             0.1297
+P1*S2           0.00878   0.0351             0.0649
+P2*S1           0.02236   0.0894             0.1652
+P2*S2           0.01118   0.0447             0.0826
+
+s per point needed for 1/4: P1 9.870 nats (1.93e+04 states), P2 7.752 nats (2.33e+03 states)
