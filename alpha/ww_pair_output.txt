@@ -1,0 +1,39 @@
+1. total: sigma_WW / sigma_mumu(point), sigma_mumu = 86.8 nb / s
+    161.3 GeV: sigma_WW =  3.69 +- 0.45 pb, sigma_mumu = 3.336 pb, ratio =  1.11
+    172.1 GeV: sigma_WW = 12.00 +- 0.70 pb, sigma_mumu = 2.931 pb, ratio =  4.09
+    182.7 GeV: sigma_WW = 15.92 +- 0.34 pb, sigma_mumu = 2.600 pb, ratio =  6.12
+    188.6 GeV: sigma_WW = 16.05 +- 0.21 pb, sigma_mumu = 2.440 pb, ratio =  6.58
+    191.6 GeV: sigma_WW = 16.42 +- 0.47 pb, sigma_mumu = 2.364 pb, ratio =  6.94
+    195.5 GeV: sigma_WW = 16.99 +- 0.29 pb, sigma_mumu = 2.271 pb, ratio =  7.48
+    199.5 GeV: sigma_WW = 16.77 +- 0.29 pb, sigma_mumu = 2.181 pb, ratio =  7.69
+    201.6 GeV: sigma_WW = 16.98 +- 0.40 pb, sigma_mumu = 2.136 pb, ratio =  7.95
+    204.9 GeV: sigma_WW = 16.81 +- 0.29 pb, sigma_mumu = 2.067 pb, ratio =  8.13
+    206.6 GeV: sigma_WW = 17.20 +- 0.24 pb, sigma_mumu = 2.034 pb, ratio =  8.46
+
+2. data: forward-backward asymmetry of W- (cos > 0 vs < 0), and last/first bin
+   182.66 GeV: A_FB = 0.553 +- 0.029 (19 sigma from 0); bin10/bin1 = 10.7
+   189.09 GeV: A_FB = 0.540 +- 0.016 (34 sigma from 0); bin10/bin1 = 8.0
+   198.38 GeV: A_FB = 0.575 +- 0.015 (38 sigma from 0); bin10/bin1 = 9.6
+   205.92 GeV: A_FB = 0.647 +- 0.014 (47 sigma from 0); bin10/bin1 = 15.3
+
+3. shape chi2 (normalisation free in each range, 9 dof each, 36 total; pass <= 58.6)
+   A0 induced form, flat                 : chi2 =  3638.9 / 36 -> FAIL
+        183: chi2  299.8, A_FB 0.000, b10/b1 1.0
+        189: chi2  893.0, A_FB 0.000, b10/b1 1.0
+        198: chi2 1055.1, A_FB 0.000, b10/b1 1.0
+        206: chi2 1391.0, A_FB 0.000, b10/b1 1.0
+   A1 induced form, 1+cos^2              : chi2 =  4136.4 / 36 -> FAIL
+        183: chi2  368.6, A_FB 0.000, b10/b1 1.0
+        189: chi2 1021.0, A_FB 0.000, b10/b1 1.0
+        198: chi2 1179.3, A_FB 0.000, b10/b1 1.0
+        206: chi2 1567.6, A_FB 0.000, b10/b1 1.0
+   B1 exchange, potential 1/r -> 1/q^2   : chi2 =  3015.6 / 36 -> FAIL
+        183: chi2  179.6, A_FB 0.775, b10/b1 33.7
+        189: chi2  800.4, A_FB 0.825, b10/b1 50.7
+        198: chi2  975.9, A_FB 0.872, b10/b1 82.5
+        206: chi2 1059.7, A_FB 0.899, b10/b1 115.0
+   B2 exchange, field 1/r^2 -> 1/q       : chi2 =   171.5 / 36 -> FAIL
+        183: chi2   34.8, A_FB 0.444, b10/b1 5.7
+        189: chi2   21.9, A_FB 0.486, b10/b1 7.0
+        198: chi2   32.5, A_FB 0.533, b10/b1 8.8
+        206: chi2   82.3, A_FB 0.563, b10/b1 10.3
