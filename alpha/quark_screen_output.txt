@@ -1,0 +1,5 @@
+check of the rules claim: electron alone, OPAL M1 94, M2 94 (1e-5) vs 440 +- 78
+C1: 137.036 +- 0.28;  C2: OPAL within 156 in one reading
+K1 own part mass (Rb): u=d 312.8, s 490.2, c 1660.9, b 4994.1 MeV -> 1/alpha_W(0) = 136.097 (dev -0.939, -6.7 sigma) FAIL; OPAL M1 324, M2 383 PASS; both: no
+K2 lightest charged whole form: u=d 139.6, s 493.7, c 1869.7, b 5279.3 MeV -> 1/alpha_W(0) = 136.345 (dev -0.691, -4.9 sigma) FAIL; OPAL M1 346, M2 396 PASS; both: no
+K3 share of lightest two-part form: u=d 69.8, s 423.9, c 1799.9, b 5209.6 MeV -> 1/alpha_W(0) = 136.612 (dev -0.424, -3.0 sigma) FAIL; OPAL M1 361, M2 403 PASS; both: no
