@@ -1,0 +1,51 @@
+a1 transfer, ordered pairs (6)   p1 as charge      k1 = 1               A-P = -4/3, -8/3, -3 -> excluded (b <= 0)
+a1 transfer, ordered pairs (6)   p1 as charge      k2 = 1/2             A-P = -4/3, -8/3, -3 -> excluded (b <= 0)
+a1 transfer, ordered pairs (6)   p1 as charge      k3 = 1/pi (bridge)   A-P = -4/3, -8/3, -3 -> excluded (b <= 0)
+a1 transfer, ordered pairs (6)   p2 missing share  k1 = 1               A-P = -7/3, -8/3, -4 -> excluded (b <= 0)
+a1 transfer, ordered pairs (6)   p2 missing share  k2 = 1/2             A-P = -7/3, -8/3, -4 -> excluded (b <= 0)
+a1 transfer, ordered pairs (6)   p2 missing share  k3 = 1/pi (bridge)   A-P = -7/3, -8/3, -4 -> excluded (b <= 0)
+a1 transfer, ordered pairs (6)   p3 equal 1/3      k1 = 1               A-P = -1/3, -2/3, -1 -> excluded (b <= 0)
+a1 transfer, ordered pairs (6)   p3 equal 1/3      k2 = 1/2             A-P = -1/3, -2/3, -1 -> excluded (b <= 0)
+a1 transfer, ordered pairs (6)   p3 equal 1/3      k3 = 1/pi (bridge)   A-P = -1/3, -2/3, -1 -> excluded (b <= 0)
+a2 transfer, unordered (3)       p1 as charge      k1 = 1               A-P = -5/3, -3, -10/3 -> excluded (b <= 0)
+a2 transfer, unordered (3)       p1 as charge      k2 = 1/2             A-P = -5/3, -3, -10/3 -> excluded (b <= 0)
+a2 transfer, unordered (3)       p1 as charge      k3 = 1/pi (bridge)   A-P = -5/3, -3, -10/3 -> excluded (b <= 0)
+a2 transfer, unordered (3)       p2 missing share  k1 = 1               A-P = -8/3, -3, -13/3 -> excluded (b <= 0)
+a2 transfer, unordered (3)       p2 missing share  k2 = 1/2             A-P = -8/3, -3, -13/3 -> excluded (b <= 0)
+a2 transfer, unordered (3)       p2 missing share  k3 = 1/pi (bridge)   A-P = -8/3, -3, -13/3 -> excluded (b <= 0)
+a2 transfer, unordered (3)       p3 equal 1/3      k1 = 1               A-P = -2/3, -1, -4/3 -> excluded (b <= 0)
+a2 transfer, unordered (3)       p3 equal 1/3      k2 = 1/2             A-P = -2/3, -1, -4/3 -> excluded (b <= 0)
+a2 transfer, unordered (3)       p3 equal 1/3      k3 = 1/pi (bridge)   A-P = -2/3, -1, -4/3 -> excluded (b <= 0)
+a3 transfer, 9-1 (8)             p1 as charge      k1 = 1               A-P = -10/9, -22/9, -25/9 -> excluded (b <= 0)
+a3 transfer, 9-1 (8)             p1 as charge      k2 = 1/2             A-P = -10/9, -22/9, -25/9 -> excluded (b <= 0)
+a3 transfer, 9-1 (8)             p1 as charge      k3 = 1/pi (bridge)   A-P = -10/9, -22/9, -25/9 -> excluded (b <= 0)
+a3 transfer, 9-1 (8)             p2 missing share  k1 = 1               A-P = -19/9, -22/9, -34/9 -> excluded (b <= 0)
+a3 transfer, 9-1 (8)             p2 missing share  k2 = 1/2             A-P = -19/9, -22/9, -34/9 -> excluded (b <= 0)
+a3 transfer, 9-1 (8)             p2 missing share  k3 = 1/pi (bridge)   A-P = -19/9, -22/9, -34/9 -> excluded (b <= 0)
+a3 transfer, 9-1 (8)             p3 equal 1/3      k1 = 1               A-P = -1/9, -4/9, -7/9 -> excluded (b <= 0)
+a3 transfer, 9-1 (8)             p3 equal 1/3      k2 = 1/2             A-P = -1/9, -4/9, -7/9 -> excluded (b <= 0)
+a3 transfer, 9-1 (8)             p3 equal 1/3      k3 = 1/pi (bridge)   A-P = -1/9, -4/9, -7/9 -> excluded (b <= 0)
+b1 add missing, one form         p1 as charge      k1 = 1               A-P = 1, 0, 1 -> excluded (b <= 0)
+b1 add missing, one form         p1 as charge      k2 = 1/2             A-P = 1, 0, 1 -> excluded (b <= 0)
+b1 add missing, one form         p1 as charge      k3 = 1/pi (bridge)   A-P = 1, 0, 1 -> excluded (b <= 0)
+b1 add missing, one form         p2 missing share  k1 = 1               A-P = 0, 0, 0 -> excluded (b <= 0)
+b1 add missing, one form         p2 missing share  k2 = 1/2             A-P = 0, 0, 0 -> excluded (b <= 0)
+b1 add missing, one form         p2 missing share  k3 = 1/pi (bridge)   A-P = 0, 0, 0 -> excluded (b <= 0)
+b1 add missing, one form         p3 equal 1/3      k1 = 1               A-P = 2, 2, 3  c(3) = 2.356 (+117 sigma), c(5) = 1.571 (+36 sigma), x9.2 of data -> fail
+b1 add missing, one form         p3 equal 1/3      k2 = 1/2             A-P = 2, 2, 3  c(3) = 1.178 (+51 sigma), c(5) = 0.785 (+14 sigma), x4.6 of data -> fail
+b1 add missing, one form         p3 equal 1/3      k3 = 1/pi (bridge)   A-P = 2, 2, 3  c(3) = 0.750 (+28 sigma), c(5) = 0.500 (+7 sigma), x2.9 of data -> fail
+b2 add missing, axis by axis     p1 as charge      k1 = 1               A-P = -1/3, -4/3, -1 -> excluded (b <= 0)
+b2 add missing, axis by axis     p1 as charge      k2 = 1/2             A-P = -1/3, -4/3, -1 -> excluded (b <= 0)
+b2 add missing, axis by axis     p1 as charge      k3 = 1/pi (bridge)   A-P = -1/3, -4/3, -1 -> excluded (b <= 0)
+b2 add missing, axis by axis     p2 missing share  k1 = 1               A-P = -4/3, -4/3, -2 -> excluded (b <= 0)
+b2 add missing, axis by axis     p2 missing share  k2 = 1/2             A-P = -4/3, -4/3, -2 -> excluded (b <= 0)
+b2 add missing, axis by axis     p2 missing share  k3 = 1/pi (bridge)   A-P = -4/3, -4/3, -2 -> excluded (b <= 0)
+b2 add missing, axis by axis     p3 equal 1/3      k1 = 1               A-P = 2/3, 2/3, 1  c(3) = 7.069 (+379 sigma), c(5) = 4.712 (+120 sigma), x27.7 of data -> fail
+b2 add missing, axis by axis     p3 equal 1/3      k2 = 1/2             A-P = 2/3, 2/3, 1  c(3) = 3.534 (+182 sigma), c(5) = 2.356 (+57 sigma), x13.9 of data -> fail
+b2 add missing, axis by axis     p3 equal 1/3      k3 = 1/pi (bridge)   A-P = 2/3, 2/3, 1  c(3) = 2.250 (+111 sigma), c(5) = 1.500 (+34 sigma), x8.8 of data -> fail
+
+branches 45: excluded by sign 39, pass 0, fail 6
+closest: b1 add missing, one form / p3 equal 1/3 / k3 = 1/pi (bridge): c(3) = 0.750 (+28 sigma)
+needed A - P at n = 3 for k1 = 1: 18.5
+needed A - P at n = 3 for k2 = 1/2: 9.2
+needed A - P at n = 3 for k3 = 1/pi (bridge): 5.9
