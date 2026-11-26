@@ -1,0 +1,31 @@
+# LEP combined W-pair data. Source: ALEPH, DELPHI, L3, OPAL, LEP EW WG, Phys. Rept. 532 (2013) 119, arXiv:1302.3415.
+# Copied from the paper's text (pdftotext), tables 5.3 and 5.6.
+# Table 5.3: total W-pair (CC03) cross-section, LEP combined: sqrt(s) [GeV], sigma [pb], total error [pb]
+TOTAL
+161.3 3.69 0.45
+172.1 12.0 0.7
+182.7 15.92 0.34
+188.6 16.05 0.21
+191.6 16.42 0.47
+195.5 16.99 0.29
+199.5 16.77 0.29
+201.6 16.98 0.40
+204.9 16.81 0.29
+206.6 17.20 0.24
+# Table 5.6: d[sigma_WW (BRe+BRmu)]/dcos(theta_W-) [pb], qqenu + qqmunu, CC03 with charged lepton > 20 deg from the beam;
+# 10 bins of width 0.2 from cos = -1 to 1; theta_W- = W- angle to the e- beam. Line: weighted sqrt(s), then values, then total errors.
+ANGULAR
+182.66
+0.502 0.705 0.868 1.281 1.529 2.150 2.583 2.602 4.245 5.372
+0.114 0.129 0.143 0.203 0.195 0.244 0.270 0.254 0.367 0.419
+189.09
+0.718 0.856 1.009 1.101 1.277 1.801 2.215 2.823 4.001 5.762
+0.074 0.079 0.086 0.088 0.094 0.123 0.140 0.151 0.179 0.223
+198.38
+0.679 0.635 0.991 1.087 1.275 1.710 2.072 2.866 4.100 6.535
+0.079 0.065 0.084 0.088 0.096 0.116 0.126 0.158 0.185 0.236
+205.92
+0.495 0.602 0.653 1.057 1.240 1.707 2.294 2.797 4.481 7.584
+0.058 0.066 0.069 0.094 0.093 0.115 0.140 0.143 0.187 0.262
+# Note: in the text layout the 6th-bin column was displaced; its values were placed by the 4-number groups (value, total, stat, syst)
+# and checked by monotonic order within each range and total >= stat.
