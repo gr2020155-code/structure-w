@@ -1,0 +1,8 @@
+C1: 137.036 +- 0.28;  C2: OPAL 440 within 156 in one reading
+H1 parts K1 own part mass (Rb): 1/alpha_W(0) = 136.097 (dev -0.939, -6.7 sigma) FAIL; OPAL M1 324, M2 383 PASS; both: no
+H2 parts K2 lightest charged whole form: 1/alpha_W(0) = 136.345 (dev -0.691, -4.9 sigma) FAIL; OPAL M1 346, M2 396 PASS; both: no
+H3 parts K3 share of lightest two-part form: 1/alpha_W(0) = 136.612 (dev -0.424, -3.0 sigma) FAIL; OPAL M1 361, M2 403 PASS; both: no
+H4 whole lightest pi,K,D,B: 1/alpha_W(0) = 138.854 (dev +1.818, +13.0 sigma) FAIL; OPAL M1 324, M2 377 PASS; both: no
+H5 whole all long-lived: 1/alpha_W(0) = 265.429 (dev +128.393, +914.9 sigma) FAIL; OPAL M1 452, M2 578 PASS; both: no
+H6 parts K1 + pion tail: 1/alpha_W(0) = 136.268 (dev -0.768, -5.5 sigma) FAIL; OPAL M1 339, M2 393 PASS; both: no
+H7 spin-1/2 only: 1/alpha_W(0) = 205.532 (dev +68.496, +488.1 sigma) FAIL; OPAL M1 293, M2 370 PASS; both: no
