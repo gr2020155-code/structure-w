@@ -1,0 +1,13 @@
+Fork 1: what the factor acts on
+  M1 photon only         b = 0 ( 89.7 sigma)   beta = 1 ( 76.5 sigma)   T(0.89) = 2.73 K vs 5.08 (23.5 sigma)   FAIL
+  M2 one factor (A-33)   b = 1 (  0.3 sigma)   beta = 0 (  0.5 sigma)   T(0.89) = 5.15 K vs 5.08 ( 0.7 sigma)   PASS
+
+Fork 2, Z1: H0 = 1/t_U
+  t_U = 13.5 +- 0.27 Gyr  ->  H0 = 72.43 +- 1.47 km/s/Mpc
+  vs SH0ES 2022  73.04 +- 1.04: 0.3 sigma  pass
+  vs CCHP 2025   70.39 +- 1.94: 0.8 sigma  pass
+  Z1: PASS
+  (for scale, not a criterion: Planck LCDM-derived 67.4 -> 3.2 sigma)
+
+Consequence of Z1 (not a criterion): time at T = 0.1 MeV
+  1+z = 4.26e+08,  t = t_U/(1+z) = 1e+09 s = 32 yr;  neutron lifetime 879 s, ratio 1.1e+06
