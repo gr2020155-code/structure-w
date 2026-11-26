@@ -1,0 +1,5 @@
+ln(D_W/a) + E = 38.417 -2.1037 = 36.314;  kappa * L = 7.706 per unit weight
+B0 parts already counted            : contribution   +0.000  1/alpha =  137.354  (  +1.7 sigma) -> PASS
+B1 own species, w = 1               : contribution   +7.706  1/alpha =  145.060  ( +43.4 sigma) -> FAIL
+B2 own species, spin-0 weight 1/4   : contribution   +1.926  1/alpha =  139.280  ( +12.1 sigma) -> FAIL (bridge, model)
+B3 anti-screening -21/4             : contribution  -40.456  1/alpha =   96.898  (-217.0 sigma) -> FAIL (bridge, model)

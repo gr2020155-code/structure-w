@@ -26,7 +26,7 @@ This file translates the matrix records on which the main result rests: 1/α = 1
 | 7 | Quark charges, colours, contribution N_c·Q² | A-15, V-304, V-305 |
 | 8 | Fraction at the source q₀ from alternation; sign of charge | A-70, A-71, V-293, V-295, V-303 |
 | 9 | Placement of places is Poisson; final number | A-89, V-307, R-76 |
-| 10 | The W boson does not screen (unverified link) | V-294, V-299 |
+| 10 | The W boson is not a separate species (a pair of parts already counted); contribution 0 | V-294, V-299, V-358, R-114 |
 | 11 | Assembly and comparison with data | D-48, R-72, R-77 |
 
 ## Author's postulates
@@ -187,3 +187,11 @@ Narrowing the band (rules written before the calculation). (a) Hadrons from data
 
 ### R-77
 `end_to_end.py` — an end-to-end check by one program. Derived from the postulates: step a = 2π·l_P (c_g = 1); slope κ = 2·2·(1/6)·(1/(2π))·2 = 0.212207 = 2/(3π); edge ln(r_eff/D) = −2.1037; Σ N_c·Q² at the Z distance = 20/3, for t 4/3 (three axes); q₀ = 0.12282 ± 0.00013 (the same 8 clouds as R-76, reproduced to the last digit). From data: G, ħ, c, M_Z, m_t, 1/α(M_Z) = 128.9, 1/α far away. Result: 1/α at the Z distance 129.54 ± 0.14 against 129.72 ± 0.05; far away 136.86 ± 0.14 against 137.036 (−0.13 %). An inaccuracy was found and fixed: at n = 2000 steps ⟨n_A·n_B⟩/D² = 0.16675 instead of the limit 1/6 (κ larger by 0.05 %); a real form has D/a ~ 10²², so the limit is taken.
+
+### V-358 · candidate
+*Rests on:* R-114, V-304, V-337, A-31 · *Condition:* V-348, V-349, V-12
+
+The W boson does not enter the running of α because it is not a separate species but a pair of parts already counted \[candidate; item 1 derived given V-348, V-349; item 2 computed\]. (1) \[derived\] Screening weight is counted by species of parts: a species is one division of the three axes k, weight N_c·Q² (V-304, V-337). The W consists of two parts (V-348 item 3) and is a pair of divisions already counted, (k, 3 − k): e⁻ν̄, dū, … (V-349). It is not a new division of the axes, so not a separate species; adding it would count the same parts twice. Hadrons work the same way: π, ρ, J/ψ are pairs of parts and are not added on top of the quarks. The same holds for the spin-0 partner of the W (V-351). This replaces the earlier argument of V-294 item 1 ("one loop, nothing to screen with"). (2) \[computed, R-114\] Of four branches only this one passes: contribution 0, 1/α = 137.354 (+1.7σ). A separate species with w = 1 gives 145.06 (+43σ), weight 1/4 gives 139.28 (+12σ), the anti-screening of the standard theory gives 96.90 (−217σ). Both the postulates and the data settle the fork. (3) \[open\] W⁺W⁻ pairs are produced often at LEP2 (about 17 pb at 200 GeV; figure from memory, not checked). How a W pair is produced in W is not derived; if it went through the called form (V-337), R above 161 GeV would grow by about 8 and 1/α by tens of units. So in W the W pair must be produced by exchange of parts, not through the called form; this has to be derived.
+
+### R-114
+`w_screening.py` (rules written before the calculation). Contribution of a form of mass M_W from its size: κ·w·(ln(D_W/a) + E) = 7.706·w (ln(D_W/a) = 38.417, E = −2.1037). B0 (w = 0, parts already counted): 137.354 (+1.7σ), passes; B1 (separate species, w = 1): 145.06 (+43σ); B2 (weight 1/4, bridge): 139.28 (+12σ); B3 (anti-screening −21/4, bridge): 96.90 (−217σ).
