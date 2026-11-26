@@ -1,0 +1,4 @@
+B0 x0 = 1 (now = horn torus), a = 2/3: d chi2 = +3.9 (threshold 11) -> PASS
+B1 x0 free: x0 = 0.854 (1 sigma 0.788 .. 0.926), a = 0.631; d chi2 = +0.2 (threshold 10) -> PASS
+   x0 = 1 lies 1.9 sigma from the best
+B2 geometric mean (L ~ k, q = 1): d chi2 = +63.1 (R-128) -> FAIL
