@@ -1,0 +1,15 @@
+reference flat LCDM chi2 = 1403.7
+
+variant        d chi2    T0 = p/H0, Gyr (SH0ES, CCHP)  shape age  PASS   mean residual per z bin (diag-weighted not used; plain mean)
+p=1 D1        1765.3            13.4   13.9       no    no   no     -0.207  -0.023  +0.122  +0.299  +0.432  +0.839   (F d=1)
+p=1 D2         107.0            13.4   13.9       no    no   no     -0.048  +0.013  +0.047  +0.075  +0.074  +0.165   (F d=1)
+p=2 D1         701.6            26.8   27.8       no    ok   no     -0.129  -0.006  +0.085  +0.190  +0.258  +0.517   (F d=2, V d=1)
+p=2 D2          62.7            26.8   27.8       no    ok   no     +0.035  +0.034  +0.010  -0.043  -0.120  -0.218   (F d=2, V d=1)
+p=3 D1         447.4            40.2   41.7       no    ok   no     -0.102  +0.000  +0.072  +0.152  +0.198  +0.404   (F d=3, V d=2)
+p=3 D2         185.0            40.2   41.7       no    ok   no     +0.063  +0.041  -0.003  -0.084  -0.187  -0.353   (F d=3, V d=2)
+p=4 D1         340.7            53.5   55.6       no    ok   no     -0.089  +0.003  +0.066  +0.133  +0.167  +0.345   (V d=3)
+p=4 D2         273.7            53.5   55.6       no    ok   no     +0.078  +0.045  -0.009  -0.104  -0.220  -0.421   (V d=3)
+
+observation (fit, not a derivation): free p
+  D1: best p = 6.00 (1 sigma 5.97-6.00), d chi2 vs reference = +248.2, T0 = p/H0 = 80.3-83.3 Gyr
+  D2: best p = 1.41 (1 sigma 1.36-1.46), d chi2 vs reference = +8.9, T0 = p/H0 = 18.9-19.6 Gyr
