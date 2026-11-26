@@ -1,0 +1,26 @@
+fragment masses (Rb), MeV: e 0.5, mu 105.7, tau 1776.9, u 312.8, d 312.8, s 490.2, c 1660.9, b 4994.1, t 172570.0
+
+== C1: 1/alpha far vs atom recoil (137.036), pass if |dev| <= 2*sigma_W = 0.28
+S1: E = -1.9635; 1/alpha_W(0) = 136.335 +- 0.14; dev -0.701 (-0.51 %, -5.0 sigma) -> FAIL
+S2: E = -2.2704; 1/alpha_W(0) = 135.814 +- 0.14; dev -1.222 (-0.89 %, -8.7 sigma) -> FAIL
+S3: E = -2.1037; 1/alpha_W(0) = 136.097 +- 0.14; dev -0.939 (-0.69 %, -6.7 sigma) -> FAIL
+
+== C2: OPAL  Dalpha(-6.07) - Dalpha(-1.81 GeV^2) = 440 +- 78 (1e-5), pass if |dev| <= 156
+S1+M1: 340 (1e-5), dev -100 (-1.3 sigma) -> PASS; both targets: no
+S1+M2: 400 (1e-5), dev -40 (-0.5 sigma) -> PASS; both targets: no
+S2+M1: 306 (1e-5), dev -134 (-1.7 sigma) -> PASS; both targets: no
+S2+M2: 364 (1e-5), dev -76 (-1.0 sigma) -> PASS; both targets: no
+S3+M1: 324 (1e-5), dev -116 (-1.5 sigma) -> PASS; both targets: no
+S3+M2: 383 (1e-5), dev -57 (-0.7 sigma) -> PASS; both targets: no
+
+== breakdown S3: contribution of each species, kappa*NcQ^2*(ln(D/a)+E)
+  e: 10.245
+  mu: 9.114
+  tau: 8.515
+  u: 11.845
+  d: 2.961
+  s: 2.929
+  c: 11.372
+  b: 2.765
+  t: 10.058
+missing to 137.036 at S3: +0.939; that equals kappa*sum(NcQ2) * +0.553 of edge, or 1/q0^2 = 67.23 (q0 = 0.12196)
