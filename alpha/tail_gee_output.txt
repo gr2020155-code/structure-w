@@ -1,0 +1,17 @@
+1. narrow resonances (PDG 2026):
+   J/psi    M  3096.900 MeV  Gamma_ee  5.530 keV  N1 0.1006   1/alpha(M) = 133.62  factor 0.9508  N2 0.0956
+   psi(2S)  M  3686.097 MeV  Gamma_ee  2.330 keV  N1 0.0356   1/alpha(M) = 133.42  factor 0.9479  N2 0.0338
+   Y(1S)    M  9460.400 MeV  Gamma_ee  1.340 keV  N1 0.0080   1/alpha(M) = 132.19  factor 0.9306  N2 0.0074
+   Y(2S)    M 10023.400 MeV  Gamma_ee  0.612 keV  N1 0.0034   1/alpha(M) = 132.11  factor 0.9294  N2 0.0032
+   Y(3S)    M 10355.100 MeV  Gamma_ee  0.443 keV  N1 0.0024   1/alpha(M) = 132.07  factor 0.9288  N2 0.0022
+   N1 = 0.1500 (R-97: 0.1500);  N2 = 0.1423;  N2 - N1 = -0.0078
+
+2. tail (base without tail 136.700, error 0.13)
+   H1 one E0, E_step, t from 2m_t: tail +0.581  1/alpha = 137.280  (+1.9 sigma) -> PASS
+   H2 own E0 per species         : tail +0.785  1/alpha = 137.484  (+3.4 sigma) -> FAIL   [excluded by positions]
+   H3 t from m_t                 : tail +0.588  1/alpha = 137.288  (+1.9 sigma) -> PASS
+   H4 upper end m_P              : tail +0.592  1/alpha = 137.292  (+2.0 sigma) -> PASS
+   H5 frozen above 58 GeV        : tail +2.015  1/alpha = 138.714  (+12.9 sigma) -> FAIL   [excluded by positions]
+   H6 no excess above 58 GeV     : tail +0.015  1/alpha = 136.715  (-2.5 sigma) -> FAIL   [excluded by positions]
+
+MAIN: H1 + N1 = 137.280 +- 0.13 (syst +- 0.012);  with N2: 137.272
