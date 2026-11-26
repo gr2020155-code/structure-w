@@ -1,0 +1,12 @@
+base (P-91, S3): 1/alpha far = 136.097, missing +0.939
+
+OPAL target 440 +- 78 (1e-5); compatible if |dev| <= 156 in at least one reading
+before fit: M1 324, M2 383
+Z1 step/q0 (+add to 1/alpha): add = +0.939 (1/q0^2 = 67.23, q0 = 0.12196; or a / 1.739)
+    OPAL: M1 324 (-1.5 sigma), M2 383 (-0.7 sigma) -> compatible
+Z2 all screening lengths x k: k = 1.7385 (ln k = 0.5530)
+    OPAL: M1 391 (-0.6 sigma), M2 452 (+0.1 sigma) -> compatible
+Z3 u = d masses x k_ud: k_ud = 0.0703 -> m_ud = 22.0 MeV
+    OPAL: M1 371 (-0.9 sigma), M2 406 (-0.4 sigma) -> compatible
+Z4 all quark parts x k_q: k_q = 0.2992 -> u = d 93.6, s 146.7, c 497.0, b 1494.3 MeV
+    OPAL: M1 421 (-0.2 sigma), M2 481 (+0.5 sigma) -> compatible
