@@ -7,11 +7,11 @@ Part 1. Z weights (eps(MZ) = 0.0442 +- 0.0030)
 
 Part 2. Spin-0 partner of W
   rho/pi         spin 0 lighter: True; Delta =  635.7 MeV, Delta*M1 = 0.493 GeV^2
-  K*/K           spin 0 lighter: True; Delta =  398.0 MeV, Delta*M1 = 0.355 GeV^2
-  D*/D           spin 0 lighter: True; Delta =  140.6 MeV, Delta*M1 = 0.283 GeV^2
-  B*/B           spin 0 lighter: True; Delta =   45.4 MeV, Delta*M1 = 0.242 GeV^2
-  J/psi/eta_c    spin 0 lighter: True; Delta =  113.0 MeV, Delta*M1 = 0.350 GeV^2
-  Upsilon/eta_b  spin 0 lighter: True; Delta =   61.6 MeV, Delta*M1 = 0.583 GeV^2
-  W: p free = 0.64 -> Delta = 12.29 MeV (x/÷ 1.4); p = 1 -> Delta = 3.0-7.3 MeV; partner at 80.3448-80.3595 GeV
-  Z: p free = 0.64 -> Delta = 11.33 MeV (x/÷ 1.4); p = 1 -> Delta = 2.7-6.4 MeV; partner at 91.1713-91.1849 GeV
+  K*/K           spin 0 lighter: True; Delta =  398.2 MeV, Delta*M1 = 0.355 GeV^2
+  D*/D           spin 0 lighter: True; Delta =  140.7 MeV, Delta*M1 = 0.283 GeV^2
+  B*/B           spin 0 lighter: True; Delta =   45.3 MeV, Delta*M1 = 0.241 GeV^2
+  J/psi/eta_c    spin 0 lighter: True; Delta =  112.8 MeV, Delta*M1 = 0.349 GeV^2
+  Upsilon/eta_b  spin 0 lighter: True; Delta =   61.7 MeV, Delta*M1 = 0.584 GeV^2
+  W: p free = 0.64 -> Delta = 12.31 MeV (x/÷ 1.4); p = 1 -> Delta = 3.0-7.3 MeV; partner at 80.3447-80.3595 GeV
+  Z: p free = 0.64 -> Delta = 11.36 MeV (x/÷ 1.4); p = 1 -> Delta = 2.6-6.4 MeV; partner at 91.1712-91.1850 GeV
   LEP: charged spin-0 (tau nu, c s) excluded below 80 GeV (type II), 72.5 GeV (type I)

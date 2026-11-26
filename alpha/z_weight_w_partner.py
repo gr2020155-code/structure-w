@@ -39,8 +39,9 @@ for name, s2 in (('ZC 1/4', 0.25), ('ZC 2/9', 2 / 9), ('ZC 1/3', 1 / 3)):
     report(name, s2)
 
 print('\nPart 2. Spin-0 partner of W')
-pairs = [('rho/pi', 775.3, 139.6), ('K*/K', 891.7, 493.7), ('D*/D', 2010.3, 1869.7),
-         ('B*/B', 5324.7, 5279.3), ('J/psi/eta_c', 3096.9, 2983.9), ('Upsilon/eta_b', 9460.3, 9398.7)]
+# PDG pdgLive, checked 26.11 (rho0, pi+-, K*(892)+- hadroproduced, K+-, D*(2010)+-, D+-, B*, B+-, J/psi, eta_c, Upsilon(1S), eta_b(1S))
+pairs = [('rho/pi', 775.26, 139.57039), ('K*/K', 891.88, 493.677), ('D*/D', 2010.27, 1869.55),
+         ('B*/B', 5324.75, 5279.41), ('J/psi/eta_c', 3096.900, 2984.09), ('Upsilon/eta_b', 9460.40, 9398.7)]
 for n, m1, m0 in pairs:
     print(f'  {n:14s} spin 0 lighter: {m0 < m1}; Delta = {m1-m0:6.1f} MeV, Delta*M1 = {(m1-m0)*m1/1e6:.3f} GeV^2')
 heavy = pairs[2:]
