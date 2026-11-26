@@ -1,0 +1,17 @@
+h = 0.7354; Or (photons) = 4.573e-05
+
+b1 (100 Ob h2 = 2.166, computed rate): Ob = 0.0401
+   P0  eights only (Op = 0): BAO chi2 = 4926.9 / 12, prob 0.00e+00; SN d chi2 = +442.5 -> FAIL
+   P3  n = 3 (fixed count, ~1/s): Op = 0.2572, Op/Ob = 6.42; BAO chi2 = 10.3 / 11, prob 5.06e-01; SN d chi2 = +3.9 -> PASS
+   P2  n = 2: Op = 1.0618, Op/Ob = 26.51; BAO chi2 = 111.9 / 11, prob 7.75e-19; SN d chi2 = +180.8 -> FAIL
+   P1  n = 1: Op = 6.4413, Op/Ob = 160.83; BAO chi2 = 496.5 / 11, prob 1.83e-99; SN d chi2 = +1636.6 -> FAIL
+   P0' n = 0 (merges with B): Op = 0.1275, Op/Ob = 3.18; BAO chi2 = 4926.9 / 11, prob 0.00e+00; SN d chi2 = +442.5 -> FAIL
+   observation, n free: n = 2.93, Op = 0.2841, Op/Ob = 7.09; BAO chi2 = 9.7 / 10; SN d chi2 = +1.3
+
+b2 (100 Ob h2 = 2.235, measured rate): Ob = 0.0413
+   P0  eights only (Op = 0): BAO chi2 = 4791.8 / 12, prob 0.00e+00; SN d chi2 = +437.0 -> FAIL
+   P3  n = 3 (fixed count, ~1/s): Op = 0.2560, Op/Ob = 6.19; BAO chi2 = 10.3 / 11, prob 5.06e-01; SN d chi2 = +3.9 -> PASS
+   P2  n = 2: Op = 1.0561, Op/Ob = 25.55; BAO chi2 = 111.0 / 11, prob 1.16e-18; SN d chi2 = +178.8 -> FAIL
+   P1  n = 1: Op = 6.3919, Op/Ob = 154.67; BAO chi2 = 493.8 / 11, prob 6.74e-99; SN d chi2 = +1618.0 -> FAIL
+   P0' n = 0 (merges with B): Op = 0.1251, Op/Ob = 3.03; BAO chi2 = 4791.8 / 11, prob 0.00e+00; SN d chi2 = +437.0 -> FAIL
+   observation, n free: n = 2.93, Op = 0.2828, Op/Ob = 6.84; BAO chi2 = 9.7 / 10; SN d chi2 = +1.3
