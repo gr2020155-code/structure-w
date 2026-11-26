@@ -1,0 +1,25 @@
+needed candle shift for 0.735 -> 0.685: dM = 0.153 mag
+== all
+   all calibrators + all flow: h = 0.7354 +- 0.0105 (vs 0.685: +4.8 sigma), M = -19.247 +- 0.030; n_cal = 77, n_flow = 277
+== C1 host mass: A = log M < 10, B = >= 10
+   class A: h = 0.7210 +- 0.0154 (vs 0.685: +2.3 sigma), M = -19.294 +- 0.044; n_cal = 26, n_flow = 142
+   class B: h = 0.7421 +- 0.0121 (vs 0.685: +4.7 sigma), M = -19.222 +- 0.034; n_cal = 50, n_flow = 135
+   difference A - B: -0.0211 (-1.1 sigma); dM-equivalent -0.063 mag -> does not explain
+== C2 SN colour: A = c < 0, B = c >= 0
+   class A: h = 0.7362 +- 0.0115 (vs 0.685: +4.5 sigma), M = -19.251 +- 0.033; n_cal = 43, n_flow = 178
+   class B: h = 0.7388 +- 0.0163 (vs 0.685: +3.3 sigma), M = -19.230 +- 0.045; n_cal = 34, n_flow = 99
+   difference A - B: -0.0026 (-0.1 sigma); dM-equivalent -0.008 mag -> does not explain
+== C3 SN stretch: A = x1 < 0, B = x1 >= 0
+   class A: h = 0.7520 +- 0.0134 (vs 0.685: +5.0 sigma), M = -19.211 +- 0.037; n_cal = 36, n_flow = 121
+   class B: h = 0.7166 +- 0.0129 (vs 0.685: +2.5 sigma), M = -19.291 +- 0.037; n_cal = 41, n_flow = 156
+   difference A - B: +0.0353 (+1.9 sigma); dM-equivalent +0.104 mag -> does not explain
+== C4 surveys: flow only from surveys that have calibrators
+   matched surveys: h = 0.7338 +- 0.0106 (vs 0.685: +4.6 sigma), M = -19.247 +- 0.030; n_cal = 77, n_flow = 220
+== C5 calibrator distance: A = mu < 32.33 (near), B = far; each with all flow
+   near calibrators: h = 0.7417 +- 0.0126 (vs 0.685: +4.5 sigma), M = -19.229 +- 0.036; n_cal = 37, n_flow = 277
+   far calibrators: h = 0.7296 +- 0.0136 (vs 0.685: +3.3 sigma), M = -19.264 +- 0.040; n_cal = 40, n_flow = 277
+   difference: +0.0121 (+0.7 sigma); M near - far = +0.036 mag -> does not explain
+== C6 flow by z, all calibrators
+   z 0.023-0.04: h = 0.7339 +- 0.0109 (vs 0.685: +4.5 sigma), M = -19.246 +- 0.030; n_cal = 77, n_flow = 152
+   z 0.04-0.07: h = 0.7306 +- 0.0117 (vs 0.685: +3.9 sigma), M = -19.251 +- 0.030; n_cal = 77, n_flow = 59
+   z 0.07-0.15: h = 0.7377 +- 0.0119 (vs 0.685: +4.4 sigma), M = -19.249 +- 0.030; n_cal = 77, n_flow = 66
