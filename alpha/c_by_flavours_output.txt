@@ -1,0 +1,13 @@
+  A1: E 2.33, Z part +0.0001, c_i = 0.278 +- 0.095
+  A2: E 2.81, Z part +0.0001, c_i = 0.319 +- 0.099
+  A3: E 3.42, Z part +0.0001, c_i = 0.252 +- 0.018
+n = 3: c = 0.255 +- 0.018
+  B1: E 5.84, Z part +0.0004, c_i = 0.094 +- 0.140
+  B2: E 8.21, Z part +0.0008, c_i = 0.181 +- 0.101
+n = 4: c = 0.151 +- 0.082
+  C1: E 13.74, Z part +0.0024, c_i = 0.287 +- 0.080
+  C2: E 25.76, Z part +0.0117, c_i = 0.243 +- 0.059
+  C3: E 34.70, Z part +0.0301, c_i = 0.255 +- 0.060
+n = 5: c = 0.257 +- 0.037
+slope dc/dn = -0.0027 +- 0.0204 (-0.1 sigma) -> data do not decide
+for scale: relative growth per type -1.1 % (standard theory ~ +8 %)
