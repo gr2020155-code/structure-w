@@ -1,0 +1,10 @@
+a0 = 0.0011614097; a_e = 0.00115965218062; needed c = 1.3030  (delta = 0.001513)
+
+K1 linear                         : c = +0.0000  ( -100.0 %)  -> FAIL
+K2 repeat, replaces (A-64, A-69)  : c = +0.9988  (  -23.3 %)  -> FAIL
+K2' repeat, adds                  : c = -1.0000  ( -176.7 %)  -> FAIL
+K3 by squares (A-39)              : c = +0.4994  (  -61.7 %)  -> FAIL
+K4 repeat at both ends (A-97)     : c = +1.9965  (  +53.2 %)  -> FAIL
+
+K5 conservation (A-28): M1 <tau> = infinite (p = 1/r^2, <r> diverges) -> excluded
+K5 conservation (A-28), M2: <tau> = 0.1230 turn (exact (2 ln2 - 1)/pi = 0.1230); delta = 2 pi <tau> = 0.7726 vs allowed <= 0.000076 -> excluded
