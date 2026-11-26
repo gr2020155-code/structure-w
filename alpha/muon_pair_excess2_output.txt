@@ -1,0 +1,4 @@
+CMD-3 mumu/ee (Bhabha)     data 1.0017 +- 0.0063: QED 1.0000 (-0.27 s); B1: W 1.0000 (-0.27 s); B2: W 1.0056 (+0.61 s)
+SND mumu (gamma gamma)     data 1.0050 +- 0.0193: QED 1.0000 (-0.26 s); B1: W 1.0056 (+0.03 s); B2: W 1.0056 (+0.03 s)
+BaBar mumu gamma (Bhabha)  data 1.0040 +- 0.0111: QED 1.0000 (-0.36 s); B1: W 1.0000 (-0.36 s); B2: W 1.0056 (+0.14 s)
+W - QED = 0.556 %; needed 2-sigma precision 0.28 %
