@@ -1,0 +1,33 @@
+BAO: chi2, dof, probability; SN d chi2 (no new numbers, threshold 11); relic theta range (data 0.010411)
+
+G1 power k~T^p: params = [0.02944 0.9125 ]
+   BAO chi2 = 97.0 / 11 dof, probability 7.11e-16 -> FAIL
+   SN d chi2 = +181.4 -> FAIL;  relic theta = 0.2952 .. 0.4512 -> FAIL
+   g decreasing everywhere (R2): True;  growth of k never convex
+   T0 * g0 = 0.912 (age of the whole in units 1/g0); g0 = 0.02944 / r_d
+
+G2 g2 = A/u^3 + B: params = [0.00034 0.00081]
+   BAO chi2 = 10.3 / 11 dof, probability 0.506 -> PASS
+   SN d chi2 = +3.9 -> PASS;  relic theta = 0.01242 .. 0.0209 -> FAIL
+   g decreasing everywhere (R2): True;  growth of k convex for z < 0.677
+   T0 * g0 = 0.966 (age of the whole in units 1/g0); g0 = 0.03387 / r_d
+
+G3 g = A/u^1.5 + B: params = [0.01597 0.01574]
+   BAO chi2 = 23.4 / 11 dof, probability 0.0157 -> FAIL
+   SN d chi2 = +30.1 -> FAIL;  relic theta = 0.01345 .. 0.02264 -> FAIL
+   g decreasing everywhere (R2): True;  growth of k convex for z < 0.572
+   T0 * g0 = 0.921 (age of the whole in units 1/g0); g0 = 0.03170 / r_d
+
+G4 g2 = A/u^2 + B: params = [ 0.00105 -0.00021]
+   BAO chi2 = 140.0 / 11 dof, probability 1.61e-24 -> FAIL
+   SN d chi2 = +250.4 -> FAIL;  relic theta = 0.7541 .. 1.146 -> FAIL
+   g decreasing everywhere (R2): True;  growth of k never convex
+   T0 * g0 = 0.929 (age of the whole in units 1/g0); g0 = 0.02902 / r_d
+
+G5 g2 = A/u^n + B: params = [3.65726e-04 7.63523e-04 2.93646e+00]
+   BAO chi2 = 9.7 / 10 dof, probability 0.466 -> PASS
+   SN d chi2 = +1.3 -> PASS;  relic theta = 0.01556 .. 0.02593 -> FAIL
+   g decreasing everywhere (R2): True;  growth of k convex for z < 0.663
+   T0 * g0 = 0.964 (age of the whole in units 1/g0); g0 = 0.03360 / r_d
+
+graph: bao_density.png
