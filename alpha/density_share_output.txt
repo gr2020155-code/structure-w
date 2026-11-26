@@ -1,0 +1,8 @@
+SN reference (data-only, R-90) chi2 = 1403.3; threshold d chi2 <= 11.0; relic theta* = 0.010411
+
+F1 G1 (s~T, k~s)                 p = 1.000: SN d chi2 =  +107.5 (no); relic theta = zmax 1e+04: 0.111..0.192; zmax 1e+08: 0.63..0.962; zmax 1e+20: 2.19..3.27 (no) -> FAIL
+F1 G2 (s~T, k~s^1/3)             p = 0.333: SN d chi2 = +5010.3 (no); relic theta = 2.08e-07 .. 5.77e-07 (no) -> FAIL
+F2 G1 (torus front, k~s)         p = 2.000: SN d chi2 =   +63.1 (no); relic theta = zmax 1e+04: 0.702..1.29; zmax 1e+08: 112..188; zmax 1e+20: 1.12e+08..1.89e+08 (no) -> FAIL
+F2 G2 (torus front, k~s^1/3)     p = 0.667: SN d chi2 =  +702.0 (no); relic theta = 0.0112 .. 0.0189 (no) -> FAIL
+F3 G1 (ball front, k~s)          p = 3.000: SN d chi2 =  +185.4 (no); relic theta = zmax 1e+04: 1.11..2.12; zmax 1e+08: 708..1.26e+03; zmax 1e+20: 7.08e+10..1.26e+11 (no) -> FAIL
+F3 G2 (ball front, k~s^1/3)      p = 1.000: SN d chi2 =  +107.5 (no); relic theta = zmax 1e+04: 0.111..0.192; zmax 1e+08: 0.63..0.962; zmax 1e+20: 2.19..3.27 (no) -> FAIL
