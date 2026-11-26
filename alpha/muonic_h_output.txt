@@ -1,0 +1,5 @@
+muonic H: measured 2P-2S 202.3706 meV; pass band for screening part 202.7 - 209.6 meV (finite size 3.35-4.23, rest +-3)
+L1 f=1: muonic H screening 205.03 meV -> PASS (needed 205.7-206.6, dev -1.1);  ordinary H screening part of 2P-2S: +26.8 MHz (info only)
+L2 f=sqrt3: muonic H screening 332.03 meV -> FAIL (needed 205.7-206.6, dev +125.9);  ordinary H screening part of 2P-2S: +80.0 MHz (info only)
+L3 f=sqrt(3/2): muonic H screening 249.83 meV -> FAIL (needed 205.7-206.6, dev +43.7);  ordinary H screening part of 2P-2S: +40.2 MHz (info only)
+L4 f=sqrt2: muonic H screening 283.44 meV -> FAIL (needed 205.7-206.6, dev +77.3);  ordinary H screening part of 2P-2S: +53.5 MHz (info only)
