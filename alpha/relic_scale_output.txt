@@ -1,0 +1,17 @@
+data: theta* = 0.010411
+
+D2 (today steps, V-324)         p = 1    (positions          ): theta = infinite (sound horizon diverges)  -> FAIL
+D2 (today steps, V-324)         p = 2    (positions          ): theta = infinite (sound horizon diverges)  -> FAIL
+D2 (today steps, V-324)         p = 3    (positions          ): theta = infinite (sound horizon diverges)  -> FAIL
+D2 (today steps, V-324)         p = 4    (positions          ): theta = infinite (sound horizon diverges)  -> FAIL
+D2 (today steps, V-324)         p = 1.41 (SN fit, not counted): theta = infinite (sound horizon diverges)  -> out of range
+
+D1 (steps, excluded by V-324)   p = 1    (positions          ): theta = 0.0002918 .. 0.0005779             -> out of range
+D1 (steps, excluded by V-324)   p = 2    (positions          ): theta = 0.01121 .. 0.01885                 -> out of range
+D1 (steps, excluded by V-324)   p = 3    (positions          ): theta = 0.04008 .. 0.06415                 -> out of range
+D1 (steps, excluded by V-324)   p = 4    (positions          ): theta = 0.07978 .. 0.1249                  -> out of range
+D1 (steps, excluded by V-324)   p = 1.41 (SN fit, not counted): theta = 0.002411 .. 0.004335               -> out of range
+
+p needed for theta* (fit, not derivation; cs = c/sqrt3, 1+z_r = 1100): D2 p = 0.635; D1 p = 1.736
+   with cs = c/sqrt6: D2 p = 0.655; D1 p = 1.896
+SN (V-325, D2): p = 1.41 +- 0.05
