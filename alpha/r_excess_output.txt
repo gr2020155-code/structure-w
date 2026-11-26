@@ -1,0 +1,32 @@
+A 2.0-3.7 GeV: 31 points, 4 experiments, chi2/n = 16.3/3 (error x2.33); R = 2.231 +- 0.028 at sqrt(s) ~ 3.1 GeV vs 2.000: eps = +0.1156 +- 0.0138 (+8.4 sigma)
+      BAI 01           HEPEX-0102003    n=  9  sqrt(s)~  2.64  R = 2.282 +- 0.052
+      ANASHIN 18A      PL 788B, 42      n= 17  sqrt(s)~  3.08  R = 2.214 +- 0.013
+      BAI 00C          PRL 84, 594      n=  4  sqrt(s)~  3.15  R = 2.385 +- 0.042
+      RAPIDIS 77       PRL 39, 526      n=  1  sqrt(s)~  3.60  R = 2.460 +- 0.406
+B 5.0-9.3 GeV: 40 points, 4 experiments, chi2/n = 1.1/3 (error x1.00); R = 3.508 +- 0.096 at sqrt(s) ~ 7.7 GeV vs 3.333: eps = +0.0525 +- 0.0289 (+1.8 sigma)
+      BAI 00C          PRL 84, 594      n=  1  sqrt(s)~  5.00  R = 3.470 +- 0.335
+      EDWARDS 90       SLAC-PUB-5160    n= 15  sqrt(s)~  6.22  R = 3.439 +- 0.182
+      BLINOV 93        ZP C70, 31       n= 21  sqrt(s)~  8.59  R = 3.612 +- 0.142
+      NICZYPORUK 82    ZP C15, 299      n=  3  sqrt(s)~  8.76  R = 3.361 +- 0.233
+C1 11.2-20.0 GeV: 11 points, 6 experiments, chi2/n = 5.7/5 (error x1.07); R = 3.954 +- 0.078 at sqrt(s) ~ 13.7 GeV vs 3.667: eps = +0.0783 +- 0.0212 (+3.7 sigma)
+      ALTHOFF 84F      ZP C22, 307      n=  2  sqrt(s)~ 12.93  R = 3.958 +- 0.271
+      BRANDELIK 79F    ZP C4, 87        n=  3  sqrt(s)~ 13.46  R = 3.970 +- 0.502
+      NAROSKA 87       PRPL 148, 67     n=  2  sqrt(s)~ 13.50  R = 3.811 +- 0.145
+      ADEVA 86         PR D34, 681      n=  2  sqrt(s)~ 13.64  R = 3.664 +- 0.188
+      BEHREND 87D      PL 183B, 400     n=  1  sqrt(s)~ 14.00  R = 4.100 +- 0.158
+      BRAUNSCHWEIG 90  ZP C47, 187      n=  1  sqrt(s)~ 14.03  R = 4.120 +- 0.136
+C2 20.0-40.0 GeV: 42 points, 10 experiments, chi2/n = 5.2/9 (error x1.00); R = 3.959 +- 0.034 at sqrt(s) ~ 31.0 GeV vs 3.667: eps = +0.0796 +- 0.0093 (+8.6 sigma)
+      VONZANTHIER 90   PR D43, 34       n=  1  sqrt(s)~ 29.00  R = 3.920 +- 0.103
+      FERNANDEZ 85     PR D31, 1537     n=  1  sqrt(s)~ 29.00  R = 3.960 +- 0.096
+      BRANDELIK 79F    ZP C4, 87        n=  4  sqrt(s)~ 29.91  R = 3.881 +- 0.416
+      BRAUNSCHWEIG 90  ZP C47, 187      n=  2  sqrt(s)~ 30.84  R = 4.057 +- 0.068
+      BARBER 79H       PL 85B, 463      n=  1  sqrt(s)~ 31.57  R = 4.000 +- 0.781
+      NAROSKA 87       PRPL 148, 67     n= 11  sqrt(s)~ 31.80  R = 3.967 +- 0.062
+      ADEVA 86         PR D34, 681      n=  9  sqrt(s)~ 32.09  R = 3.832 +- 0.163
+      ALTHOFF 84F      ZP C22, 307      n=  9  sqrt(s)~ 32.32  R = 3.995 +- 0.187
+      BEHREND 87D      PL 183B, 400     n=  3  sqrt(s)~ 32.45  R = 3.821 +- 0.098
+      BARBER 82C       PL 108B, 63      n=  1  sqrt(s)~ 34.85  R = 3.750 +- 0.378
+
+constant eps: +0.0873 +- 0.0070, chi2 = 6.54/3
+line eps = e0 + b ln(sqrt(s)/10 GeV): e0 = +0.0921 +- 0.0075, b = -0.0136 +- 0.0071 (-1.9 sigma), chi2 = 2.82/2 -> no significant energy dependence
+reality: A +8.4 sigma, B +1.8 sigma, C1 +3.7 sigma, C2 +8.6 sigma -> REAL (>3 sigma somewhere)
