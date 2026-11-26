@@ -1,0 +1,15 @@
+S1 per participant       n_g=1: f=0.5, n_g=3: f=0.25              -> fail
+S2 per exchange end      n_g=1: f=0.5, n_g=3: f=0.5               -> PASS
+S3 per point (3 vs 8)    n_g=1: f=0.2727, n_g=3: f=0.1111         -> fail
+S4 per tact              n_g=1: f=1, n_g=3: f=1                   -> fail
+pass: ['S2 per exchange end']
+
+e, mu, tau (one eight)                               S2: 1/2                            b2: 1/2       data: 1/2  S2 ok
+nu (eight at a point, B-65)                          S2: 1/2                            b2: 1/2       data: 1/2  S2 ok
+p, n (three parts, B-312)                            S2: 1/2/3/2                        b2: 1/2/3/2   data: 1/2  S2 ok
+Omega- (three parts)                                 S2: 1/2/3/2                        b2: 1/2/3/2   data: 3/2  S2 ok
+pi (two parts)                                       S2: 0/1                            b2: 0/1       data: 0    S2 ok
+rho (two parts)                                      S2: 0/1                            b2: 0/1       data: 1    S2 ok
+W, Z read 1: one loop with own inertia (B-294 p.1)   S2: 1/2/3/2 (loop 1 + orbit 1/2)   b2: 1         data: 1    S2 NO
+W, Z read 2: two parts (k, 3-k) (B-305 p.3)          S2: 0/1                            b2: 0/1       data: 1    S2 ok
+gamma (one loop, no inertia)                         S2: 1 (no lag, no orbit share)     b2: 1         data: 1    S2 ok
