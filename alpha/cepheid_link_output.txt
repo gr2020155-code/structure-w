@@ -1,0 +1,15 @@
+needed shift: 5 lg(0.735/0.685) = 0.153 mag
+== T1 Cepheid - TRGB, per host: R22 column: -0.024 +- 0.020 mag (15 hosts, -1.2 sigma); Pantheon+ CEPH_DIST: -0.033 +- 0.020 (15 hosts, -1.6 sigma); unweighted R22 -0.024, rms 0.104
+== T1J Cepheid(R22) - JAGB: -0.041 +- 0.027 mag (7 hosts, -1.5 sigma); JAGB - TRGB(JWST): +0.002 +- 0.028 (7)
+== T2 same SNe (29 rows, 17 SNe, 15 hosts) + 277 flow
+   Cepheids (CEPH_DIST): h = 0.7460 +- 0.0136 (vs 0.685: +4.5 sigma), M = -19.216
+   TRGB (CCHP): h = 0.7278 +- 0.0133 (vs 0.685: +3.2 sigma), M = -19.270
+   TRGB / Cepheid h ratio = 0.9755
+== T3 full TRGB sample
+   added rows: 1980N, 1981D, 2006dd, 2011iv
+   TRGB, without 2007on (as CCHP): h = 0.7098 +- 0.0114 (vs 0.685: +2.2 sigma), M = -19.324
+   added rows: 1980N, 2007on, 2007on, 1981D, 2006dd, 2011iv
+   TRGB, with 2007on: h = 0.7172 +- 0.0113 (vs 0.685: +2.8 sigma), M = -19.301
+== T4 sample effect, Cepheids
+   Cepheids, SNe of T2 only: h = 0.7460 +- 0.0136 (vs 0.685: +4.5 sigma), M = -19.216
+   Cepheids, all 77 calibrators: h = 0.7354 +- 0.0105 (vs 0.685: +4.8 sigma), M = -19.247
