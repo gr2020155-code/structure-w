@@ -1,0 +1,13 @@
+check (lam = 1, as R-142): theta = 0.010749, z* = 1092.3, z_drag = 1062.1
+
+=== h = 0.7354: BAO Om = 0.2972, b = 29.5224 +- 0.2139
+   P1 links unchanged: all masses +4.05 %; z* = 1137.5, z_drag = 1105.9, r_d = 138.06 Mpc; b model = 29.5270 vs BAO 29.5224 (+- 0.2139, +- 0.1972 from h): +0.0 sigma -> PASS
+   P2 links scale too: all masses +3.20 %; z* = 1128.4, z_drag = 1097.0, r_d = 137.96 Mpc; b model = 29.5480 vs BAO 29.5224 (+- 0.2139, +- 0.1935 from h): +0.1 sigma -> PASS
+
+=== h = 0.71: BAO Om = 0.2972, b = 29.5222 +- 0.2139
+   P1 links unchanged: all masses +1.93 %; z* = 1112.9, z_drag = 1082.2, r_d = 142.92 Mpc; b model = 29.5433 vs BAO 29.5222 (+- 0.2139, +- 0.2078 from h): +0.1 sigma -> PASS
+   P2 links scale too: all masses +1.54 %; z* = 1108.8, z_drag = 1078.2, r_d = 142.88 Mpc; b model = 29.5533 vs BAO 29.5222 (+- 0.2139, +- 0.2060 from h): +0.1 sigma -> PASS
+
+=== h = 0.685: BAO Om = 0.2971, b = 29.5220 +- 0.2139
+   P1 links unchanged: all masses -0.20 %; z* = 1088.3, z_drag = 1058.4, r_d = 148.06 Mpc; b model = 29.5601 vs BAO 29.5220 (+- 0.2139, +- 0.2192 from h): +0.1 sigma -> PASS
+   P2 links scale too: all masses -0.16 %; z* = 1088.7, z_drag = 1058.8, r_d = 148.06 Mpc; b model = 29.5591 vs BAO 29.5220 (+- 0.2139, +- 0.2194 from h): +0.1 sigma -> PASS
