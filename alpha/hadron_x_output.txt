@@ -1,0 +1,23 @@
+X of data: Omega- 15.917, phi 9.701, J/psi 29.479, Upsilon 90.062; p 8.928, omega 7.446
+
+A1: Omega- -25.1 %, phi -2.6 %, J/psi -67.9 %, Upsilon -54.0 % -> FAIL
+    side (not counted, %): Lambda -6.5, Sigma0 -12.5, Xi- -13.1, Xi0 -12.7, eta_c -66.7, eta_b -53.7
+
+A2: Omega- -37.6 %, phi -16.4 %, J/psi -70.2 %, Upsilon -79.1 % -> FAIL
+    side (not counted, %): Lambda -12.8, Sigma0 -18.4, Xi- -23.7, Xi0 -23.3, eta_c -69.1, eta_b -79.0
+
+A3: Omega- -41.8 %, phi -20.9 %, J/psi -71.7 %, Upsilon -87.5 % -> FAIL
+    side (not counted, %): Lambda -14.9, Sigma0 -20.3, Xi- -27.2, Xi0 -26.9, eta_c -70.6, eta_b -87.5
+
+A4: Omega- -37.6 %, phi -16.4 %, J/psi -65.7 %, Upsilon -79.1 % -> FAIL
+    side (not counted, %): Lambda -12.8, Sigma0 -18.4, Xi- -23.7, Xi0 -23.3, eta_c -64.4, eta_b -79.0
+
+M1: Omega- +12.2 %, phi +53.5 %, J/psi -49.5 %, Upsilon +48.8 % -> FAIL
+    side (not counted, %): Lambda +5.9, Sigma0 -0.9, Xi- +12.7, Xi0 +13.3, eta_c -47.6, eta_b +49.8
+
+M2: Omega- -25.2 %, phi +2.3 %, J/psi -57.9 %, Upsilon -44.9 % -> FAIL
+    side (not counted, %): Lambda -7.4, Sigma0 -13.4, Xi- -14.0, Xi0 -13.6, eta_c -56.3, eta_b -44.5
+
+Diagnostic (not counted): s term additive: baryons 2.330, mesons 1.127, ratio 2.07; multiplicative: baryons 1.2126, mesons 1.1414
+  additive s from Omega-p, applied to Lambda/Xi: Lambda +6.0 %, Xi- +8.0 %
+  mass ratios: J/psi/phi 3.0378, Upsilon/J/psi 3.0548, J/psi/eta_c 1.0378
