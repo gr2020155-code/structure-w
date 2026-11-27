@@ -1,0 +1,13 @@
+check vs R-135/136 (b2, F 1.14, h 0.7354): theta = 0.010749, z* = 1092.3, z_drag = 1062.1
+
+=== h = 0.7354: BAO Om = 0.2972, b = 29.5224 +- 0.2139
+   Me (electron mass): change = +4.83 %; z* = 1146.1, z_drag = 1110.5, r_d = 138.41 Mpc; b model = 29.4530 vs BAO 29.5224 (+- 0.2139, +- 0.1960 from h): -0.2 sigma -> PASS
+   Al (alpha): change = +2.37 %; z* = 1146.1, z_drag = 1110.9, r_d = 138.38 Mpc; b model = 29.4596 vs BAO 29.5224 (+- 0.2139, +- 0.1967 from h): -0.2 sigma -> PASS
+
+=== h = 0.71: BAO Om = 0.2972, b = 29.5222 +- 0.2139
+   Me (electron mass): change = +2.31 %; z* = 1117.1, z_drag = 1084.5, r_d = 143.10 Mpc; b model = 29.5073 vs BAO 29.5222 (+- 0.2139, +- 0.2073 from h): -0.0 sigma -> PASS
+   Al (alpha): change = +1.14 %; z* = 1117.1, z_drag = 1084.7, r_d = 143.08 Mpc; b model = 29.5104 vs BAO 29.5222 (+- 0.2139, +- 0.2076 from h): -0.0 sigma -> PASS
+
+=== h = 0.685: BAO Om = 0.2971, b = 29.5220 +- 0.2139
+   Me (electron mass): change = -0.24 %; z* = 1087.8, z_drag = 1058.2, r_d = 148.04 Mpc; b model = 29.5640 vs BAO 29.5220 (+- 0.2139, +- 0.2193 from h): +0.1 sigma -> PASS
+   Al (alpha): change = -0.12 %; z* = 1087.8, z_drag = 1058.2, r_d = 148.04 Mpc; b model = 29.5637 vs BAO 29.5220 (+- 0.2139, +- 0.2192 from h): +0.1 sigma -> PASS
