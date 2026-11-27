@@ -1,0 +1,7 @@
+data: m = 1672.43 MeV, X = 15.9173
+  Omega1 one plane (as proton)   X =    9: m =    945.9 MeV (-43.4 %) -> FAIL
+  Omega2 two planes at once      X =   81: m =   8508.6 MeV (+408.8 %) -> FAIL
+  Omega3 two planes in turn      X =   18: m =   1891.2 MeV (+13.1 %) -> FAIL
+  Omega4 three planes in turn    X =   27: m =   2836.5 MeV (+69.6 %) -> FAIL
+  Omega5 3D as tau               X =  162: m =  17016.6 MeV (+917.5 %) -> FAIL
+noticed before the rules (not a branch): X = 16 -> m = 1681.1 MeV (+0.52 %)
