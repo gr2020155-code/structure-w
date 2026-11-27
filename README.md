@@ -64,6 +64,7 @@ This is how G enters the α calculation: G fixes the step a, the starting point 
 - [`alpha/`](alpha) — calculations. The rules of each calculation (`*_rules_*.md`) are written down **before** the program is run; the program output is kept in `*_output.txt`.
 - [`docs/article.md`](docs/article.md) — overview article; [`docs/predictions.md`](docs/predictions.md) — what can be tested.
 - [`docs/alpha_chain.md`](docs/alpha_chain.md) — the 76 matrix records behind the α result and the α–G link, translated into English.
+- [`docs/cosmology_chain.md`](docs/cosmology_chain.md) — the cosmology chain in English: redshift without expansion, the law of link density, the relic spots, the share of mass and the Hubble tension (A-90 … A-106, V-367 … V-402, X-13).
 
 **Language.** The matrix, calculation rules and program comments are in Russian, the author's working language; the records of the α and G chain are translated in `docs/alpha_chain.md`. Record IDs use Cyrillic letters: А = A (postulate), Д = D (data), Р = R (calculation), В = V (statement), С = S (withdrawn), Х = X (contradiction). The English texts write them in Latin letters (A-31 = А-31). Russian originals of the documents are in `docs/*_ru.md`.
 
