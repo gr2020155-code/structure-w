@@ -1,0 +1,17 @@
+CMB dipole direction (memory, l=264 b=48): RA = 168, Dec = -7
+
+=== zHD (with peculiar-velocity model, bridge): 1657 SNe (77 calibrators); base h = 0.7379, chi2 = 1456.3
+   A constant tempo dipole d: amplitude = 0.0102 +- 0.0053 fraction; toward RA = 221, Dec = -63 (angle to CMB dipole 68 deg); d chi2 = 3.7 (3 dof, p = 0.295) -> not found; 95% bound on any component direction ~ 0.0149
+      vector (x, y, z) = (-0.0035, -0.0030, -0.0091), sigmas (0.0029, 0.0035, 0.0050)
+   B linear gradient G (per c/H0): amplitude = 0.0453 +- 0.0423 fraction per c/H0; toward RA = 21, Dec = +38 (angle to CMB dipole 137 deg); d chi2 = 1.8 (3 dof, p = 0.606) -> not found; 95% bound on any component direction ~ 0.1264
+      vector (x, y, z) = (+0.0331, +0.0126, +0.0282), sigmas (0.0254, 0.0296, 0.0390)
+   C isotropic outward fall Q (per c/H0): Q = -0.0509 +- 0.0267; d chi2 = 3.6 -> not found; local h = 0.7353
+      (flow SNe with z > 0.15: 875, mean w there = 0.172 c/H0)
+
+=== zCMB (CMB frame only): 1655 SNe (77 calibrators); base h = 0.7351, chi2 = 1498.5
+   A constant tempo dipole d: amplitude = 0.0250 +- 0.0053 fraction; toward RA = 208, Dec = -62 (angle to CMB dipole 62 deg); d chi2 = 23.0 (3 dof, p = 0.000) -> FOUND; 95% bound on any component direction ~ 0.0149
+      vector (x, y, z) = (-0.0103, -0.0054, -0.0221), sigmas (0.0029, 0.0035, 0.0050)
+   B linear gradient G (per c/H0): amplitude = 0.0438 +- 0.0415 fraction per c/H0; toward RA = 27, Dec = +34 (angle to CMB dipole 135 deg); d chi2 = 2.0 (3 dof, p = 0.570) -> not found; 95% bound on any component direction ~ 0.1264
+      vector (x, y, z) = (+0.0325, +0.0167, +0.0243), sigmas (0.0254, 0.0296, 0.0390)
+   C isotropic outward fall Q (per c/H0): Q = -0.0721 +- 0.0267; d chi2 = 7.3 -> FOUND; local h = 0.7314
+      (flow SNe with z > 0.15: 875, mean w there = 0.172 c/H0)

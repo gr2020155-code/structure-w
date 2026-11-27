@@ -1,0 +1,10 @@
+== zCMB
+   z 0.01-0.03 (349 flow SNe): dipole 0.0506 +- 0.0093, RA 210, Dec -43, d chi2 = 39.7; as a velocity ~ 326 km/s at median z
+   z 0.03-0.06 (206 flow SNe): dipole 0.0290 +- 0.0111, RA 215, Dec -54, d chi2 = 9.0; as a velocity ~ 319 km/s at median z
+   z 0.06-0.15 (148 flow SNe): dipole 0.0119 +- 0.0181, RA 215, Dec -67, d chi2 = 0.4; as a velocity ~ 384 km/s at median z
+   z 0.15-2.5 (875 flow SNe): dipole 0.0044 +- 0.0040, RA 65, Dec -31, d chi2 = 1.3; as a velocity ~ 425 km/s at median z
+== zHD
+   z 0.01-0.03 (347 flow SNe): dipole 0.0272 +- 0.0090, RA 220, Dec -37, d chi2 = 12.1; as a velocity ~ 174 km/s at median z
+   z 0.03-0.06 (210 flow SNe): dipole 0.0074 +- 0.0080, RA 242, Dec -1, d chi2 = 1.1; as a velocity ~ 83 km/s at median z
+   z 0.06-0.15 (148 flow SNe): dipole 0.0059 +- 0.0180, RA 235, Dec -69, d chi2 = 0.1; as a velocity ~ 191 km/s at median z
+   z 0.15-2.5 (875 flow SNe): dipole 0.0044 +- 0.0043, RA 60, Dec -19, d chi2 = 1.3; as a velocity ~ 421 km/s at median z
