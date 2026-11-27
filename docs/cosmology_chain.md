@@ -113,7 +113,7 @@ Resolved on the way: X-11 (supernovae vs a concave law) and X-12 (BAO ruler vs p
 
 **V-388 (open; reading).** (1) [mathematics] g² = A·s₀/s + B is equivalent to k̈ = B·k − (A/2)·k₀³/k². (2) Term B: if every existing link realises new distinctions each tick (A-93), the number of new links per tick is ∝ the number of links, g is constant — exponential growth. (3) Term A/s: self-closed links (mass, A-36) make no changes "outward" and slow the growth; their number does not change, while the number of points distinguishable in 3D grows ∝ s, so their share ∝ 1/s — exactly the form the data chose. (4) Squares add, not rates (sum of rates: 23 on 11; sum of squares: 10.3 on 11): the two contributions are independent, like perpendicular components. This was the missing postulate, later accepted as A-105. (5) Light is also a share: the number of light changes is conserved and the energy of each ∝ k, so its share ∝ u⁻⁴ — the early term the relic needs.
 
-**V-389 (candidate; R-133).** Under A-105: g² = g₀²[Ω_r u⁻⁴ + Ω_m u⁻³ + Ω_B]. Ω_m = 0.297 from the ruler; Ω_r from the measured relic temperature T₀ = 2.725 K and the own rate H₀ = 73.5 ± 1.1 (Pantheon+ with Cepheid calibrators); the factor 3/8πG is a bridge. With no fitted numbers, θ = 0.0080–0.0143 (photons only) and 0.0071–0.0129 (with neutrinos) — both contain 0.0104. The check was weak: the width comes from the unknown sound speed. The exact check (R-135, V-392) later failed. Ruler, supernovae and relic agree with one law; X-11 and X-12 are resolved.
+**V-389 (candidate; R-133).** Under A-105: g² = g₀²[Ω_r u⁻⁴ + Ω_m u⁻³ + Ω_B]. Ω_m = 0.297 from the ruler; Ω_r from the measured relic temperature T₀ = 2.725 K and the own rate H₀ = 73.5 ± 1.1 (Pantheon+ with Cepheid calibrators); the factor 3/8πG is a bridge. With no fitted numbers, θ = 0.0080–0.0143 (photons only) and 0.0071–0.0129 (with neutrinos) — both contain 0.0104. The check was weak: the width comes from the unknown sound speed. The exact check (R-135, V-392) later failed. Ruler, supernovae and relic agree with one law; X-11 and X-12 are resolved, since A-105 was accepted as a postulate (27.11; the earlier wording "if A-105 becomes a postulate" is kept in `was`).
 
 **V-390 (candidate).** The law V-387–V-389 has the same form as the official Friedmann equation; the reading is different. Official cosmology, where it is right, is a special case of W:
 
@@ -126,7 +126,7 @@ Resolved on the way: X-11 (supernovae vs a concave law) and X-12 (BAO ruler vs p
 | Squares | Einstein's equations | postulate A-105 |
 | Start | singularity, inflation | infinity is a contradiction; the start is finite (V-371), unfolding from circle 30 (A-98) |
 
-Item 7 (about the Hubble tension) is stale: it said the relic agrees with 73.5; the exact count V-392 shows it does not.
+Item 7 (Hubble tension), corrected on 27.11: officially it is a conflict of the local ladder with a model fit to the relic; in W the measurements do not disagree (V-367), but under A-105 the exact relic angle needs the far rate h ≈ 0.685 while the local rate is 0.735 (V-392, X-13), so the tension appears inside W too. The earlier text ("the relic agrees with 73.5") is kept in `was`.
 
 **V-391 (computed; R-134).** The mass share is local figure-eights plus pre-material links whose number does not change. Figure-eights alone (ordinary matter, share 0.040–0.041 from deuterium, D-82) fail: ruler χ² ≈ 4900 on 12, supernovae +440. Pre-material links with share ∝ u⁻³ (their number after 30 does not change, like figure-eights) pass: ruler 10.3 on 11, supernovae +3.9; their share is 0.256–0.257, 6.2–6.4 times the figure-eights. Shares ∝ u⁻², u⁻¹ or constant fail. So official "dark matter" reads in W as the pre-material level of links (A-106). Open: why their number is constant and why there are ~6.3 times more of them.
 
@@ -136,7 +136,7 @@ Item 7 (about the Hubble tension) is stale: it said the relic agrees with 73.5; 
 
 **V-392 (contradiction, open; R-135).** Sound speed from the postulates: light gives pressure ρ/3 (A-104), figure-eights give inertia, c_s² = c²/(3(1 + R)). Recombination is atomic physics under our law of rate. With the own h = 0.735, figure-eight share from deuterium and mass share from the ruler, θ is 3.3–3.5 % above the data (4.1–4.5σ) with photons and neutrinos; 16 % above with photons only. An exact hit needs h = 0.683–0.687 — the same as the official fit. So under A-105 W itself arrives at the far rate, and the local rate (z < 0.15) and the rate the relic needs differ by ~7 %. Without the neutrino share of light the relic misses by 16 %: W needs a light share ~1.7 of the photon share (candidate: a neutrino background, not derived).
 
-**X-13 (open).** The relic angle under A-105 with the local rate h = 0.735 is 3.3–3.5 % above the data (4σ); an exact hit needs h ≈ 0.685.
+**X-13 (open).** The relic angle under A-105 with the local rate h = 0.735 is 3.3–3.5 % above the data (4σ); an exact hit needs h ≈ 0.685. Updated on 27.11 after the tests below: the far rate is confirmed three ways, the local rate is 0.735 (Cepheids) or 0.710 (red giants); the causes listed earlier were tested and rejected or not supported; open are a new postulate about N, the full spectrum with other masses (CLASS) and the calibrator sample.
 
 | Test | Result | Records |
 | --- | --- | --- |
