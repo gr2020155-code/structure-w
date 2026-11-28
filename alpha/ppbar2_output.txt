@@ -1,0 +1,11 @@
+E = 1877.6 MeV, sets counted: 54, events per set: 200000
+
+V4a D of pi+- (main): D =2.828 fm
+  <n+-> = 3.16 (data 3.0 +- 0.2), <n0> = 1.87 (data 2.0 +- 0.2), total 5.04 -> PASS
+  charged prongs, % (not counted): 0: 2.8 (data 4.1), 2: 41.2 (data 43.2), 4: 51.0 (data 48.6), 6: 4.9 (data 4.1), 8: 0.0 (data -)
+  total pions, %: 3: 3.2, 4: 23.9, 5: 43.8, 6: 24.5, 7: 4.4, 8: 0.2
+
+V4b D of pi0 (side): D =2.924 fm
+  <n+-> = 3.21 (data 3.0 +- 0.2), <n0> = 1.90 (data 2.0 +- 0.2), total 5.12 -> side, not counted
+  charged prongs, % (not counted): 0: 2.6 (data 4.1), 2: 39.6 (data 43.2), 4: 52.1 (data 48.6), 6: 5.6 (data 4.1), 8: 0.0 (data -)
+  total pions, %: 3: 2.6, 4: 21.4, 5: 43.4, 6: 26.9, 7: 5.3, 8: 0.3
