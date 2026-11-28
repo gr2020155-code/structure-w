@@ -1,0 +1,12 @@
+Om = 0.2973, OB = 0.7027, Or = 4.573e-05; D* = 3.1976 c/H0, D_h = 3.2721 c/H0, 1/sqrt(OB) = 1.1930 c/H0
+
+V1: loop of our half = 1/sqrt(B): L/D* = 0.373; needed >= 1.12 (slab), 1.94 (cubic torus)  =>  FAIL
+   light from the start goes around 2.7 times
+   h = 0.7354: L = 4.86 Gpc = 15.9 Gly; D* = 13.04 Gpc = 42.5 Gly
+   h = 0.687: L = 5.21 Gpc = 17.0 Gly; D* = 13.95 Gpc = 45.5 Gly
+
+V2: whole eight = 1/sqrt(B), our half = half: L/D* = 0.187; needed >= 1.12 (slab), 1.94 (cubic torus)  =>  FAIL
+   light from the start goes around 5.5 times
+   h = 0.7354: L = 2.43 Gpc = 7.9 Gly; D* = 13.04 Gpc = 42.5 Gly
+   h = 0.687: L = 2.60 Gpc = 8.5 Gly; D* = 13.95 Gpc = 45.5 Gly
+
