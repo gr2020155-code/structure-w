@@ -1,8 +1,8 @@
 # The cosmology chain: matrix records in English
 
-27 November 2026 · Theory: Hrachya Danielyan
+27 November 2026, updated 28 November 2026 · Theory: Hrachya Danielyan
 
-This file translates the matrix records on cosmology: redshift without expansion, the law of link density, the relic (CMB) spots, the share of mass, and the Hubble tension. It is a reading aid. The authoritative text is the Russian matrix [`system/matrix.json`](../system/matrix.json); if the two differ, the matrix is right.
+This file translates the matrix records on cosmology: redshift without expansion, the law of link density, the relic (CMB) spots, the share of mass, the Hubble tension, antimatter, the 10¹²⁰ problem and the age test. It is a reading aid. The authoritative text is the Russian matrix [`system/matrix.json`](../system/matrix.json); if the two differ, the matrix is right.
 
 ## How to read
 
@@ -28,6 +28,9 @@ This file translates the matrix records on cosmology: redshift without expansion
 | 9 | Exact spot angle vs local rate: the Hubble tension appears inside W | V-392, R-135, X-13 | contradiction (open) |
 | 10 | Tests of the tension: local, candles, Cepheids, early share, sky, spectrum tail, medium, masses, law of N | V-393 … V-402, R-136 … R-143 | computed / candidate |
 | 11 | Pre-material links must cluster like matter (full CMB spectrum passes at h = 0.687) | V-398, R-141 | computed |
+| 12 | Antimatter: the other half of the global figure-eight (horn torus) | A-108 | postulate |
+| 13 | The 10¹²⁰ problem: background of all points over the measured difference, T² in ticks | A-109, V-423 | candidate |
+| 14 | Test "age × today's rate = 1" on raw BAO and supernovae | V-424, R-155 | computed (fails) |
 
 Resolved on the way: X-11 (supernovae vs a concave law) and X-12 (BAO ruler vs power laws), both resolved by A-105 on 27.11. Open: X-13 (Hubble tension).
 
@@ -76,6 +79,8 @@ Resolved on the way: X-11 (supernovae vs a concave law) and X-12 (BAO ruler vs p
 | A-105 | The square of the relative growth rate of link density equals the sum of the shares (V-388 item 4). On 27.11 first accepted as an assumption, then confirmed by the author as a postulate. |
 | A-106 | There are no dark substances; there are links. Matter is local figure-eights; there is also a pre-material level of links of different density. |
 | A-36 | Mass is the density of self-closed links; continuations into the medium are not mass. |
+| A-108 | The global figure-eight of space (the horn torus) has two halves. We are in one; the other, beyond the primary circle 30, is the universe of antimatter. At point "zero" matter and antimatter do not meet: there is a passage into the other half with a change of the sign of charge. Annihilation is a meeting of matter and antimatter on a "foreign" field (for example, an antiparticle born in our half). Each point on its global path (A-47) is in both halves: the anti-universe is the same points on another part of the path. For G the same holds on the global scale: charge (α) is the direction of the particle's local loop (A-15), gravity (G) is the direction of the global loop, that is, the half of the torus. So the sign of gravity is set by the half, not by the particle: an antiparticle in our half falls like a particle (27.11). |
+| A-109 | The unit of being: 1 unit of "mass" = 1 tick = 1 step, the same for every point (it is why the speed of light is finite). Rest mass is a lag on top of it (28.11; see [`particles_chain.md`](particles_chain.md)). |
 
 ## Statements
 
@@ -173,15 +178,37 @@ Item 7 (Hubble tension), corrected on 27.11: officially it is a conflict of the 
 
 **V-402 (candidate; rests on V-317).** The law of N from the postulates: N is constant. N is not a local quantity; it is set by the order of the single trajectory of the whole (V-247, A-14). By the main path V-317 (b) N is set by the total number of points, constant by A-91 — so N was the same at recombination (in agreement with lunar ranging, D-62). V-401 does not follow from the postulates; it would need a new postulate. The only thing that changes with time in W is the state of the trajectory (saturation, V-154, A-41); if N depended on saturation, repetitions would grow and masses would increase — lighter in the past, the opposite sign. From the present postulates "another medium at recombination" is not derived.
 
-## Where it stands (27.11)
+### Antimatter, the 10¹²⁰ problem and the age
+
+**A-108, consequences to check (not recorded as statements).** There is no boundary between matter and antimatter in our half, so no annihilation gamma rays from such boundaries. There should be no primordial antimatter (antihelium nuclei) in cosmic rays. There is no matter–antimatter asymmetry in the whole: the two halves are the same points. Checked against data, not recorded: ALPHA-g (2023), antihydrogen falls down with about g; BASE, p and p̄ have the same charge-to-mass ratio. Open: gravity between the halves (they touch only at "zero", where there is a passage, not a meeting).
+
+**V-423 (candidate; an order-of-magnitude match, not a strict count).** The 10¹²⁰ gap between the computed vacuum energy and "dark energy" is the ratio of the background to the difference: T² in ticks.
+1. **Reading.** The official calculation adds the zero-point energy of every Planck cell, one unit per cell. In W this is the unit of being of a point (A-109). All points have it, so it is not measured as a difference.
+2. **Reading.** What is measured is the constant share of the growth rate of link density (officially dark energy, V-390 item 2). The rate in W is 1/T, where T is the age in ticks (R-85: H₀ = 1/t_U). By A-105 shares go as the square of the rate, so the measured part relates to the background as 1/T².
+3. **Estimate.** With the step a = 2π·l_P (V-271, a bridge through the horizon formula, V-405) a tick is about 3.4·10⁻⁴³ s. 13.8 Gyr is about 1.3·10⁶⁰ ticks, and T² ≈ 1.7·10¹²⁰: the order of the famous gap.
+4. **Disclosed.** That 10¹²⁰ ≈ (age / Planck time)² is known in official physics; it follows from dimensions (dark-energy density is of order H²/G). What W adds is the reading: the background of all points is compared with a difference. The error is not in the count but in taking the background for a measurable energy. Factors of order 1–10 are not derived.
+5. **Open.** A strict count within W; why the constant share is about 0.7 (the author: linked to the age of the whole, to be derived).
+
+**V-424 (computed; R-155).** The relation "age × today's rate = 1" fails on raw data; the data give T₀·g₀ = 0.94–0.97. Our reading of redshift is used throughout.
+1. If T₀·g₀ = 1 (as Z1 in R-85), law A-105 gives the constant share 0.737 with no fit. But the DESI ruler gives χ² = 28.8 on 12 (probability 0.004) and Pantheon+ supernovae +15.8 against the threshold 11: it fails.
+2. What is compared is the measurements themselves, not "today's shares": ruler distances and supernova brightness in the W reading (1 + z = k₀/k, path in today's steps, the ruler measures the rate; V-374, V-324, V-387). This follows the author's remark that "today's" shares are derived from light of the past.
+3. The data want T₀·g₀ = 0.966 (ruler) and 0.938 (supernovae), with constant shares 0.70 and 0.67.
+4. In passing: with the local rate h = 0.7354 and a free share the age is 12.85 Gyr, less than the oldest stars (about 13.5); under T₀·g₀ = 1 it is 13.30. This is one more side of the Hubble tension (V-392, V-393).
+5. Expectation written before the run: fails, ruler about 24, supernovae +15…+20. It failed as expected; the ruler χ² was larger.
+6. **Open.** How, according to the author, 0.7 is linked to the age: another argument than T₀·g₀ = 1 is needed.
+
+## Where it stands (28.11)
 
 - **Derived or confirmed by data:** no expansion; redshift as a ratio of link densities with the same kinematics as a scale factor; the law g² = g₀²[Ω_r u⁻⁴ + Ω_m u⁻³ + Ω_B] (A-105) fits the BAO ruler, supernovae and the relic spectrum; the mass share is 0.040 figure-eights + 0.256 pre-material links; pre-material links cluster like matter.
 - **Far rate:** h = 0.685–0.689 from three independent routes.
 - **Local rate:** 0.735 with Cepheids, 0.710 with red giants.
 - **Rejected as causes of the tension:** a local share of redshift, a local zone, a centre-to-edge gradient, non-uniform supernova scale, the Cepheid link, an early share (helium and spectrum tail), a varying α (postulates).
 - **Not supported:** heavier masses at recombination (N constant, V-402).
+- **Antimatter (A-108):** the other half of the torus; no primordial antimatter and no annihilation boundaries expected.
+- **10¹²⁰ (V-423):** read as background over difference, T² in ticks; an order-of-magnitude match, not a strict count.
+- **Constant share ≈ 0.7:** not yet derived; T₀·g₀ = 1 is rejected by raw data (V-424).
 - **Open:** X-13. Possible routes: a new postulate about N; the full spectrum with other masses (CLASS); the calibrator sample. Also open: the neutrino share of light in W; why the pre-material links are ~6.3 times the figure-eights; their distribution in galaxies (rotation curves, lensing) was not tested.
 
 ## Programs
 
-All in [`alpha/`](../alpha), with rules (`*_rules_*.md`, committed before the run) and output (`*_output.txt`): `relic_scale`, `density_share`, `torus_light`, `reverse_light`, `torus_volume`, `sn_processing`, `sn_luminosity`, `sn_shape`, `sn_axes`, `light_test`, `bao_density`, `relic_light`, `mass_share`, `relic_sound`, `hubble_variants`, `candle_scale`, `cepheid_link`, `early_share`, `sky_gradient` (+ `sky_gradient_split`, an observation outside the rules), `relic_tail`, `recomb_medium`, `all_masses`. Data files: `desi_dr2_bao_data.txt`, `cchp_trgb_jagb_2024.txt`, Planck `COM_PowerSpect_CMB-*-binned_R3.0*.txt`; Pantheon+ is read from its public release.
+All in [`alpha/`](../alpha), with rules (`*_rules_*.md`, committed before the run) and output (`*_output.txt`): `relic_scale`, `density_share`, `torus_light`, `reverse_light`, `torus_volume`, `sn_processing`, `sn_luminosity`, `sn_shape`, `sn_axes`, `light_test`, `bao_density`, `relic_light`, `mass_share`, `relic_sound`, `hubble_variants`, `candle_scale`, `cepheid_link`, `early_share`, `sky_gradient` (+ `sky_gradient_split`, an observation outside the rules), `relic_tail`, `recomb_medium`, `all_masses`, `age_share`. Data files: `desi_dr2_bao_data.txt`, `cchp_trgb_jagb_2024.txt`, Planck `COM_PowerSpect_CMB-*-binned_R3.0*.txt`; Pantheon+ is read from its public release.

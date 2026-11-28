@@ -47,7 +47,8 @@ This is how G enters the α calculation: G fixes the step a, the starting point 
 
 ## Honest status
 
-- **All agreements were found with the answer already known.** So they are **candidates**, not proofs. No new prediction has been confirmed by experiment yet.
+- **All agreements were found with the answer already known.** So they are **candidates**, not proofs.
+- **One prediction was made before the data (V-414, 28.11).** The pion count for p̄ n annihilation at rest was written and pushed before the data were found. The total number of charged pions agrees to 2 % (3.22 against 3.156), but the fraction of 1-prong events is off by 5σ and the split by π⁰ fails. So this is a partial confirmation, not a full one: the count works, a selection rule is missing (see [`docs/hadrons_chain.md`](docs/hadrons_chain.md)).
 - The α calculation uses **measured** particle masses (leptons, m_t) and the measured rate of e⁺e⁻ → hadrons. In the structure, masses and the weak force are still calibration (postulate A-14), not derivation.
 - The result rests on unverified links (see [`docs/alpha_chain.md`](docs/alpha_chain.md)):
   1. the W boson is not a separate species but a pair of parts already counted (V-358); how a W⁺W⁻ pair is produced in W is not derived;
@@ -64,7 +65,9 @@ This is how G enters the α calculation: G fixes the step a, the starting point 
 - [`alpha/`](alpha) — calculations. The rules of each calculation (`*_rules_*.md`) are written down **before** the program is run; the program output is kept in `*_output.txt`.
 - [`docs/article.md`](docs/article.md) — overview article; [`docs/predictions.md`](docs/predictions.md) — what can be tested.
 - [`docs/alpha_chain.md`](docs/alpha_chain.md) — the 76 matrix records behind the α result and the α–G link, translated into English.
-- [`docs/cosmology_chain.md`](docs/cosmology_chain.md) — the cosmology chain in English: redshift without expansion, the law of link density, the relic spots, the share of mass and the Hubble tension (A-90 … A-106, V-367 … V-402, X-13).
+- [`docs/cosmology_chain.md`](docs/cosmology_chain.md) — the cosmology chain in English: redshift without expansion, the law of link density, the relic spots, the share of mass, the Hubble tension, antimatter, the 10¹²⁰ problem and the age test (A-90 … A-109, V-367 … V-402, V-423, V-424, X-13).
+- [`docs/particles_chain.md`](docs/particles_chain.md) — points, the photon and the neutrino in English: what a photon is, why it has no rest mass, neutrino oscillations and mass ordering, why a neutrino passes through matter (A-18, A-19, A-109, V-46, V-47, V-416 … V-419).
+- [`docs/hadrons_chain.md`](docs/hadrons_chain.md) — the hadrons chain in English: closure types, annihilation, the p̄ n prediction made before the data, colour factors, neutrinos on nucleons, anti-parts and the nucleon size (V-409 … V-415, V-420 … V-422).
 
 **Language.** The matrix, calculation rules and program comments are in Russian, the author's working language; the records of the α and G chain are translated in `docs/alpha_chain.md`. Record IDs use Cyrillic letters: А = A (postulate), Д = D (data), Р = R (calculation), В = V (statement), С = S (withdrawn), Х = X (contradiction). The English texts write them in Latin letters (A-31 = А-31). Russian originals of the documents are in `docs/*_ru.md`.
 

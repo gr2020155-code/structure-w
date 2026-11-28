@@ -1,12 +1,12 @@
 {
-  "title": "Structure W: the fine-structure constant α, its link to G, and cosmology without expansion from postulates about space",
+  "title": "Structure W: the fine-structure constant α, its link to G, particles, hadrons and cosmology without expansion from postulates about space",
   "upload_type": "software",
   "creators": [
     {
       "name": "Danielyan, Hrachya"
     }
   ],
-  "description": "<p>An attempt to derive the fine-structure constant α, its link to the gravitational constant G, the pattern of particle charges, and cosmology from a small set of postulates about space (Structure W), using only those postulates and measured data.</p><p>α: 1/α far from the charge = 137.280 ± 0.130 against the measured 137.036 (+0.18 %, +1.9σ), with no fitted parameters; below 40 GeV the hadronic part is taken from measured e⁺e⁻ → hadrons data. The same rules give quark charges 1/3 and 2/3, colour multiplicities 1, 3, 3, 1, the running slope 2/(3π), and α/G = 4π²q² with the step of space a = 2π·l_P.</p><p>Cosmology (new in v1.2, docs/cosmology_chain.md): space does not expand; redshift is the ratio of link densities, 1 + z = k₀/k. The author's postulate A-105 (the squared rate of density growth is the sum of shares) gives one law that fits the BAO ruler (DESI DR2), Pantheon+ supernovae and the full Planck TT/TE/EE spectrum (χ² = 239/213 at h = 0.687; CAMB used as a bridge). The mass share is 0.040 ordinary matter plus 0.256 pre-material links that cluster like matter. Open contradiction X-13: the far rate is h = 0.685–0.689 by three routes, the local rate 0.735 (Cepheids) or 0.710 (red giants); local causes, the candle scale, an early extra share and a varying α were tested and rejected.</p><p>Status: candidate. Agreements were found with the answer known; no new prediction has yet been confirmed by experiment. Every calculation's rules were committed before it was run.</p><p>Contents: the system matrix (postulates, data, calculations, statements, each with a status) and its checker; calculation rules, programs and outputs; an overview article, testable claims, and English translations of the α chain and the cosmology chain. Code under the MIT license; texts, the matrix and outputs under CC BY 4.0.</p>",
+  "description": "<p>An attempt to derive the fine-structure constant α, its link to the gravitational constant G, the pattern of particle charges, and cosmology from a small set of postulates about space (Structure W), using only those postulates and measured data.</p><p>α: 1/α far from the charge = 137.280 ± 0.130 against the measured 137.036 (+0.18 %, +1.9σ), with no fitted parameters; below 40 GeV the hadronic part is taken from measured e⁺e⁻ → hadrons data. The same rules give quark charges 1/3 and 2/3, colour multiplicities 1, 3, 3, 1, the running slope 2/(3π), and α/G = 4π²q² with the step of space a = 2π·l_P.</p><p>Cosmology (new in v1.2, docs/cosmology_chain.md): space does not expand; redshift is the ratio of link densities, 1 + z = k₀/k. The author's postulate A-105 (the squared rate of density growth is the sum of shares) gives one law that fits the BAO ruler (DESI DR2), Pantheon+ supernovae and the full Planck TT/TE/EE spectrum (χ² = 239/213 at h = 0.687; CAMB used as a bridge). The mass share is 0.040 ordinary matter plus 0.256 pre-material links that cluster like matter. Open contradiction X-13: the far rate is h = 0.685–0.689 by three routes, the local rate 0.735 (Cepheids) or 0.710 (red giants); local causes, the candle scale, an early extra share and a varying α were tested and rejected.</p><p>Particles and hadrons (new in v1.3, docs/particles_chain.md, docs/hadrons_chain.md): the photon as a self-closed point with exactly zero rest mass; neutrino oscillations through crossings of global figure-eights, normal mass ordering, no sterile neutrino; annihilation as a rebuild with equal weight of configurations; the colour factor ratio 2.0 (data 2.20 ± 0.16); neutrino–nucleon cross-sections growing as s; anti-parts as the taking ends of transfers, giving ν̄/ν = 0.472 (data 0.493 ± 0.016) and a nucleon size of 0.841 fm. Cosmology additions: antimatter as the other half of the horn torus; the 10¹²⁰ vacuum gap read as background over difference (T² in ticks, order of magnitude only); the relation age × rate = 1 is rejected by raw BAO and supernova data.</p><p>Status: candidate. Most agreements were found with the answer known. One prediction was made before the data: the pion count for p̄n annihilation at rest gives 3.22 charged pions against the measured 3.156 (+2 %), but the 1-prong fraction is off by 5σ and the split by π⁰ fails, so it is a partial confirmation. Every calculation's rules were committed before it was run.</p><p>Contents: the system matrix (postulates, data, calculations, statements, each with a status) and its checker; calculation rules, programs and outputs; an overview article, testable claims, and English translations of the α, cosmology, particles and hadrons chains. Code under the MIT license; texts, the matrix and outputs under CC BY 4.0.</p>",
   "license": "cc-by-4.0",
   "keywords": [
     "fine-structure constant",
@@ -18,7 +18,13 @@
     "cosmology",
     "Hubble tension",
     "cosmic microwave background",
-    "baryon acoustic oscillations"
+    "baryon acoustic oscillations",
+    "photon",
+    "neutrino oscillations",
+    "antimatter",
+    "antiproton annihilation",
+    "nucleon structure",
+    "vacuum energy"
   ],
   "language": "eng"
 }

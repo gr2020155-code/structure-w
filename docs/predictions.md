@@ -1,6 +1,6 @@
 # Structure W: what can be tested
 
-26 November 2026 · Theory: Hrachya Danielyan
+26 November 2026, updated 28 November 2026 · Theory: Hrachya Danielyan
 
 Record IDs (V-, R-, D-, A-) refer to `system/matrix.json`, where they are written in Cyrillic: В, Р, Д, А.
 
@@ -49,6 +49,29 @@ These claims lie beyond current measurements, or coincide with standard physics 
 | Maximum particle mass | exactly the Planck mass | unreachable energies | V-246 |
 
 Open, and would give new numbers if derived: the weak length λ_F (and with it the W mass and the lifetimes of μ, τ and the neutron) and absolute masses, which are calibration for now (A-14, V-301, V-302).
+
+## New since 26 November (particles, hadrons, cosmology)
+
+Details and statuses: [`particles_chain.md`](particles_chain.md), [`hadrons_chain.md`](hadrons_chain.md), [`cosmology_chain.md`](cosmology_chain.md).
+
+**The first prediction made before the data (V-414).** The rule for p p̄ at rest (V-413) was applied to p̄ n with no new numbers. The result was written and pushed to GitHub before the data were found: ⟨n±⟩ = 3.22, ⟨n₀⟩ = 1.83. Data (Klempt–Batty–Richard 2005): ⟨n±⟩ = 3.156. The total number of charged pions agrees to 2 %. The fraction of 1-prong events is off by 5σ, and the split by π⁰ within one topology fails. So it is a partial confirmation: the count works, the selection rule is missing.
+
+| Claim | Structure W | Data today | Record |
+| --- | --- | --- | --- |
+| p̄ n at rest, mean number of charged pions (made before the data) | 3.22 | 3.156 (+2 %) | V-414 |
+| Glueballs | none as heavy hadrons | none firmly established | V-416 |
+| Direct detection of dark-matter particles | none: these are pre-material links, not particles | none found | V-416, V-391 |
+| Fourth (sterile) neutrino | none; flavour shares sum to exactly 100 % | hints not confirmed | V-418 |
+| Neutrino mass ordering | normal | normal favoured at 2–3σ; JUNO and DUNE will decide | V-418 |
+| Sum of neutrino masses | at least 0.059 eV, lightest mass non-zero | cosmological limits approach 0.06 eV (model bridge) | V-44, V-418 |
+| Photon rest mass | exactly zero | < 10⁻¹⁸ eV | V-46, A-109 |
+| Primordial antimatter (antihelium in cosmic rays), annihilation boundaries | none: antimatter is the other half of the torus | none found | A-108 |
+| Antimatter in gravity | falls like matter | ALPHA-g 2023: falls with about g | A-108 |
+| Colour factor ratio C_A/C_F | 2.0 (SU(3): 2.25) | 2.20 ± 0.16; precision ~0.08 needed to decide | V-415 |
+| Anti-part share of the nucleon | does not depend on energy | ν̄/ν flat at 30–200 GeV | V-422 |
+| Nucleon size | 0.841 fm | 0.80–0.90 fm (electron scattering) | V-422 |
+
+Rejected by raw data on the way (also a result): "age × today's rate = 1" (V-424); counting neutrino cross-sections with a region set by the outgoing lepton (V-420); a nucleon of parts only for ν̄/ν (V-421).
 
 ## Weak points
 
