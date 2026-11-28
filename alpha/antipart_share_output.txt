@@ -1,0 +1,6 @@
+p (uud): parts 3, axes in parts 5, missing axes (transfers) 4, total 9
+n (udd): parts 3, axes in parts 4, missing axes (transfers) 5, total 9
+needed by data f = 0.161 +- 0.017
+F1: full complement f = 0.2500 (+5.2 sigma), nubar/nu = 0.600 (data 0.493 +- 0.016) -> FAIL; complement share needed by data phi = 0.475
+F2: full complement f = 0.3000 (+8.2 sigma), nubar/nu = 0.667 (data 0.493 +- 0.016) -> FAIL; complement share needed by data phi = 0.317
+F3: full complement f = 0.3750 (+12.6 sigma), nubar/nu = 0.778 (data 0.493 +- 0.016) -> FAIL; complement share needed by data phi = 0.158
