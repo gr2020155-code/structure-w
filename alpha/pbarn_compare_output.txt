@@ -1,0 +1,16 @@
+  charged prongs, %: 1: 13.8, 3: 61.8, 5: 23.9, 7: 0.5
+  total pions, %: 3: 3.1, 4: 23.1, 5: 44.1, 6: 24.9, 7: 4.5, 8: 0.2
+
+=== comparison with data (Table 10) ===
+charged prongs, %: 1: W 13.8 / data 16.4 +- 0.5, 3: W 61.8 / data 59.7 +- 1.2, 5: W 23.9 / data 23.4 +- 0.7, 7: W 0.5 / data 0.39 +- 0.07
+<n+-> from prongs: data 3.156  (<n+> 1.078, <n-> 2.078);  W 3.220
+exclusive channels, % (W / data):
+  pi- pi0          W  0.06  data  0.40 +- 0.04
+  pi- 2pi0         W  1.57  data  0.68 +- 0.07
+  pi- 4pi0         W  5.04  data  1.32 +- 0.20
+  2pi- pi+         W  1.56  data  1.57 +- 0.21
+  2pi- pi+ pi0     W 17.26  data 21.80 +- 2.20
+  2pi- pi+ 2pi0    W 29.45  data  7.00 +- 1.10
+  3pi- 2pi+        W  9.61  data  5.15 +- 0.47
+  3pi- 2pi+ pi0    W 11.57  data 15.10 +- 1.00
+  pi- 3pi0         W  5.82  data: not listed
