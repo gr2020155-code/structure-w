@@ -1,0 +1,21 @@
+R-151: sigma/E(200 GeV) / sigma/E(30 GeV); K1 needs 1 +- 0.04. K2: W->e nu / W->mu nu, data 1.008 +- 0.021
+  N1+V1: K1 ratio 1.0005 ok; K2 8.84e+06 no -> FAIL
+  N1+V2: K1 ratio 1.0005 ok; K2 1 ok -> PASS
+  N1+V3: K1 ratio 0.0034 no; K2 n/a (no incoming nu in a decay) no -> FAIL
+  N2+V1: K1 ratio 0.1501 no; K2 8.84e+06 no -> FAIL
+  N2+V2: K1 ratio 0.1501 no; K2 1 ok -> FAIL
+  N2+V3: K1 ratio 0.1501 no; K2 n/a (no incoming nu in a decay) no -> FAIL
+  shape N1+V2, sigma/E relative to 200 GeV: 1 GeV 0.9625, 3 GeV 0.9916, 10 GeV 0.9981, 30 GeV 0.9995, 100 GeV 0.9999, 200 GeV 1.0000
+  comparison (not counted), nubar p -> e+ n, N1+V2 weight / (E_e p_e), normalised at 4 MeV:
+    2.0 MeV: ratio 12.43
+    3.0 MeV: ratio 12.45
+    4.0 MeV: ratio 12.42
+    6.0 MeV: ratio 12.34
+    8.0 MeV: ratio 12.27
+
+R-152: nubar/nu, nu (J = 0) share 1; data 0.493 +- 0.016
+  S1 halves, half angle (A-08)  : R = 0.3333 (-10.3 sigma), share backwards (y = 1) 0.00 -> FAIL
+  S2 halves, full angle         : R = 0.2000 (-18.8 sigma), share backwards (y = 1) 1.00 -> excluded by positions before the run, shown only
+  S3 whole, half angle          : R = 0.5000 (+0.4 sigma), share backwards (y = 1) 0.00 -> excluded by positions before the run, shown only
+  S4 whole, full angle (A-107)  : R = 0.3333 (-10.3 sigma), share backwards (y = 1) 1.00 -> FAIL
+  anti-part share needed by data (S1 or S4): f = 0.161 +- 0.017  (requirement, not a test)
