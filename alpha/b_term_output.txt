@@ -1,0 +1,14 @@
+h = 0.7354; Or = 4.573e-05
+
+n = 0: Om = 0.2973, OB today = 0.7027, C = 0.7027  (solutions for Om in 0.05-0.60)
+   BAO chi2 = 10.3 / 11, probability 0.506 -> ok; SN d chi2 = +3.9 -> ok  =>  PASS
+   comparison: T0*g0 = 0.9663, w today = -1.000, age at h = 0.7354: 12.85 Gyr; SN only: best Om ~ 0.330, d chi2 = +0.4
+
+n = 1: Om = 0.2536, OB today = 0.7464, C = 0.6842  (solutions for Om in 0.05-0.60)
+   BAO chi2 = 25.3 / 11, probability 0.00832 -> no; SN d chi2 = +37.3 -> no  =>  FAIL
+   comparison: T0*g0 = 0.9167, w today = -0.636, age at h = 0.7354: 12.19 Gyr; SN only: best Om ~ 0.140, d chi2 = +2.1
+
+n = 2: Om = 0.6000, OB today = 0.4000, C = 0.1776  (solutions for Om in 0.05-0.60)
+   BAO chi2 = 1422.9 / 11, probability 1.4e-298 -> no; SN d chi2 = +702.5 -> no  =>  FAIL
+   comparison: T0*g0 = 0.6664, w today = +0.000, age at h = 0.7354: 8.86 Gyr; SN only: best Om ~ 0.500, d chi2 = +704.0
+
