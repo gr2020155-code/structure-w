@@ -1,0 +1,8 @@
+h = 0.7354; Or = 4.573e-05
+
+A1 (T0*g0 = 1): Om = 0.2626, OB = 0.7373
+   BAO chi2 = 28.8 / 12, probability 0.00415 -> no; SN d chi2 = +15.8 -> no  =>  FAIL
+
+comparison, Om free (BAO): Om = 0.2973, OB = 0.7027, BAO chi2 = 10.3 / 11, SN d chi2 = +3.9, T0*g0 = 0.9663
+comparison, Om free (SN only): Om ~ 0.330, SN d chi2 = +0.4, T0*g0 = 0.9384
+comparison: A1 age at h = 0.7354: 13.30 Gyr (oldest stars ~13.5); at free BAO Om: 12.85 Gyr
