@@ -1,0 +1,24 @@
+MAIN  shape ruler, Om = 0.2973 (main); clusters III (main): t = 13.39 +- 0.25 Gyr -> h_max = 0.7056 +- 0.0132
+   Cepheids   h = 0.7354: age 12.85 +- 0.19 Gyr; younger than clusters by +1.72 sigma -> not excluded
+   red giants h = 0.71: age 13.31 +- 0.21 Gyr; younger than clusters by +0.25 sigma -> not excluded
+   far rate   h = 0.685: age 13.79 +- 0.20 Gyr; younger than clusters by -1.25 sigma -> not excluded
+   clocks     h = 0.687: age 13.75 +- 0.80 Gyr; younger than clusters by -0.43 sigma -> not excluded
+
+shape ruler, Om = 0.2973 (main); clusters IV: t = 13.61 +- 0.34 Gyr -> h_max = 0.6942 +- 0.0173
+   Cepheids   h = 0.7354: age 12.85 +- 0.19 Gyr; younger than clusters by +1.95 sigma -> not excluded
+   red giants h = 0.71: age 13.31 +- 0.21 Gyr; younger than clusters by +0.76 sigma -> not excluded
+   far rate   h = 0.685: age 13.79 +- 0.20 Gyr; younger than clusters by -0.46 sigma -> not excluded
+   clocks     h = 0.687: age 13.75 +- 0.80 Gyr; younger than clusters by -0.16 sigma -> not excluded
+
+shape supernovae, Om ~ 0.33; clusters III (main): t = 13.39 +- 0.25 Gyr -> h_max = 0.6850 +- 0.0128
+   Cepheids   h = 0.7354: age 12.47 +- 0.19 Gyr; younger than clusters by +2.94 sigma -> EXCLUDED
+   red giants h = 0.71: age 12.92 +- 0.20 Gyr; younger than clusters by +1.47 sigma -> not excluded
+   far rate   h = 0.685: age 13.39 +- 0.20 Gyr; younger than clusters by +0.00 sigma -> not excluded
+   clocks     h = 0.687: age 13.35 +- 0.78 Gyr; younger than clusters by +0.05 sigma -> not excluded
+
+shape supernovae, Om ~ 0.33; clusters IV: t = 13.61 +- 0.34 Gyr -> h_max = 0.6739 +- 0.0168
+   Cepheids   h = 0.7354: age 12.47 +- 0.19 Gyr; younger than clusters by +2.94 sigma -> EXCLUDED
+   red giants h = 0.71: age 12.92 +- 0.20 Gyr; younger than clusters by +1.76 sigma -> not excluded
+   far rate   h = 0.685: age 13.39 +- 0.20 Gyr; younger than clusters by +0.56 sigma -> not excluded
+   clocks     h = 0.687: age 13.35 +- 0.78 Gyr; younger than clusters by +0.31 sigma -> not excluded
+
