@@ -1,0 +1,5 @@
+E = 1875.6 MeV, sets counted: 48, events per set: 200000
+D = 2.828 fm (as R-148)
+PREDICTION: <n+> = 1.11, <n-> = 2.11, <n+-> = 3.22, <n0> = 1.83, total 5.05
+  charged prongs, %: 1: 13.8, 3: 61.8, 5: 23.9, 7: 0.5
+  total pions, %: 3: 3.1, 4: 23.1, 5: 44.1, 6: 24.9, 7: 4.5, 8: 0.2
