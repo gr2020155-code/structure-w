@@ -1,0 +1,17 @@
+Om = 0.2973 (shape from the BAO ruler, R-156), Or = 4.573e-05; only h free
+
+MAIN  BC03, cov = diag + SPS(mod_ooo) + IMF: h = 0.6871 +- 0.0396; chi2 = 6.31 / 14, probability 0.958 -> shape PASS
+   distance: Cepheids 0.7354: -1.18 sigma; red giants 0.710: -0.56 sigma; far rate 0.685: +0.05 sigma
+   clocks decide: no
+
+comparison (not counted):
+M11, same cov: h = 0.6900 +- 0.0407; chi2 = 7.47 / 14, probability 0.915
+   distance: Cepheids 0.7354: -1.08 sigma; red giants 0.710: -0.47 sigma; far rate 0.685: +0.12 sigma
+BC03, SPS full (mod): h = 0.6882 +- 0.0640; chi2 = 6.31 / 14, probability 0.958
+   distance: Cepheids 0.7354: -0.73 sigma; red giants 0.710: -0.34 sigma; far rate 0.685: +0.05 sigma
+BC03, + stellar library: h = 0.6747 +- 0.0609; chi2 = 6.24 / 14, probability 0.960
+   distance: Cepheids 0.7354: -0.98 sigma; red giants 0.710: -0.57 sigma; far rate 0.685: -0.17 sigma
+BC03, diagonal only: h = 0.6836 +- 0.0185; chi2 = 6.32 / 14, probability 0.958
+   distance: Cepheids 0.7354: -2.41 sigma; red giants 0.710: -1.23 sigma; far rate 0.685: -0.06 sigma
+BC03 free Om and h: Om = 0.338 (1 sigma 0.25-0.45), h = 0.6699 +- 0.0386 (at that Om), chi2 = 6.11 / 13
+age: T0*g0 = 0.9663; at main h = 0.6871: 13.75 Gyr (oldest stars ~13.5)
